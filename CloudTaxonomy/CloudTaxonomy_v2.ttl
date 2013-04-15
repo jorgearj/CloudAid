@@ -1,0 +1,713 @@
+# baseURI: http://rdfs.genssiz.org/CloudTaxonomy
+
+@prefix :        <http://rdfs.genssiz.org/CloudTaxonomy#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdfs.genssiz.org/CloudTaxonomy>
+      rdf:type owl:Ontology ;
+      rdfs:label "Cloud Properties Taxonomy" ;
+      dcterms:contributor
+              [ rdf:type foaf:Person ;
+                foaf:firstName "Jorge" ;
+                foaf:lastName "Araújo" ;
+                foaf:name "Jorge Araújo"
+              ] ;
+      dcterms:created "2013-03-27"^^xsd:date ;
+      dcterms:description "A simple Cloud properties taxonomy to be used in the SMS project" ;
+      dcterms:title "Cloud Properties Taxonomy" ;
+      owl:versionInfo "Created with TopBraid Composer"^^xsd:string .
+
+:API  rdf:type rdfs:Class ;
+      rdfs:label "API"^^xsd:string ;
+      rdfs:subClassOf :Interface .
+
+:APICalls
+      rdf:type rdfs:Class ;
+      rdfs:label "APICalls"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
+:AntiVirus
+      rdf:type rdfs:Class ;
+      rdfs:label "Anti virus"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:Apache
+      rdf:type rdfs:Class ;
+      rdfs:label "Apache"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:Applications
+      rdf:type rdfs:Class ;
+      rdfs:label "Applications"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
+:Arch32bit
+      rdf:type rdfs:Class ;
+      rdfs:label "Arch32bit"^^xsd:string ;
+      rdfs:subClassOf :CPUArchitecture .
+
+:Arch64bit
+      rdf:type rdfs:Class ;
+      rdfs:label "Arch64bit"^^xsd:string ;
+      rdfs:subClassOf :CPUArchitecture .
+
+:Authentication
+      rdf:type rdfs:Class ;
+      rdfs:label "Authentication"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:Availability
+      rdf:type rdfs:Class ;
+      rdfs:label "Availability"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:BPaaS
+      rdf:type rdfs:Class ;
+      rdfs:label "Business Process as a Service"^^xsd:string ;
+      rdfs:subClassOf :ServiceModel .
+
+:Backup_Recovery
+      rdf:type rdfs:Class ;
+      rdfs:label "Recovery"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:COPYRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "Copy request"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:CPUArchitecture
+      rdf:type rdfs:Class ;
+      rdfs:label "CPUArchitecture"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:CPUCores
+      rdf:type rdfs:Class ;
+      rdfs:label "CPUCores"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:CPUFlops
+      rdf:type rdfs:Class ;
+      rdfs:label "CPUFlops"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:CPUSpeed
+      rdf:type rdfs:Class ;
+      rdfs:label "CPUSpeed"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:CPUType
+      rdf:type rdfs:Class ;
+      rdfs:label "CPUType"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:CacheSize
+      rdf:type rdfs:Class ;
+      rdfs:label "Cache size"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:CombinedCloud
+      rdf:type rdfs:Class ;
+      rdfs:label "Combined cloud"^^xsd:string ;
+      rdfs:subClassOf :DeploymentModel .
+
+:CommandLine
+      rdf:type rdfs:Class ;
+      rdfs:label "Command line"^^xsd:string ;
+      rdfs:subClassOf :Interface .
+
+:CommunityCloud
+      rdf:type rdfs:Class ;
+      rdfs:label "Community cloud"^^xsd:string ;
+      rdfs:subClassOf :DeploymentModel .
+
+:ComputingFunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Computing functional property"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:ComputingInstance
+      rdf:type rdfs:Class ;
+      rdfs:label "Computing instance"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:Consistency
+      rdf:type rdfs:Class ;
+      rdfs:label "Consistency"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:Console
+      rdf:type rdfs:Class ;
+      rdfs:label "Console"^^xsd:string ;
+      rdfs:subClassOf :Interface .
+
+:DELETERequest
+      rdf:type rdfs:Class ;
+      rdfs:label "Delete request"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:DataFunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Data functional property"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:DataINExternal
+      rdf:type rdfs:Class ;
+      rdfs:label "Data INExternal"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DataINInternal
+      rdf:type rdfs:Class ;
+      rdfs:label "Data IN Internal"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DataOUTExternal
+      rdf:type rdfs:Class ;
+      rdfs:label "Data out external"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DataOUTInternal
+      rdf:type rdfs:Class ;
+      rdfs:label "Data OUT Internal"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DataProcessed
+      rdf:type rdfs:Class ;
+      rdfs:label "Data processed"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DataRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "Request"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:DeploymentModel
+      rdf:type rdfs:Class ;
+      rdfs:label "Deployment model"^^xsd:string ;
+      rdfs:subClassOf rdfs:Class .
+
+:DeveloperCenter
+      rdf:type rdfs:Class ;
+      rdfs:label "Developer center"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:DiskSize
+      rdf:type rdfs:Class ;
+      rdfs:label "Disk size"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:Durability
+      rdf:type rdfs:Class ;
+      rdfs:label "Durability"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:ElasticIP
+      rdf:type rdfs:Class ;
+      rdfs:label "Elastic IP"^^xsd:string ;
+      rdfs:subClassOf :IPAddress .
+
+:Embedded
+      rdf:type rdfs:Class ;
+      rdfs:label "Embedded"^^xsd:string ;
+      rdfs:subClassOf :OperatingSystem .
+
+:Encryption
+      rdf:type rdfs:Class ;
+      rdfs:label "Encryption"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:Feature
+      rdf:type rdfs:Class ;
+      rdfs:label "Feature"^^xsd:string ;
+      rdfs:subClassOf :Property .
+
+:FileSize
+      rdf:type rdfs:Class ;
+      rdfs:label "File size"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:Firewall
+      rdf:type rdfs:Class ;
+      rdfs:label "Firewall"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:Forum
+      rdf:type rdfs:Class ;
+      rdfs:label "Forum"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:FullConsistency
+      rdf:type rdfs:Class ;
+      rdfs:label "Full consistency"^^xsd:string ;
+      rdfs:subClassOf :Consistency .
+
+:FunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Functional property"^^xsd:string ;
+      rdfs:subClassOf :Property .
+
+:GETRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "Get request"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:GUI  rdf:type rdfs:Class ;
+      rdfs:label "GUI"^^xsd:string ;
+      rdfs:subClassOf :Interface .
+
+:GraphicalCard
+      rdf:type rdfs:Class ;
+      rdfs:label "Graphical card"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:HTTPRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "HTTPRequest"^^xsd:string ;
+      rdfs:subClassOf :NetworkRequest .
+
+:HTTPSRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "HTTPSRequest"^^xsd:string ;
+      rdfs:subClassOf :NetworkRequest .
+
+:HighConsistency
+      rdf:type rdfs:Class ;
+      rdfs:label "High consistency"^^xsd:string ;
+      rdfs:subClassOf :Consistency .
+
+:HighReplication
+      rdf:type rdfs:Class ;
+      rdfs:label "High replication"^^xsd:string ;
+      rdfs:subClassOf :Replication .
+
+:HybridCloud
+      rdf:type rdfs:Class ;
+      rdfs:label "Hybrid cloud"^^xsd:string ;
+      rdfs:subClassOf :DeploymentModel .
+
+:IOOperations
+      rdf:type rdfs:Class ;
+      rdfs:label "IOOperations"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:IOPerformance
+      rdf:type rdfs:Class ;
+      rdfs:label "IOPerformance"^^xsd:string ;
+      rdfs:subClassOf :Performance .
+
+:IOPerformanceHigh
+      rdf:type rdfs:Class ;
+      rdfs:label "IOPerformance high"^^xsd:string ;
+      rdfs:subClassOf :IOPerformance .
+
+:IOPerformanceLow
+      rdf:type rdfs:Class ;
+      rdfs:label "IOPerformance low"^^xsd:string ;
+      rdfs:subClassOf :IOPerformance .
+
+:IOPerformanceModerate
+      rdf:type rdfs:Class ;
+      rdfs:label "IOPerformance moderate"^^xsd:string ;
+      rdfs:subClassOf :IOPerformance .
+
+:IOPerformanceVeryHigh
+      rdf:type rdfs:Class ;
+      rdfs:label "IOPerformance very high"^^xsd:string ;
+      rdfs:subClassOf :IOPerformance .
+
+:IPAddress
+      rdf:type rdfs:Class ;
+      rdfs:label "IPAddress"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:IPv4
+      rdf:type rdfs:Class ;
+      rdfs:label "IPv4"^^xsd:string ;
+      rdfs:subClassOf :IPAddress .
+
+:IPv6
+      rdf:type rdfs:Class ;
+      rdfs:label "IPv6"^^xsd:string ;
+      rdfs:subClassOf :IPAddress .
+
+:IaaS
+      rdf:type rdfs:Class ;
+      rdfs:label "Infraestructure as a Service"^^xsd:string ;
+      rdfs:subClassOf :ServiceModel .
+
+:Interface
+      rdf:type rdfs:Class ;
+      rdfs:label "Interface"^^xsd:string ;
+      rdfs:subClassOf :Property .
+
+:Java2EE
+      rdf:type rdfs:Class ;
+      rdfs:label "Java2EE"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:LISTRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "LISTRequest"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:Language
+      rdf:type rdfs:Class ;
+      rdfs:label "Language"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
+:License
+      rdf:type rdfs:Class ;
+      rdfs:label "License"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:LiveChat
+      rdf:type rdfs:Class ;
+      rdfs:label "Live chat"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:LoadBalancing
+      rdf:type rdfs:Class ;
+      rdfs:label "Load balancing"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:LocalReplication
+      rdf:type rdfs:Class ;
+      rdfs:label "Local replication"^^xsd:string ;
+      rdfs:subClassOf :Replication .
+
+:Location
+      rdf:type rdfs:Class ;
+      rdfs:label "Location"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:LowConsistency
+      rdf:type rdfs:Class ;
+      rdfs:label "Low consistency"^^xsd:string ;
+      rdfs:subClassOf :Consistency .
+
+:Manual
+      rdf:type rdfs:Class ;
+      rdfs:label "Manual"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:MemoryAllocation
+      rdf:type rdfs:Class ;
+      rdfs:label "Memory allocation"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:MemorySize
+      rdf:type rdfs:Class ;
+      rdfs:label "Memory size"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:Mobile
+      rdf:type rdfs:Class ;
+      rdfs:label "Mobile"^^xsd:string ;
+      rdfs:subClassOf :OperatingSystem .
+
+:Monitoring
+      rdf:type rdfs:Class ;
+      rdfs:label "Monitoring"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:Multitenant
+      rdf:type rdfs:Class ;
+      rdfs:label "Multitenant"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:MySQL
+      rdf:type rdfs:Class ;
+      rdfs:label "My SQL"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:NetworkDelay
+      rdf:type rdfs:Class ;
+      rdfs:label "Network delay"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:NetworkFunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Network functional property"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:NetworkInternalBandwidth
+      rdf:type rdfs:Class ;
+      rdfs:label "Network internal bandwidth"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:NetworkLatency
+      rdf:type rdfs:Class ;
+      rdfs:label "Network latency"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:NetworkPublicBandwidth
+      rdf:type rdfs:Class ;
+      rdfs:label "Network public bandwidth"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:NetworkRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "Network request"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:NoSQL
+      rdf:type rdfs:Class ;
+      rdfs:label "No SQL"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:NonFunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Non functional property"^^xsd:string ;
+      rdfs:subClassOf :Property .
+
+:OATH
+      rdf:type rdfs:Class ;
+      rdfs:label "OATH"^^xsd:string ;
+      rdfs:subClassOf :Authentication .
+
+:OpenID
+      rdf:type rdfs:Class ;
+      rdfs:label "Open ID"^^xsd:string ;
+      rdfs:subClassOf :Authentication .
+
+:OpenSource
+      rdf:type rdfs:Class ;
+      rdfs:label "Open source"^^xsd:string ;
+      rdfs:subClassOf :License .
+
+:OperatingSystem
+      rdf:type rdfs:Class ;
+      rdfs:label "Operating system"^^xsd:string ;
+      rdfs:subClassOf :ComputingFunctionalProperty .
+
+:Oracle
+      rdf:type rdfs:Class ;
+      rdfs:label "Oracle"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:POSTRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "POSTRequest"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:PUTRequest
+      rdf:type rdfs:Class ;
+      rdfs:label "PUTRequest"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:PaaS
+      rdf:type rdfs:Class ;
+      rdfs:label "Platform as a Service"^^xsd:string ;
+      rdfs:subClassOf :ServiceModel .
+
+:Performance
+      rdf:type rdfs:Class ;
+      rdfs:label "Performance"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:Platform
+      rdf:type rdfs:Class ;
+      rdfs:label "Platform"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:PlatformFunctionalProperty
+      rdf:type rdfs:Class ;
+      rdfs:label "Platform functional property"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:Postgres
+      rdf:type rdfs:Class ;
+      rdfs:label "Postgres"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:PrivateCloud
+      rdf:type rdfs:Class ;
+      rdfs:label "Private cloud"^^xsd:string ;
+      rdfs:subClassOf :DeploymentModel .
+
+:Property
+      rdf:type rdfs:Class ;
+      rdfs:label "Property"^^xsd:string ;
+      rdfs:subClassOf rdfs:Class .
+
+:Proprietary
+      rdf:type rdfs:Class ;
+      rdfs:label "Proprietary"^^xsd:string ;
+      rdfs:subClassOf :License .
+
+:PublicCloud
+      rdf:type rdfs:Class ;
+      rdfs:label "Public cloud"^^xsd:string ;
+      rdfs:subClassOf :DeploymentModel .
+
+:PublicIP
+      rdf:type rdfs:Class ;
+      rdfs:label "Public IP"^^xsd:string ;
+      rdfs:subClassOf :IPAddress .
+
+:Queries
+      rdf:type rdfs:Class ;
+      rdfs:label "Queries"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:RDBMS
+      rdf:type rdfs:Class ;
+      rdfs:label "RDBMS"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:Reads
+      rdf:type rdfs:Class ;
+      rdfs:label "Reads"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .
+
+:RealTime
+      rdf:type rdfs:Class ;
+      rdfs:label "Real time"^^xsd:string ;
+      rdfs:subClassOf :OperatingSystem .
+
+:Records
+      rdf:type rdfs:Class ;
+      rdfs:label "Records"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:Redundancy
+      rdf:type rdfs:Class ;
+      rdfs:label "Redundancy"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:Reliability
+      rdf:type rdfs:Class ;
+      rdfs:label "Reliability"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:RemoteReplication
+      rdf:type rdfs:Class ;
+      rdfs:label "Remote replication"^^xsd:string ;
+      rdfs:subClassOf :Replication .
+
+:Replication
+      rdf:type rdfs:Class ;
+      rdfs:label "Replication"^^xsd:string ;
+      rdfs:subClassOf :FunctionalProperty .
+
+:SSH  rdf:type rdfs:Class ;
+      rdfs:label "SSH"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:SSL  rdf:type rdfs:Class ;
+      rdfs:label "SSL"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:SaaS
+      rdf:type rdfs:Class ;
+      rdfs:label "Software as a Service"^^xsd:string ;
+      rdfs:subClassOf :ServiceModel .
+
+:Scalability
+      rdf:type rdfs:Class ;
+      rdfs:label "Scalability"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:Security
+      rdf:type rdfs:Class ;
+      rdfs:label "Security"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
+
+:ServiceModel
+      rdf:type rdfs:Class ;
+      rdfs:label "Service model"^^xsd:string ;
+      rdfs:subClassOf rdfs:Class .
+
+:StorageCapacity
+      rdf:type rdfs:Class ;
+      rdfs:label "Storage capacity"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:SupportProperties
+      rdf:type rdfs:Class ;
+      rdfs:label "Support properties"^^xsd:string ;
+      rdfs:subClassOf :Property .
+
+:SupportTeam
+      rdf:type rdfs:Class ;
+      rdfs:label "Support team"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:Support_24_7
+      rdf:type rdfs:Class ;
+      rdfs:label "Support 24 7"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:SyBase
+      rdf:type rdfs:Class ;
+      rdfs:label "Sy base"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:TokenAuthentication
+      rdf:type rdfs:Class ;
+      rdfs:label "Token authentication"^^xsd:string ;
+      rdfs:subClassOf :Authentication .
+
+:Tomcat
+      rdf:type rdfs:Class ;
+      rdfs:label "Tomcat"^^xsd:string ;
+      rdfs:subClassOf :Platform .
+
+:Traffic
+      rdf:type rdfs:Class ;
+      rdfs:label "Traffic"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
+:Transations
+      rdf:type rdfs:Class ;
+      rdfs:label "Transations"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:TransferRate
+      rdf:type rdfs:Class ;
+      rdfs:label "Transfer rate"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
+
+:Unix
+      rdf:type rdfs:Class ;
+      rdfs:label "Unix"^^xsd:string ;
+      rdfs:subClassOf :OperatingSystem .
+
+:Users
+      rdf:type rdfs:Class ;
+      rdfs:label "Users"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty , :Authentication .
+
+:VPN  rdf:type rdfs:Class ;
+      rdfs:label "VPN"^^xsd:string ;
+      rdfs:subClassOf :Security .
+
+:Videos
+      rdf:type rdfs:Class ;
+      rdfs:label "Videos"^^xsd:string ;
+      rdfs:subClassOf :SupportProperties .
+
+:Web  rdf:type rdfs:Class ;
+      rdfs:label "Web"^^xsd:string ;
+      rdfs:subClassOf :Interface .
+
+:Websites
+      rdf:type rdfs:Class ;
+      rdfs:label "Websites"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
+:Windows
+      rdf:type rdfs:Class ;
+      rdfs:label "Windows"^^xsd:string ;
+      rdfs:subClassOf :OperatingSystem .
+
+:Writes
+      rdf:type rdfs:Class ;
+      rdfs:label "Writes"^^xsd:string ;
+      rdfs:subClassOf :DataRequest .

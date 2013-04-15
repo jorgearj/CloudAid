@@ -1,0 +1,1540 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix legal:   <http://www.linked-usdl.org/ns/usdl-legal#> .
+@prefix :        <http://rdfs.genssiz.org/Service_2#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
+@prefix org:     <http://www.w3.org/ns/org#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix price:   <http://www.linked-usdl.org/ns/usdl-price#> .
+@prefix usdl:    <http://www.linked-usdl.org/ns/usdl-core#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cloud:   <http://rdfs.genssiz.org/CloudTaxonomy#> .
+@prefix gr:      <http://purl.org/goodrelations/v1#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+:Resource_NETWORKPUBLICBANDWIDTH
+      a       cloud:NetworkPublicBandwidth , gr:QuantitativeValue ;
+      rdfs:comment "ZYEr5Q8lkywD79xAOsTXKxFntWDRJ8" ;
+      gr:hasValueFloat "402.63684"^^xsd:float .
+
+:Feature_OTHER_INTERFACE_1
+      a       gr:QualitativeValue , cloud:Interface ;
+      rdfs:comment "cwqwH1RbS7UGg3RlUelDl2lF3AIQrJ" .
+
+:Feature_SCALABILITY_1
+      a       gr:QualitativeValue , cloud:Scalability ;
+      rdfs:comment "jFORls8vCW1iJX2LMKRmKbhBsrEKLc" .
+
+:PriceComponent_63
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_63 ;
+      price:isLinkedTo :Resource_LISTREQUESTS .
+
+:Feature_GRAPHICALCARD_0
+      a       gr:QualitativeValue , cloud:GraphicalCard ;
+      rdfs:comment "d9tca_3r8Zpvuw8TZgoQJCycZ9kw82" .
+
+:Resource_TRAFFIC
+      a       gr:QuantitativeValue , cloud:Traffic ;
+      rdfs:comment "HobTgQAu2rfkW8nYzq8vR9M92FgWAw" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "7379302.5"^^xsd:float .
+
+:PriceComponent_39
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_39 ;
+      price:isLinkedTo :Feature_BACKUP_RECOVERY_2 .
+
+:priceUnit_23
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.72684"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_38
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_38 ;
+      price:isLinkedTo :Feature_BACKUP_RECOVERY_1 .
+
+:Resource_DATAOUTEXTERNAL
+      a       cloud:DataOUTExternal , gr:QuantitativeValue ;
+      rdfs:comment "UTkf_3lJkB8DBNqoEZbEBZOvxt1azi" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "846195.06"^^xsd:float .
+
+:priceUnit_51
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.495318"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_NETWORKLATENCY
+      a       cloud:NetworkLatency , gr:QuantitativeValue ;
+      rdfs:comment "1f46ZhwXU1makoR03YsWh3luB_DBFE" ;
+      gr:hasValueFloat "1715.5941"^^xsd:float .
+
+:PriceComponent_21
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_21 ;
+      price:isLinkedTo :Feature_LIVECHAT_1 .
+
+:priceUnit_5
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7238872"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_11
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_11 ;
+      price:isLinkedTo :Feature_LOCATION_0 .
+
+:priceUnit_13
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.9552724"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_SUPPORT_24_7_0
+      a       gr:QualitativeValue , cloud:Support_24_7 ;
+      rdfs:comment "NJA1tyK4ddivM7rof9Tl1JLm_oDhiY" .
+
+:Resource_HTTPSREQUEST
+      a       cloud:HTTPSRequest , gr:QuantitativeValue ;
+      rdfs:comment "G_WCCGc0Jn4leeI5zZpNcAruagJBI9" ;
+      gr:hasValueFloat "4572069.5"^^xsd:float .
+
+:priceUnit_61
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7164034"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_REALTIME_0
+      a       cloud:RealTime , gr:QualitativeValue ;
+      rdfs:comment "w_Sm5tLQmwkiChEaXqaO3p4JWXriD9" .
+
+:Feature_SCALABILITY_2
+      a       gr:QualitativeValue , cloud:Scalability ;
+      rdfs:comment "QexkFDTp0gPbBbeeqAxNmGo4Ri5oEQ" .
+
+:Feature_OTHER_INTERFACE_2
+      a       gr:QualitativeValue , cloud:Interface ;
+      rdfs:comment "zKyiLFziXWoxMmxVpTB50zYv2Ha_Cv" .
+
+:Feature_MEMORYALLOCATION_1
+      a       cloud:MemoryAllocation , gr:QualitativeValue ;
+      rdfs:comment "P5B__1PhuMwQvLoOJyBkbOV4MdUE6H" .
+
+:PriceComponent_50
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_50 ;
+      price:isLinkedTo :Resource_DATAOUTINTERNAL .
+
+:PriceComponent_64
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_64 ;
+      price:isLinkedTo :Resource_PUTREQUESTS .
+
+:Feature_RELIABILITY_0
+      a       gr:QualitativeValue , cloud:Reliability ;
+      rdfs:comment "vOSESksCPoJv8Ul6eKKAIJk8GlzlF8" .
+
+:priceUnit_22
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.3191297"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_APPLICATIONS
+      a       cloud:Applications , gr:QuantitativeValue ;
+      rdfs:comment "B6VkSBKPvLKz4zoA_wQOTMxXkUfp0l" ;
+      gr:hasValueFloat "47.23181"^^xsd:float .
+
+:PriceComponent_37
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_37 ;
+      price:isLinkedTo :Feature_BACKUP_RECOVERY_0 .
+
+:priceUnit_52
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.9718046"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_22
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_22 ;
+      price:isLinkedTo :Feature_SUPPORTTEAM_0 .
+
+:Feature_LIVECHAT_0
+      a       cloud:LiveChat , gr:QualitativeValue ;
+      rdfs:comment "8eHRJKIFn7C3G0dX0Hjs3_cev11F2l" .
+
+:PriceComponent_12
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_12 ;
+      price:isLinkedTo :Feature_PLATFORM_0 .
+
+:priceUnit_6
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7089381"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_62
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1568294"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_SUPPORTTEAM_0
+      a       gr:QualitativeValue , cloud:SupportTeam ;
+      rdfs:comment "XNnSs3eAAlK5lQJe53_rckfMXCLyge" .
+
+:priceUnit_12
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.3999703"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_51
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_51 ;
+      price:isLinkedTo :Resource_DATAPROCESSED .
+
+:priceUnit_39
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0324697"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_1
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_1 ;
+      price:isLinkedTo :Feature_COMMAND_LINE_1 .
+
+:PriceComponent_61
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_61 ;
+      price:isLinkedTo :Resource_DELETEREQUESTS .
+
+:PriceComponent_23
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_23 ;
+      price:isLinkedTo :Feature_SUPPORTTEAM_1 .
+
+<http://rdfs.genssiz.org/Service_2>
+      a       "http://www.w3.org/2002/07/owl#Ontology" ;
+      rdfs:comment "This Service description was automatically generated by CloudGen" ;
+      rdfs:label "Service Description for Service_2" ;
+      dc:contributor :Creator ;
+      dc:created "Fri Apr 12 11:07:34 WEST 2013"^^xsd:date .
+
+:priceUnit_25
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5490879"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_63
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1636076"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_EMBEDDED_2
+      a       gr:QualitativeValue , cloud:Embedded ;
+      rdfs:comment "srQjULCYO5O5ax0Qr_qiXGaEBHyUZs" .
+
+:priceUnit_11
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.4256275"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_SUPPORTTEAM_1
+      a       gr:QualitativeValue , cloud:SupportTeam ;
+      rdfs:comment "5OavB0u0bZsQ5sy90oEBdjvUuN_QwX" .
+
+:Feature_SECURITY_1
+      a       gr:QualitativeValue , cloud:Security ;
+      rdfs:comment "d2uYfc_4ZSNUfvskbEYOyFj1TqFG3g" .
+
+:Feature_PLATFORM_0
+      a       gr:QualitativeValue , cloud:Platform ;
+      rdfs:comment "EGIzw6dHWr2f20_IsTR0EvEW7iLdCZ" .
+
+:priceUnit_3
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.965552"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_AVAILABILITY
+      a       cloud:Availability , gr:QuantitativeValue ;
+      rdfs:comment "e6xj29HQiCp5SmQdAyogR2PDWkABbY" ;
+      gr:hasValueFloat "99.83173"^^xsd:float .
+
+:PriceComponent_52
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_52 ;
+      price:isLinkedTo :Resource_DISKSIZE .
+
+:Resource_APICALLS
+      a       cloud:APICalls , gr:QuantitativeValue ;
+      rdfs:comment "W1LJGAQhBNdLyDNkkPSXEZTNst99o_" ;
+      gr:hasValueFloat "7169.555"^^xsd:float .
+
+:priceUnit_65
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.6541086"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_38
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.3426347"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_READSREQUESTS
+      a       cloud:Reads , gr:QuantitativeValue ;
+      rdfs:comment "aZruvAoK2YhIwaHoz49oigQCutxk8e" ;
+      gr:hasValueFloat "469166.5"^^xsd:float .
+
+:Feature_DEVELOPERCENTER_0
+      a       cloud:DeveloperCenter , gr:QualitativeValue ;
+      rdfs:comment "LJNpbgnW2l1Zis70Lu6ep8D0Y63CwL" .
+
+:Resource_NETWORKDELAY
+      a       cloud:NetworkDelay , gr:QuantitativeValue ;
+      rdfs:comment "xO9CpQGY4s0Ph8s5jsDc1_o6L8VtKB" ;
+      gr:hasValueFloat "364.67673"^^xsd:float .
+
+:Feature_GRAPHICALCARD_1
+      a       gr:QualitativeValue , cloud:GraphicalCard ;
+      rdfs:comment "EErPpOjrGBRzchN3nwpXmlyBgfmyYI" .
+
+:PriceComponent_62
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_62 ;
+      price:isLinkedTo :Resource_HTTPSREQUEST .
+
+:Feature_SCALABILITY_0
+      a       gr:QualitativeValue , cloud:Scalability ;
+      rdfs:comment "8dihXzUrdRfask3rCEzTduk8DpCH5n" .
+
+:priceUnit_50
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.352142"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_LOCATION_0
+      a       cloud:Location , gr:QualitativeValue ;
+      rdfs:comment "mUPCugwYbVjn8aOjlQzn5eJwo_c8EA" .
+
+:PriceComponent_24
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_24 ;
+      price:isLinkedTo :Feature_VIDEOS_1 .
+
+:priceUnit_24
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8490283"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_PUBLICIP_1
+      a       gr:QualitativeValue , cloud:PublicIP ;
+      rdfs:comment "xS0UgGBye3ASI1I5pTvCZmk8ElzkAQ" .
+
+:priceUnit_10
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8703367"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_EMBEDDED_1
+      a       gr:QualitativeValue , cloud:Embedded ;
+      rdfs:comment "q18ph30Ns10sh9hrEgGwOBezlXNVPD" .
+
+:priceUnit_64
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.9334002"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_49
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_49 ;
+      price:isLinkedTo :Resource_DATAININTERNAL .
+
+:PricePlan_Service_2
+      a       price:PricePlan ;
+      rdfs:label "PricePLan for Service_2" ;
+      price:hasPriceComponent
+              :PriceComponent_15 , :PriceComponent_3 , :PriceComponent_48 , :PriceComponent_44 , :PriceComponent_63 , :PriceComponent_25 , :PriceComponent_30 , :PriceComponent_34 , :PriceComponent_39 , :PriceComponent_38 , :PriceComponent_7 , :PriceComponent_54 , :PriceComponent_21 , :PriceComponent_70 , :PriceComponent_58 , :PriceComponent_11 , :PriceComponent_68 , :PriceComponent_60 , :PriceComponent_47 , :PriceComponent_16 , :PriceComponent_50 , :PriceComponent_2 , :PriceComponent_64 , :PriceComponent_43 , :PriceComponent_26 , :PriceComponent_33 , :PriceComponent_6 , :PriceComponent_37 , :PriceComponent_22 , :PriceComponent_53 , :PriceComponent_17 , :PriceComponent_67 , :PriceComponent_40 , :PriceComponent_12 , :PriceComponent_57 , :PriceComponent_32 , :PriceComponent_46 , :PriceComponent_51 , :PriceComponent_13 , :PriceComponent_1 , :PriceComponent_61 , :PriceComponent_36 , :PriceComponent_42 , :PriceComponent_27 , :PriceComponent_5 , :PriceComponent_9 , :PriceComponent_28 , :PriceComponent_23 , :PriceComponent_56 , :PriceComponent_18 , :PriceComponent_66 , :PriceComponent_14 , :PriceComponent_52 , :PriceComponent_41 , :PriceComponent_31 , :PriceComponent_45 , :PriceComponent_4 , :PriceComponent_62 , :PriceComponent_35 , :PriceComponent_55 , :PriceComponent_29 , :PriceComponent_69 , :PriceComponent_8 , :PriceComponent_24 , :PriceComponent_19 , :PriceComponent_20 , :PriceComponent_49 , :PriceComponent_59 , :PriceComponent_65 , :PriceComponent_10 .
+
+:Feature_CONSOLE_0
+      a       gr:QualitativeValue , cloud:Console ;
+      rdfs:comment "Ruhbx0lt79HXUkpZWFpGWDSUdvxl67" .
+
+:Feature_PROPRIETARY_2
+      a       cloud:Proprietary , gr:QualitativeValue ;
+      rdfs:comment "JMeSbzOPNMzWVO_riMI4jjbyvK4_Fx" .
+
+:priceUnit_4
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8755908"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_10
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_10 ;
+      price:isLinkedTo :Feature_ENCRYPTION_0 .
+
+:Feature_DEVELOPERCENTER_1
+      a       cloud:DeveloperCenter , gr:QualitativeValue ;
+      rdfs:comment "gY76gQLiSZeZGF6iRupNrRHLC_pH0t" .
+
+:priceUnit_56
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8975352"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_3
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_3 ;
+      price:isLinkedTo :Feature_WEB_1 .
+
+:priceUnit_47
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.822755"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_37
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7113522"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_66
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.6344377"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_DATAININTERNAL
+      a       cloud:DataINInternal , gr:QuantitativeValue ;
+      rdfs:comment "NaQWBCfo2tD9ybMJrdTzoRPPOOkuUt" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "120557.65"^^xsd:float .
+
+:Resource_DELETEREQUESTS
+      a       cloud:DELETERequest , gr:QuantitativeValue ;
+      rdfs:comment "RHi74ALxEbzKuc_k8V727Whp4eBCFf" ;
+      gr:hasValueFloat "70918.26"^^xsd:float .
+
+:Feature_IPV4_1
+      a       gr:QualitativeValue , cloud:IPv4 ;
+      rdfs:comment "qaQym0OGNQFAapnkQhCqJGGFQnqk44" .
+
+:Resource_HTTPREQUEST
+      a       cloud:HTTPRequest , gr:QuantitativeValue ;
+      rdfs:comment "PX4kI_ooE7pQ9mpaInNnn4uafVzDV3" ;
+      gr:hasValueFloat "5480144.0"^^xsd:float .
+
+:priceUnit_17
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5382985"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_9
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7355058"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_PUBLICIP_0
+      a       gr:QualitativeValue , cloud:PublicIP ;
+      rdfs:comment "PB3B8SyL8k2swlSFHVLj36W2AaH1KL" .
+
+:priceUnit_27
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.760809"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_DATAOUTINTERNAL
+      a       cloud:DataOUTInternal , gr:QuantitativeValue ;
+      rdfs:comment "pA2wOSlAVzYTe_DDVBy1miPTaFRCqj" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "418100.38"^^xsd:float .
+
+:Feature_LINUX_1
+      a       cloud:Unix , gr:QualitativeValue ;
+      rdfs:comment "tkvVV1dmu46Yz6AIwY3aV22JFMblSu" .
+
+:Feature_WINDOWS_2
+      a       gr:QualitativeValue , cloud:Windows ;
+      rdfs:comment "MgngUnhNidgltXKjSO5WToOWKO_m_N" .
+
+:PriceComponent_60
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_60 ;
+      price:isLinkedTo :Resource_COPYREQUESTS .
+
+:Feature_IPV6_0
+      a       gr:QualitativeValue , cloud:IPv6 ;
+      rdfs:comment "deO3Od5ohYyagYCy1iLLeXUNXTr346" .
+
+:priceUnit_46
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7782148"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_CACHESIZE
+      a       cloud:CacheSize , gr:QuantitativeValue ;
+      rdfs:comment "s8CtoOz0oaackDO2fsMkBOkyHic3nD" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "130.94524"^^xsd:float .
+
+:Resource_QUERIES
+      a       cloud:Queries , gr:QuantitativeValue ;
+      rdfs:comment "Bo3pBdPSPMB8NxnRy8Ciztq5Nf9V2h" ;
+      gr:hasValueFloat "355.3109"^^xsd:float .
+
+:priceUnit_57
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5239922"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_2
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_2 ;
+      price:isLinkedTo :Feature_CONSOLE_0 .
+
+:priceUnit_36
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.927307"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_DEVELOPERCENTER_2
+      a       cloud:DeveloperCenter , gr:QualitativeValue ;
+      rdfs:comment "q_1t4G1TeMVKxEzvSrUflarDJxtGdP" .
+
+:priceUnit_67
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0649729"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_SECURITY_0
+      a       gr:QualitativeValue , cloud:Security ;
+      rdfs:comment "hH5dpUgZgAajPFKToKXJ6jaNuAIDuQ" .
+
+:priceUnit_16
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.490118"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_IPV4_0
+      a       gr:QualitativeValue , cloud:IPv4 ;
+      rdfs:comment "rxH40iWmB_06xTLFpFIhr8Tkjzm0ff" .
+
+:Resource_DATAINEXTERNAL
+      a       cloud:DataINExternal , gr:QuantitativeValue ;
+      rdfs:comment "GbRwASAvVdZEcBTmqf4MVhsMpySn0g" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "475822.2"^^xsd:float .
+
+:Resource_DATAPROCESSED
+      a       cloud:DataProcessed , gr:QuantitativeValue ;
+      rdfs:comment "S9Na2HlN9exgxXqhyPb3LxC1P5Ox5F" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "4132834.2"^^xsd:float .
+
+:Feature_ELASTICIP_0
+      a       gr:QualitativeValue , cloud:ElasticIP ;
+      rdfs:comment "5xE0_bWWb2swHLc6NT1OlhflbGFy9k" .
+
+:PriceComponent_40
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_40 ;
+      price:isLinkedTo :Feature_REDUNDANCY_0 .
+
+:priceUnit_26
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8749073"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_WEBSITES
+      a       cloud:Websites , gr:QuantitativeValue ;
+      rdfs:comment "2dL5a7o9hLydtFCj0R3je72XVbBGrx" ;
+      gr:hasValueFloat "55.862125"^^xsd:float .
+
+:Feature_WINDOWS_1
+      a       gr:QualitativeValue , cloud:Windows ;
+      rdfs:comment "Gv5EU1T6Et0lU6yNCI5qXDhP1H64PR" .
+
+:Feature_MONITORING_0
+      a       gr:QualitativeValue , cloud:Monitoring ;
+      rdfs:comment "sO8yYFrIKCfgIJYMnOKNpXtmvmMt4Y" .
+
+:Feature_LINUX_0
+      a       cloud:Unix , gr:QualitativeValue ;
+      rdfs:comment "JvVgOv2N_kJf7DnToi5xHWUHFAdR6M" .
+
+:priceUnit_49
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0697274"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_54
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.4147773"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_35
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.2750134"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_MEMORYALLOCATION_0
+      a       cloud:MemoryAllocation , gr:QualitativeValue ;
+      rdfs:comment "JkZkyfT5DEICEiJIDjksMBPSFwWxLO" .
+
+:priceUnit_68
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8082197"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_REALTIME_1
+      a       cloud:RealTime , gr:QualitativeValue ;
+      rdfs:comment "qCMWEXQQc0mAIfiyjfgCvRPyUq3sCw" .
+
+:PriceComponent_5
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_5 ;
+      price:isLinkedTo :Feature_DURABILITY_1 .
+
+:Creator
+      a       "http://xmlns.com/foaf/0.1/Person" ;
+      foaf:firstName "Jorge" ;
+      foaf:lastName "Araújo" ;
+      foaf:name "Jorge Araújo" .
+
+:priceUnit_7
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.6385663"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_29
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0452266"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_15
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0601044"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_COMPUTINGINTANCE_0
+      a       gr:QualitativeValue , cloud:ComputingInstance ;
+      rdfs:comment "zccpEto_HPW1av4kkMV2CR0_EM3CyS" .
+
+:Resource_NETWORKINTERNALBANDWIDTH
+      a       cloud:NetworkInternalBandwidth , gr:QuantitativeValue ;
+      rdfs:comment "iyH4sz5WLQsW8puev6a5tikmqYZOpf" ;
+      gr:hasValueFloat "933.782"^^xsd:float .
+
+:priceUnit_53
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.2434654"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_55
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.4282026"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_48
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1005445"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_WINDOWS_0
+      a       gr:QualitativeValue , cloud:Windows ;
+      rdfs:comment "EfNFMyd2BFgwjuA9I46WCyP5m0mAoO" .
+
+:Feature_CPUTYPE_0
+      a       gr:QualitativeValue , cloud:CPUType ;
+      rdfs:comment "idzldiRdb6lan_XAudImHfazARFMe3" .
+
+:Feature_IPV4_2
+      a       gr:QualitativeValue , cloud:IPv4 ;
+      rdfs:comment "iQxqPwvkKX1sfweYPcNkdkRExRunlk" .
+
+:priceUnit_69
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5798835"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_OTHER_INTERFACE_0
+      a       gr:QualitativeValue , cloud:Interface ;
+      rdfs:comment "KcHhXHD9x3D6x14En_taYWAJX0ys69" .
+
+:priceUnit_34
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.7750831"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_4
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_4 ;
+      price:isLinkedTo :Feature_DURABILITY_0 .
+
+:Feature_FORUM_0
+      a       cloud:Forum , gr:QualitativeValue ;
+      rdfs:comment "e5qy7FoaEQ18_bY30K7a1vgtsoqhyS" .
+
+:priceUnit_8
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.634544"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_14
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8597581"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_28
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.2547526"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_20
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_20 ;
+      price:isLinkedTo :Feature_LIVECHAT_0 .
+
+:Feature_ENCRYPTION_0
+      a       gr:QualitativeValue , cloud:Encryption ;
+      rdfs:comment "JzBUmeW0C3a1_nDIWHyUwo4PCWqGbL" .
+
+:Feature_WEB_1
+      a       gr:QualitativeValue , cloud:Web ;
+      rdfs:comment "PrkqrkJnX0suDQdRljileXu3qq3fhX" .
+
+:Resource_WRITESREQUESTS
+      a       cloud:Writes , gr:QuantitativeValue ;
+      rdfs:comment "IMDkpPGPExV2itgUW2oN4qNOEpQnu2" ;
+      gr:hasValueFloat "647416.06"^^xsd:float .
+
+:priceUnit_42
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5483258"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_OPENSOURCE_0
+      a       gr:QualitativeValue , cloud:OpenSource ;
+      rdfs:comment "KcEIGlZr_vjTXMEDZV55K7c2aHUJsc" .
+
+:PriceComponent_44
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_44 ;
+      price:isLinkedTo :Feature_FEATURE_0 .
+
+:PriceComponent_30
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_30 ;
+      price:isLinkedTo :Feature_BIT64_1 .
+
+:Feature_BACKUP_RECOVERY_0
+      a       gr:QualitativeValue , cloud:Backup_Recovery ;
+      rdfs:comment "LegosR71D79ZZBDS7vK2QjNbJbIjFo" .
+
+:Feature_PERFORMANCE_1
+      a       gr:QualitativeValue , cloud:Performance ;
+      rdfs:comment "gfRWnxs0FU5QULaWjD8chK47ue6k05" .
+
+:Resource_CPUSPEED
+      a       cloud:CPUSpeed , gr:QuantitativeValue ;
+      rdfs:comment "rl36T3JnqmEYxfwg3vEXhULmfC_SgR" ;
+      gr:hasValueFloat "1.3296895"^^xsd:float .
+
+:PriceComponent_7
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_7 ;
+      price:isLinkedTo :Feature_RELIABILITY_0 .
+
+:Feature_OPENSOURCE_2
+      a       gr:QualitativeValue , cloud:OpenSource ;
+      rdfs:comment "sTiv4eTK301xDG0lCtDRBywXtRRAXs" .
+
+:priceUnit_33
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8361403"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_FEATURE_0
+      a       gr:QualitativeValue , cloud:Feature ;
+      rdfs:comment "SLDbejxLU2zYUEfw73fal_0FqHcd9Q" .
+
+:Resource_CPUFLOP
+      a       cloud:CPUFlops , gr:QuantitativeValue ;
+      rdfs:comment "78UVSCqupdy2QGgfRlSDV3gz9BWi1c" ;
+      gr:hasValueFloat "3.4654222"^^xsd:float .
+
+:PriceComponent_58
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_58 ;
+      price:isLinkedTo :Resource_TRANSFERRATE .
+
+:priceUnit_43
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.6486732"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_70
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_70 ;
+      price:isLinkedTo :Resource_WEBSITES .
+
+:Feature_DURABILITY_0
+      a       gr:QualitativeValue , cloud:Durability ;
+      rdfs:comment "wpwOh0_Oh_wORagfaaxWMuqR7gjQ8B" .
+
+:Feature_REPLICATION_2
+      a       gr:QualitativeValue , cloud:Replication ;
+      rdfs:comment "efREuj1YAf0fgl_1LGwJlHC7dpfGYz" .
+
+:Feature_WEB_0
+      a       gr:QualitativeValue , cloud:Web ;
+      rdfs:comment "RCXp2_sypn311sjsKdGW1iZgdaqeIA" .
+
+:priceUnit_41
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.0273118"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_API_0
+      a       cloud:API , gr:QualitativeValue ;
+      rdfs:comment "Ha_p697Nui_aRk72ZimHtMDG65G5jZ" .
+
+:priceUnit_31
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.055542"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_OPENSOURCE_1
+      a       gr:QualitativeValue , cloud:OpenSource ;
+      rdfs:comment "HE4gUz0zhZySrhJUKUgZ6GWVcMZTqr" .
+
+:Resource_CPUCORES
+      a       cloud:CPUCores , gr:QuantitativeValue ;
+      rdfs:comment "yRtvW_srybFsm_oFJmGsUVRZnmgHwN" ;
+      gr:hasValueFloat "1.2172388"^^xsd:float .
+
+:PriceComponent_43
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_43 ;
+      price:isLinkedTo :Feature_LANGUAGES_0 .
+
+:Feature_LOADBALANCING_2
+      a       gr:QualitativeValue , cloud:LoadBalancing ;
+      rdfs:comment "RXUtq9nZDlihMqLoXzRctXsgB7J27y" .
+
+:Feature_BACKUP_RECOVERY_1
+      a       gr:QualitativeValue , cloud:Backup_Recovery ;
+      rdfs:comment "AjLl0QOo31pT5FarUETq6iY1UdkBAW" .
+
+:Resource_FILESIZE
+      a       cloud:FiliSize , gr:QuantitativeValue ;
+      rdfs:comment "NQ8onOFAJO20_AezwM6AiEn1wN52JN" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "25.334661"^^xsd:float .
+
+:PriceComponent_6
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_6 ;
+      price:isLinkedTo :Feature_PERFORMANCE_0 .
+
+:priceUnit_32
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.4043846"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_DURABILITY_1
+      a       gr:QualitativeValue , cloud:Durability ;
+      rdfs:comment "iDCuZ2OyDiuIEsDu_MibzxID5WVFHZ" .
+
+:Feature_BIT64_0
+      a       gr:QualitativeValue , cloud:Arch64bit ;
+      rdfs:comment "0oYvN7vYbx3WOtBj7LwvOc3Szt21vT" .
+
+:PriceComponent_57
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_57 ;
+      price:isLinkedTo :Resource_TRAFFIC .
+
+:PriceComponent_32
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_32 ;
+      price:isLinkedTo :Feature_WINDOWS_1 .
+
+:Resource_TRANSACTIONS
+      a       cloud:Transactions , gr:QuantitativeValue ;
+      rdfs:comment "dMeJ7sZxHcpWsorB9NWj028PCltNIR" ;
+      gr:hasValueFloat "471382.38"^^xsd:float .
+
+:priceUnit_18
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.457322"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_REPLICATION_1
+      a       gr:QualitativeValue , cloud:Replication ;
+      rdfs:comment "leaqexQEmfpqewaR5aBTttVhwGxhu1" .
+
+:Feature_LANGUAGES_0
+      a       gr:QualitativeValue , cloud:Languages ;
+      rdfs:comment "WPEVg7LdqJmHDR2tw34c7lXMB_cJi7" .
+
+:Feature_BACKUP_RECOVERY_2
+      a       gr:QualitativeValue , cloud:Backup_Recovery ;
+      rdfs:comment "aK9RMYykpJvArwIXnA_ilZl569zhQ0" .
+
+:PriceComponent_42
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_42 ;
+      price:isLinkedTo :Feature_ELASTICIP_1 .
+
+:Feature_ELASTICIP_1
+      a       gr:QualitativeValue , cloud:ElasticIP ;
+      rdfs:comment "4JNBOBL79aL0g1iPizdhuVFj21NF0z" .
+
+:priceUnit_30
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1238081"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_9
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_9 ;
+      price:isLinkedTo :Feature_SCALABILITY_2 .
+
+:Feature_FEATURE_2
+      a       gr:QualitativeValue , cloud:Feature ;
+      rdfs:comment "bMaI5cSAFQFYetDNY0XowGWSpOHEed" .
+
+:PriceComponent_18
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_18 ;
+      price:isLinkedTo :Feature_DEVELOPERCENTER_1 .
+
+:priceUnit_58
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5522466"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_BIT64_1
+      a       gr:QualitativeValue , cloud:Arch64bit ;
+      rdfs:comment "tC7C7WZXZYqTVmYA1rBsPdVOQwyhO_" .
+
+:priceUnit_45
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.3653734"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_41
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_41 ;
+      price:isLinkedTo :Feature_PUBLICIP_0 .
+
+:PriceComponent_31
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_31 ;
+      price:isLinkedTo :Feature_EMBEDDED_0 .
+
+:Feature_REPLICATION_0
+      a       gr:QualitativeValue , cloud:Replication ;
+      rdfs:comment "zJmXsy7o9qloqT3eScnzmLs8FCuRzc" .
+
+:priceUnit_19
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.3913412"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_PERFORMANCE_0
+      a       gr:QualitativeValue , cloud:Performance ;
+      rdfs:comment "hTDWWKVWLQ0852WJMrCxNE80AGD8pX" .
+
+:Service_Service_2
+      a       usdl:Service ;
+      rdfs:label "Service_2" ;
+      dc:title "qIPZgLdEFR"@en ;
+      gr:qualitativeProductOrServiceProperty
+              :Feature_MONITORING_0 , :Feature_LOADBALANCING_1 , :Feature_OTHER_INTERFACE_1 , :Feature_REPLICATION_1 , :Feature_PROPRIETARY_0 , :Feature_GRAPHICALCARD_0 , :Feature_PERFORMANCE_1 , :Feature_FEATURE_2 , :Feature_IPV4_1 , :Feature_COMMAND_LINE_2 , :Feature_BIT32_1 , :Feature_EMBEDDED_2 , :Feature_SECURITY_1 , :Feature_SUPPORT_24_7_0 , :Feature_MANUAL_0 , :Feature_COMMAND_LINE_0 , :Feature_LOADBALANCING_0 , :Feature_WINDOWS_2 , :Feature_REPLICATION_0 , :Feature_IPV6_0 , :Feature_WINDOWS_0 , :Feature_WEB_0 , :Feature_OTHER_INTERFACE_2 , :Feature_MEMORYALLOCATION_1 , :Feature_API_0 , :Feature_VIDEOS_0 , :Feature_IPV4_2 , :Feature_OTHER_INTERFACE_0 , :Feature_DEVELOPERCENTER_0 , :Feature_PROPRIETARY_1 , :Feature_LOADBALANCING_2 , :Feature_GUI_0 , :Feature_SCALABILITY_0 , :Feature_FORUM_0 , :Feature_MOBILE_0 , :Feature_CONSISTENCY_0 , :Feature_SECURITY_0 , :Feature_IPV4_0 , :Feature_FEATURE_1 , :Feature_PUBLICIP_1 , :Feature_ELASTICIP_0 , :Feature_BIT32_0 , :Feature_EMBEDDED_1 , :Feature_BIT64_0 , :Feature_PROPRIETARY_2 ;
+      gr:quantitativeProductOrServiceProperty
+              :Resource_HTTPREQUEST , :Resource_DATAOUTEXTERNAL , :Resource_APICALLS , :Resource_GETREQUESTS , :Resource_POSTREQUESTS , :Resource_WRITESREQUESTS , :Resource_CPUFLOP , :Resource_CPUCORES , :Resource_NETWORKINTERNALBANDWIDTH , :Resource_STORAGECAPACITY , :Resource_NETWORKDELAY , :Resource_IOOPERATIONS ;
+      usdl:hasProvider :Provider_Provider_2 .
+
+:Feature_GUI_0
+      a       gr:QualitativeValue , cloud:GUI ;
+      rdfs:comment "vTrZmTfnpC6X4CrRW81n4ne_NACez8" .
+
+:Feature_MOBILE_0
+      a       cloud:Mobile , gr:QualitativeValue ;
+      rdfs:comment "v5PDPr9g1AILu21zHyIt4TcM45fYtZ" .
+
+:PriceComponent_69
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_69 ;
+      price:isLinkedTo :Resource_USERS .
+
+:Feature_FEATURE_1
+      a       gr:QualitativeValue , cloud:Feature ;
+      rdfs:comment "aN0dqHOYQ1NWtzLS4QTieRudIOW99C" .
+
+:PriceComponent_8
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_8 ;
+      price:isLinkedTo :Feature_SCALABILITY_1 .
+
+:Resource_POSTREQUESTS
+      a       cloud:POSTRequest , gr:QuantitativeValue ;
+      rdfs:comment "MUCWoTGGL4hPbqeMpFvnCW0UobrdYM" ;
+      gr:hasValueFloat "25597.03"^^xsd:float .
+
+:MonthMetric
+      a       gr:QuantitativeValue ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string ;
+      gr:hasValueInteger "1"^^xsd:int .
+
+:ServiceOffering_Service_2
+      a       usdl:ServiceOffering ;
+      rdfs:label "Offering for Service_2" ;
+      usdl:includes :Service_Service_2 ;
+      price:hasPricePlan :PricePlan_Service_2 .
+
+:PriceComponent_19
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_19 ;
+      price:isLinkedTo :Feature_DEVELOPERCENTER_2 .
+
+:Feature_BIT32_0
+      a       gr:QualitativeValue , cloud:Arch32bit ;
+      rdfs:comment "_dOpTJPYtYQx4PfU8dfX4YNC_OjTQN" .
+
+:PriceComponent_59
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_59 ;
+      price:isLinkedTo :Resource_APPLICATIONS .
+
+:priceUnit_44
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.750291"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_EMBEDDED_0
+      a       gr:QualitativeValue , cloud:Embedded ;
+      rdfs:comment "zSEEaiUAkjfFWR2wGSGUJHFLOFVM2e" .
+
+:priceUnit_59
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1937358"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:priceUnit_70
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.6997845"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_15
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_15 ;
+      price:isLinkedTo :Feature_CPUTYPE_0 .
+
+:Resource_MEMORYSIZE
+      a       cloud:MemorySize , gr:QuantitativeValue ;
+      rdfs:comment "fBFfPop06xnxQY2gjuSfT0Q8paFeXJ" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "160.31747"^^xsd:float .
+
+:PriceComponent_48
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_48 ;
+      price:isLinkedTo :Resource_DATAINEXTERNAL .
+
+:Feature_PROPRIETARY_0
+      a       cloud:Proprietary , gr:QualitativeValue ;
+      rdfs:comment "RZbGIQeloxQR4it7mCfYxMKfKkNfdL" .
+
+:priceUnit_60
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5734797"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_25
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_25 ;
+      price:isLinkedTo :Feature_VIDEOS_2 .
+
+:PriceComponent_34
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_34 ;
+      price:isLinkedTo :Feature_LINUX_1 .
+
+:Resource_USERS
+      a       cloud:Users , gr:QuantitativeValue ;
+      rdfs:comment "WIL4sKnuHRpCvwPDAqL2iNwhwaLfWY" ;
+      gr:hasValueFloat "1.0"^^xsd:float .
+
+:PriceComponent_54
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_54 ;
+      price:isLinkedTo :Resource_MEMORYSIZE .
+
+:Feature_BIT32_1
+      a       gr:QualitativeValue , cloud:Arch32bit ;
+      rdfs:comment "25yPd5srXclRv5nCyuBqJeOt6LPOvi" .
+
+:PriceComponent_68
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_68 ;
+      price:isLinkedTo :Resource_TRANSACTIONS .
+
+:Feature_COMMAND_LINE_0
+      a       cloud:CommandLine , gr:QualitativeValue ;
+      rdfs:comment "mZCu7GVrIdVektYj8FSw08kjBi4t8b" .
+
+:Feature_MANUAL_0
+      a       gr:QualitativeValue , cloud:Manual ;
+      rdfs:comment "koDsQxhhonKpqgjTy_u_T8qrP4Oa7C" .
+
+:priceUnit_1
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8186712"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_VIDEOS_2
+      a       gr:QualitativeValue , cloud:Videos ;
+      rdfs:comment "hCXqCDaOw5gQ1_tL94JOvkBik8QyKF" .
+
+:PriceComponent_47
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_47 ;
+      price:isLinkedTo :Resource_CPUSPEED .
+
+:PriceComponent_16
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_16 ;
+      price:isLinkedTo :Feature_GRAPHICALCARD_1 .
+
+:PriceComponent_26
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_26 ;
+      price:isLinkedTo :Feature_OTHER_SUPPORT_0 .
+
+:Feature_PROPRIETARY_1
+      a       cloud:Proprietary , gr:QualitativeValue ;
+      rdfs:comment "77hNy2R7zGL5PaUUDOXRqS132JBEgR" .
+
+:PriceComponent_33
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_33 ;
+      price:isLinkedTo :Feature_LINUX_0 .
+
+:PriceComponent_53
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_53 ;
+      price:isLinkedTo :Resource_FILESIZE .
+
+:PriceComponent_17
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_17 ;
+      price:isLinkedTo :Feature_MEMORYALLOCATION_0 .
+
+:PriceComponent_67
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_67 ;
+      price:isLinkedTo :Resource_RECORDS .
+
+:priceUnit_2
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.9175413"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Resource_TRANSFERRATE
+      a       cloud:TransferRate , gr:QuantitativeValue ;
+      rdfs:comment "C6RkOLFjYOi1HBtAOvJaYKBXpBDyq3" ;
+      gr:hasValueFloat "0.121279016"^^xsd:float .
+
+:PriceComponent_46
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_46 ;
+      price:isLinkedTo :Resource_CACHESIZE .
+
+:PriceComponent_13
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_13 ;
+      price:isLinkedTo :Feature_REPLICATION_2 .
+
+:Feature_LOADBALANCING_1
+      a       gr:QualitativeValue , cloud:LoadBalancing ;
+      rdfs:comment "JpdOnMl4pO8EQZ8mvwb6adFT5P2_oZ" .
+
+:Feature_VIDEOS_1
+      a       gr:QualitativeValue , cloud:Videos ;
+      rdfs:comment "rL8C65VYswSpwx2Dza60fIPULLne7J" .
+
+:Feature_REDUNDANCY_0
+      a       gr:QualitativeValue , cloud:Redundancy ;
+      rdfs:comment "uvHKQx3_kn1nNROI8ovdR85B0YzVeP" .
+
+:priceUnit_40
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.5062591"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_36
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_36 ;
+      price:isLinkedTo :Feature_REALTIME_1 .
+
+:PriceComponent_27
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_27 ;
+      price:isLinkedTo :Feature_OPENSOURCE_0 .
+
+:priceUnit_21
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "2.1509938"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:Feature_OTHER_SUPPORT_0
+      a       gr:QualitativeValue , cloud:SupportProperties ;
+      rdfs:comment "GfwWLLZqMx33mSaNTqhDnKAXIqoFGr" .
+
+:Resource_LISTREQUESTS
+      a       cloud:LISTRequest , gr:QuantitativeValue ;
+      rdfs:comment "tCg0dFOSy084hnRrKnRLWP_xUVQeCD" ;
+      gr:hasValueFloat "82352.2"^^xsd:float .
+
+:PriceComponent_28
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_28 ;
+      price:isLinkedTo :Feature_OPENSOURCE_1 .
+
+:priceUnit_20
+      a       gr:PriceSpecification ;
+      gr:hasCurrency "EUR" ;
+      gr:hasCurrencyValue "1.8976699"^^xsd:float ;
+      gr:hasUnitOfMeasurement
+              "MON"^^xsd:string .
+
+:PriceComponent_56
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_56 ;
+      price:isLinkedTo :Resource_NETWORKPUBLICBANDWIDTH .
+
+:Resource_DISKSIZE
+      a       cloud:DiskSize , gr:QuantitativeValue ;
+      rdfs:comment "dqp9hwC8Fy29pytLenSk6l1SVH3v7S" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "3216.2207"^^xsd:float .
+
+:Feature_COMMAND_LINE_2
+      a       cloud:CommandLine , gr:QualitativeValue ;
+      rdfs:comment "TDFS5zAKXOB4FhY41Jtv5Ll__o4SX3" .
+
+:PriceComponent_66
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_66 ;
+      price:isLinkedTo :Resource_READSREQUESTS .
+
+:Feature_LOADBALANCING_0
+      a       gr:QualitativeValue , cloud:LoadBalancing ;
+      rdfs:comment "Yo0ePK7uwE2pUQvUCqXxuAEhddXh6A" .
+
+:PriceComponent_14
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_14 ;
+      price:isLinkedTo :Feature_COMPUTINGINTANCE_0 .
+
+:Feature_LIVECHAT_1
+      a       cloud:LiveChat , gr:QualitativeValue ;
+      rdfs:comment "IYFX_aaU8b0rNm3UEc5W7ebfxJl6PT" .
+
+:PriceComponent_45
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_45 ;
+      price:isLinkedTo :Resource_AVAILABILITY .
+
+:Feature_VIDEOS_0
+      a       gr:QualitativeValue , cloud:Videos ;
+      rdfs:comment "SK44xdk7XLmtwKmMnoZyItog3QORwS" .
+
+:Provider_Provider_2
+      a       gr:BusinessEntity ;
+      rdfs:label "Provider_2" ;
+      gr:legalName "Provider_2" ;
+      foaf:page "http://genssiz.dei.uc.pt/Provider_2" .
+
+:Resource_STORAGECAPACITY
+      a       cloud:StorageCapacity , gr:QuantitativeValue ;
+      rdfs:comment "SMpEPVt0qirKHBsjX6QrrvICFSMpgF" ;
+      gr:hasUnitOfMeasurement
+              "E34"^^xsd:string ;
+      gr:hasValueFloat "9975613.0"^^xsd:float .
+
+:PriceComponent_35
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_35 ;
+      price:isLinkedTo :Feature_REALTIME_0 .
+
+:PriceComponent_55
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_55 ;
+      price:isLinkedTo :Resource_NETWORKLATENCY .
+
+:Feature_CONSISTENCY_0
+      a       cloud:Consistency , gr:QualitativeValue ;
+      rdfs:comment "BAd7mHHdnW6yX7Tjk8y51JkQeGiAxe" .
+
+:PriceComponent_29
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_29 ;
+      price:isLinkedTo :Feature_OPENSOURCE_2 .
+
+:Resource_COPYREQUESTS
+      a       cloud:COPYRequest , gr:QuantitativeValue ;
+      rdfs:comment "XOAimuDtSTRs1PTSmxbJTSC0Q0pndM" ;
+      gr:hasValueFloat "98410.83"^^xsd:float .
+
+:Resource_RECORDS
+      a       cloud:Records , gr:QuantitativeValue ;
+      rdfs:comment "JAqpqzDGWEZkxWZGHo05qru_1UZXQN" ;
+      gr:hasValueFloat "8635456.0"^^xsd:float .
+
+:Resource_GETREQUESTS
+      a       gr:QuantitativeValue , cloud:GETRequest ;
+      rdfs:comment "hQJmcqU9rtNuH5PawZ0xeWs47aojkN" ;
+      gr:hasValueFloat "84387.484"^^xsd:float .
+
+:Resource_PUTREQUESTS
+      a       cloud:PUTRequest , gr:QuantitativeValue ;
+      rdfs:comment "Gel87PkP6WRhCLmsv1zukP4Gzks8zd" ;
+      gr:hasValueFloat "78037.56"^^xsd:float .
+
+:Feature_COMMAND_LINE_1
+      a       cloud:CommandLine , gr:QualitativeValue ;
+      rdfs:comment "9JMvvsoapsugybyc5H_pHNYK_U3TSE" .
+
+:Resource_IOOPERATIONS
+      a       cloud:IOOperations , gr:QuantitativeValue ;
+      rdfs:comment "2dP8cuA6YrY5u6I5e6cSNrl4dYzK78" ;
+      gr:hasValueFloat "7159.4126"^^xsd:float .
+
+:PriceComponent_65
+      a       price:PriceComponent ;
+      price:hasMetrics :MonthMetric ;
+      price:hasPrice :priceUnit_65 ;
+      price:isLinkedTo :Resource_QUERIES .

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JENA"/>
+	<classpathentry kind="lib" path="src/xstream-1.4.4.jar"/>
+	<classpathentry kind="lib" path="src/podam-3.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="src/podam-3.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="src/podam-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

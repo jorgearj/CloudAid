@@ -1,0 +1,1266 @@
+<data.servicedata.ServiceData>
+  <name>Service_4</name>
+  <category>pmpBopMpZh</category>
+  <description>gwEAKjnrmd</description>
+  <provider__name>Provider_4</provider__name>
+  <provider__url>http://genssiz.dei.uc.pt/Provider_4</provider__url>
+  <logo>http://genssiz.dei.uc.pt/Service_4_logo.jpg</logo>
+  <qualitativeFeatures>
+    <data.servicedata.QualitativeFeature>
+      <name>API_0</name>
+      <description>xLHg3ucz9LiSUXF1wro991Zjc5LLKP</description>
+      <type>API</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>COMMAND_LINE_0</name>
+      <description>EFs9m9_EtDCLidsp3Coo4cYP2nQEZo</description>
+      <type>COMMAND_LINE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>COMMAND_LINE_1</name>
+      <description>n1oNB9N53fQfrvXi60izPMP4qhdaZ4</description>
+      <type>COMMAND_LINE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>CONSOLE_0</name>
+      <description>enfUN05ptpiL_UIGB7CyiByOhpKSsl</description>
+      <type>CONSOLE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>GUI_0</name>
+      <description>EeVunOYLk4CpEl_sAolGvJj_5_K4q0</description>
+      <type>GUI</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WEB_0</name>
+      <description>Fs2Wb9jKUMkErDaiWRYMifQO8hnMEn</description>
+      <type>WEB</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WEB_1</name>
+      <description>UK7YdWzc7e8brQJhZeVZ_o4XT5a188</description>
+      <type>WEB</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WEB_2</name>
+      <description>N3ukviZUx9M35CpZmo5FrbYeXQVkrb</description>
+      <type>WEB</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OTHER_INTERFACE_0</name>
+      <description>Z9yli8bWuK9eBMksq1eToM6CHBnto2</description>
+      <type>OTHER_INTERFACE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>CONSISTENCY_0</name>
+      <description>blz_AANFcvWkHKhHJLNVpRDIK_POGh</description>
+      <type>CONSISTENCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>CONSISTENCY_1</name>
+      <description>If0JcHv6bbNzFrJnEf9rn1TYAvRIiM</description>
+      <type>CONSISTENCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>CONSISTENCY_2</name>
+      <description>p12R74HskGvU840xFtW8CQwvP3QX3l</description>
+      <type>CONSISTENCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>DURABILITY_0</name>
+      <description>jQOt3jMNaji9e0mLcbhJEozHT3f781</description>
+      <type>DURABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>DURABILITY_1</name>
+      <description>bl6bn6Pgc8c1mXFyfOOiRHcLRZCdZS</description>
+      <type>DURABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PERFORMANCE_0</name>
+      <description>d5OQHubJlegdUupOGCI7jIxjWqfHzL</description>
+      <type>PERFORMANCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PERFORMANCE_1</name>
+      <description>O0nqx6TVk_F_3Q8niICpz8lR37dsCD</description>
+      <type>PERFORMANCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>RELIABILITY_0</name>
+      <description>euFehq67uHOiQ3KCXwnNQ4bT0CPqP8</description>
+      <type>RELIABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>RELIABILITY_1</name>
+      <description>AXuo6pDU6eowtW4rToO7DUNZgG3LLt</description>
+      <type>RELIABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SCALABILITY_0</name>
+      <description>BHFy0wKYpHEUSZwd237SG8gzECRM8m</description>
+      <type>SCALABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SCALABILITY_1</name>
+      <description>p4TQZdm6I8aJz6Gtq9xDSjRGrQUxjS</description>
+      <type>SCALABILITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SECURITY_0</name>
+      <description>Ar8dsK6Jq7m_2u30SBdaDiIfOZLavl</description>
+      <type>SECURITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SECURITY_1</name>
+      <description>8mwraYGIOy_7EjNX9zEcTp0RsrxGvP</description>
+      <type>SECURITY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>ENCRYPTION_0</name>
+      <description>uWkfxluQWGCXoh7YxIsOk_22qslsNX</description>
+      <type>ENCRYPTION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>ENCRYPTION_1</name>
+      <description>MHHZe13gkYxoBGGE9Z9Pe84uth4YM5</description>
+      <type>ENCRYPTION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LOCATION_0</name>
+      <description>yo0EiavD5FQA9HOqlgHqs9EM3hu7Si</description>
+      <type>LOCATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LOCATION_1</name>
+      <description>gyCwusnUxKJV2fOA8NwJEENBrBY2Vw</description>
+      <type>LOCATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MONITORING_0</name>
+      <description>gbQIWxtKtVctKknAEERmHtyS2wi1eQ</description>
+      <type>MONITORING</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MONITORING_1</name>
+      <description>nOcfdoUtuFaw_Bar2KqN701DLpQecw</description>
+      <type>MONITORING</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MONITORING_2</name>
+      <description>NjJnlum83oZ5BGet3PuEjP9u7p7UIC</description>
+      <type>MONITORING</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PLATFORM_0</name>
+      <description>rofFtt7NrthVT9RYLFQs5wyDgj2z06</description>
+      <type>PLATFORM</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PLATFORM_1</name>
+      <description>b9PrAA22dUv5itnupn1IctLgdzBif7</description>
+      <type>PLATFORM</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REPLICATION_0</name>
+      <description>XYJlYXPLoZnEfpf0FMYitCCaeIIrSY</description>
+      <type>REPLICATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REPLICATION_1</name>
+      <description>39REvh6kr8tSLtEbBh6RQleCqvhYlv</description>
+      <type>REPLICATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REPLICATION_2</name>
+      <description>PcrRad8Ap9grzefWmWi9Xy7ITM57qH</description>
+      <type>REPLICATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>COMPUTINGINTANCE_0</name>
+      <description>ElmYXCxjiUscnp7VQdZoiWKzj08TQY</description>
+      <type>COMPUTINGINTANCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>CPUTYPE_0</name>
+      <description>AimDQO1rEcXCSwxfSxukk10kxeOIV1</description>
+      <type>CPUTYPE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>GRAPHICALCARD_0</name>
+      <description>VaroK5ki1yCzWhnNs2RCrj5EB9EPBY</description>
+      <type>GRAPHICALCARD</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>GRAPHICALCARD_1</name>
+      <description>m9_mApT01PVDF6H4te_SjsiZ2dSA9k</description>
+      <type>GRAPHICALCARD</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>GRAPHICALCARD_2</name>
+      <description>WMkqvp5_01iRl_xRyDPd9wxxQeExnU</description>
+      <type>GRAPHICALCARD</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LOADBALANCING_0</name>
+      <description>tqnEwjHLE7yfiRRafUSzCH8ZKroFTm</description>
+      <type>LOADBALANCING</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MEMORYALLOCATION_0</name>
+      <description>YhUT5e64JQbogLG1b6MQRyQuT7QxL3</description>
+      <type>MEMORYALLOCATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MEMORYALLOCATION_1</name>
+      <description>qXgcjnuaNEmEZ8jReEV8MW65WOr09b</description>
+      <type>MEMORYALLOCATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MEMORYALLOCATION_2</name>
+      <description>LKb8PIO69ECOMaiRfAN7TOq7gosTfo</description>
+      <type>MEMORYALLOCATION</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>DEVELOPERCENTER_0</name>
+      <description>69j8_Qg8Uc1RkgetjlhyRonFvG55n1</description>
+      <type>DEVELOPERCENTER</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>FORUM_0</name>
+      <description>htLvHEGtiVz06Va232ftRtn9zgRGXr</description>
+      <type>FORUM</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>FORUM_1</name>
+      <description>vXHiMKKcWuwxTrHTZ_IP0eFWC3uxCB</description>
+      <type>FORUM</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LIVECHAT_0</name>
+      <description>BL94YZn1REJjwRipcDSCCsHhc5sdSD</description>
+      <type>LIVECHAT</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MANUAL_0</name>
+      <description>1LslD9asbFPLUyJNjC1wInPMsWvayH</description>
+      <type>MANUAL</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MANUAL_1</name>
+      <description>1KdEJ2MVYzOEevTOaQ3aWlwpAcsxoP</description>
+      <type>MANUAL</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MANUAL_2</name>
+      <description>7bcN0i1HUbGWOXlB6YeRaV3o7QvRJw</description>
+      <type>MANUAL</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SUPPORT_24_7_0</name>
+      <description>hhlcdh3h0xeGT2gF_PpICWUfNhl6_w</description>
+      <type>SUPPORT_24_7</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SUPPORT_24_7_1</name>
+      <description>T2AyeWGArw_DEKq_qbC9zBu6nff3c9</description>
+      <type>SUPPORT_24_7</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SUPPORT_24_7_2</name>
+      <description>WW4HV2DYS0LlyaqRcNo9ZBJYUcdmLj</description>
+      <type>SUPPORT_24_7</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>SUPPORTTEAM_0</name>
+      <description>zpaPcTaOk9Av3xZnaAOn7_8TU4YLAB</description>
+      <type>SUPPORTTEAM</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>VIDEOS_0</name>
+      <description>DxqZDy_SxOgUeGCTIe32c7I60WQXDZ</description>
+      <type>VIDEOS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>VIDEOS_1</name>
+      <description>zC7R5r91aFvfxMLCLWXsT43iJSkq3y</description>
+      <type>VIDEOS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>VIDEOS_2</name>
+      <description>57sYuuiX1IclPh9ona271S4ojA2kfu</description>
+      <type>VIDEOS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OTHER_SUPPORT_0</name>
+      <description>5o1OCFv4tVBJDOdFBxzq5E3jOKFAQ8</description>
+      <type>OTHER_SUPPORT</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OTHER_SUPPORT_1</name>
+      <description>XwgBaSum4xZNuSh8d0sD92hZnCXTm_</description>
+      <type>OTHER_SUPPORT</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OTHER_SUPPORT_2</name>
+      <description>ksDiYxSTVTUChrxfj2Hl29MkluzKgK</description>
+      <type>OTHER_SUPPORT</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OPENSOURCE_0</name>
+      <description>fNoYIZULva7RJWiM5y02BtXBQB3if1</description>
+      <type>OPENSOURCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OPENSOURCE_1</name>
+      <description>FmiQoKUmUHz6LHOzo6moqoWhYWZUke</description>
+      <type>OPENSOURCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>OPENSOURCE_2</name>
+      <description>xLsr3F_6uKRN78ThAiJfuQS0zXWvaN</description>
+      <type>OPENSOURCE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PROPRIETARY_0</name>
+      <description>giUVVf9QTm7bIwtDW6vKq5NauTEwSb</description>
+      <type>PROPRIETARY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>BIT32_0</name>
+      <description>OY7ymyChqcYEHj6BbVrR8HWuazNmJ7</description>
+      <type>BIT32</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>BIT32_1</name>
+      <description>NZellHBZVQv7NXXqLU8rQtQ1qpqYec</description>
+      <type>BIT32</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>BIT64_0</name>
+      <description>OwPpOmw4Ktc9NZv4U3KPGQxqg0biz5</description>
+      <type>BIT64</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>EMBEDDED_0</name>
+      <description>abXkmmO5fuNA6IniDZiyg7TTtMXXkS</description>
+      <type>EMBEDDED</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>EMBEDDED_1</name>
+      <description>9HqDUiu9k6lxvpgfELZReq2a2atMyO</description>
+      <type>EMBEDDED</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>EMBEDDED_2</name>
+      <description>GABhLj6XD5q6_AxXmtNZDqBGv50XQt</description>
+      <type>EMBEDDED</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>MOBILE_0</name>
+      <description>F4Btdxb4NnXCQcNxcQ9R8ZtcZrWsh7</description>
+      <type>MOBILE</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WINDOWS_0</name>
+      <description>ecK9vsIbdDNzPTeWx763O6iW9qG8ur</description>
+      <type>WINDOWS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WINDOWS_1</name>
+      <description>BWnbTae7WBbZgc0rN1RTVtQt0qf4_N</description>
+      <type>WINDOWS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>WINDOWS_2</name>
+      <description>oT6T5X55mwWStCzq2wcYkIa7KJZ9Vz</description>
+      <type>WINDOWS</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LINUX_0</name>
+      <description>SHwWlFe9xeA4tjnm0TkCGICIZHBwUZ</description>
+      <type>LINUX</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LINUX_1</name>
+      <description>hL3pcgVX9iKLka7KmF81OwegCAM7N5</description>
+      <type>LINUX</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LINUX_2</name>
+      <description>s2kJ9wsyzYsjNtFFdZ8TWVyorS8wpV</description>
+      <type>LINUX</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REALTIME_0</name>
+      <description>A3P9kMRvrn6_clPrUz4nOcbXvAYDvL</description>
+      <type>REALTIME</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REALTIME_1</name>
+      <description>1JZg7_L_ZtIljc0yMQMkGM5mtwbs_y</description>
+      <type>REALTIME</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REALTIME_2</name>
+      <description>PNWpO6yKvbvUAzKuNcGNvagZKEZudy</description>
+      <type>REALTIME</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>BACKUP_RECOVERY_0</name>
+      <description>oeKNnfe0ubSGugDsg3_iWNIp5eG9Mr</description>
+      <type>BACKUP_RECOVERY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>BACKUP_RECOVERY_1</name>
+      <description>FZbkLAbmJTzvP24Jaxtc18w_hr4m7n</description>
+      <type>BACKUP_RECOVERY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REDUNDANCY_0</name>
+      <description>GyB5kBvHwF8yverTITlIt12QuQfLNC</description>
+      <type>REDUNDANCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REDUNDANCY_1</name>
+      <description>nPW3ShWLKu7mWh8St43v86Tb1IY9uR</description>
+      <type>REDUNDANCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>REDUNDANCY_2</name>
+      <description>CanLKdYczHqzAEa8RtLl_jIDAOlk4b</description>
+      <type>REDUNDANCY</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PUBLICIP_0</name>
+      <description>ihuURSWXPOpMhzqMsPpT7TKHKt2SgY</description>
+      <type>PUBLICIP</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>PUBLICIP_1</name>
+      <description>ZENEIBQdDWn2dEyptvk0plzscAXXQy</description>
+      <type>PUBLICIP</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>ELASTICIP_0</name>
+      <description>8oRJptmyWiyhpL8cVzYtJMOlPit2Z_</description>
+      <type>ELASTICIP</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>ELASTICIP_1</name>
+      <description>oy8q2cI5MxTHwa4lzJdNLrrFF8_9Ma</description>
+      <type>ELASTICIP</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>IPV4_0</name>
+      <description>ip7MBJn4XIUfXIrwvMc745_FKNGD3h</description>
+      <type>IPV4</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>IPV6_0</name>
+      <description>GE1hqI_7mrhpugaNnFrqr0lAk0v9wl</description>
+      <type>IPV6</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>IPV6_1</name>
+      <description>uajwChBJZHnJUVsXG_hlRpRZgFcSWs</description>
+      <type>IPV6</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>LANGUAGES_0</name>
+      <description>A4JgpoiQ0s4i6JUPCkU4lS0Ns1BDAq</description>
+      <type>LANGUAGES</type>
+    </data.servicedata.QualitativeFeature>
+    <data.servicedata.QualitativeFeature>
+      <name>FEATURE_0</name>
+      <description>EUM1_iqlLJQ1IlhrJMv9dh8SExLfDM</description>
+      <type>FEATURE</type>
+    </data.servicedata.QualitativeFeature>
+  </qualitativeFeatures>
+  <quantitativeFeatures>
+    <data.servicedata.QuantitativeFeature>
+      <name>AVAILABILITY</name>
+      <description>DTSADndIx1szrpEhOlP4imWq68FZ78</description>
+      <valueFloat>98.78921</valueFloat>
+      <type>AVAILABILITY</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>CACHESIZE</name>
+      <description>XVNiKkdZPFvJfNvmMmmY7o46p14TI1</description>
+      <valueFloat>247.09233</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>CACHESIZE</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>CPUSPEED</name>
+      <description>BirjnumO56MenPe1_ichO7Y97zDZQg</description>
+      <valueFloat>2.2352726</valueFloat>
+      <type>CPUSPEED</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DATAINEXTERNAL</name>
+      <description>yXrc50rxzo7TQHLdDarK3yxfPfoqvu</description>
+      <valueFloat>329086.8</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DATAINEXTERNAL</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DATAININTERNAL</name>
+      <description>cA2G0djHtirZbEtasCKzFJ8aEY6G1f</description>
+      <valueFloat>854347.5</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DATAININTERNAL</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DATAOUTEXTERNAL</name>
+      <description>VcEwbpdK_meKx12YD1pQGXv_JOj0Pg</description>
+      <valueFloat>617474.06</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DATAOUTEXTERNAL</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DATAOUTINTERNAL</name>
+      <description>v2U_BXW4YcovpB733tzGKehYbtY1Ph</description>
+      <valueFloat>325731.94</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DATAOUTINTERNAL</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DATAPROCESSED</name>
+      <description>QUnD2EMvyez4J3Mbswc0tYtvy9mDoX</description>
+      <valueFloat>5774893.0</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DATAPROCESSED</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DISKSIZE</name>
+      <description>9sQNd4lG_Y3r2UShBQQ96FtQyj0_lW</description>
+      <valueFloat>1427.2526</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>DISKSIZE</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>FILESIZE</name>
+      <description>PvcPBZr1tYPUQ1C5_rZ2pFK1KrPP3P</description>
+      <valueFloat>18.508326</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>FILESIZE</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>MEMORYSIZE</name>
+      <description>UN5fUKNC5Be7re5lpCJDJ7ODXsExUi</description>
+      <valueFloat>119.584496</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>MEMORYSIZE</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>NETWORKDELAY</name>
+      <description>ntILSY6Al0gYALu2_7KYmJJr14oDai</description>
+      <valueFloat>262.46893</valueFloat>
+      <type>NETWORKDELAY</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>NETWORKINTERNALBANDWIDTH</name>
+      <description>9TBqPuhYY4bJyn0UfAYpRMwT8ILAHu</description>
+      <valueFloat>180.25156</valueFloat>
+      <type>NETWORKINTERNALBANDWIDTH</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>NETWORKLATENCY</name>
+      <description>XIxSmHYj0bqqWITbBBKKomUce2qym1</description>
+      <valueFloat>566.2192</valueFloat>
+      <type>NETWORKLATENCY</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>NETWORKPUBLICBANDWIDTH</name>
+      <description>dMpOzK_aF9c9nkIPkcFOJMURIDjGIj</description>
+      <valueFloat>110.730484</valueFloat>
+      <type>NETWORKPUBLICBANDWIDTH</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>STORAGECAPACITY</name>
+      <description>y598FtcGLm3d7o0KFHGcvEGWQ8EB0a</description>
+      <valueFloat>9012988.0</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>STORAGECAPACITY</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>TRAFFIC</name>
+      <description>V8yVKoQy8dszfDxYIbwsZ_O7Eel_Or</description>
+      <valueFloat>4215233.5</valueFloat>
+      <unitOfMeasurement>GB</unitOfMeasurement>
+      <type>TRAFFIC</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>TRANSFERRATE</name>
+      <description>veYW3CyMwaIE79YP8nIQALo5232m9b</description>
+      <valueFloat>0.102117255</valueFloat>
+      <type>TRANSFERRATE</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>APICALLS</name>
+      <description>4iBnlOvLkjXHgvSpxiv0xNj972AHWr</description>
+      <valueFloat>3923.6072</valueFloat>
+      <type>APICALLS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>APPLICATIONS</name>
+      <description>ExODOt_mwFHkZTv53BQujHZC_Qdp9s</description>
+      <valueFloat>23.833956</valueFloat>
+      <type>APPLICATIONS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>COPYREQUESTS</name>
+      <description>p3Z6XGK_nO4cELVdgujfygTTY9Unr7</description>
+      <valueFloat>53087.914</valueFloat>
+      <type>COPYREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>CPUCORES</name>
+      <description>4P5E4yYGBNBG5wADQ8p006xwtA9Er9</description>
+      <valueFloat>11.230309</valueFloat>
+      <type>CPUCORES</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>CPUFLOP</name>
+      <description>GyzBqn5Stdirm9bYRSGWApHyulzZIH</description>
+      <valueFloat>6.7919827</valueFloat>
+      <type>CPUFLOP</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>DELETEREQUESTS</name>
+      <description>Ksl6k9tcMA9yrfwfitd2f8YVcnzv5j</description>
+      <valueFloat>60582.758</valueFloat>
+      <type>DELETEREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>GETREQUESTS</name>
+      <description>UN8xklUxFFSEcPMbpBiSctV3hfyNjf</description>
+      <valueFloat>67912.625</valueFloat>
+      <type>GETREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>HTTPREQUEST</name>
+      <description>_upflvr06EoWywhGzlnarK2u6Fg8tL</description>
+      <valueFloat>8783832.0</valueFloat>
+      <type>HTTPREQUEST</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>HTTPSREQUEST</name>
+      <description>jUnX2PCSX2Mc_jXf9bDPc8guHLum8g</description>
+      <valueFloat>4916139.5</valueFloat>
+      <type>HTTPSREQUEST</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>IOOPERATIONS</name>
+      <description>8E4uHAL5iSQlt6GNp8r80cEcGib1X1</description>
+      <valueFloat>9446.529</valueFloat>
+      <type>IOOPERATIONS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>LISTREQUESTS</name>
+      <description>XTacepwXC313LL7mcv5BstfIV1wKYY</description>
+      <valueFloat>51929.523</valueFloat>
+      <type>LISTREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>POSTREQUESTS</name>
+      <description>VmtlE9WHCzwCZdX78vlNbM9Ju166Ki</description>
+      <valueFloat>29669.1</valueFloat>
+      <type>POSTREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>PUTREQUESTS</name>
+      <description>d4eN3YLcf6aZVMJSN1A9wsPfnuPynF</description>
+      <valueFloat>4600.385</valueFloat>
+      <type>PUTREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>QUERIES</name>
+      <description>VsvWGLBOmXPkuzyjYTQJWlg_IQDhbU</description>
+      <valueFloat>1935.3363</valueFloat>
+      <type>QUERIES</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>READSREQUESTS</name>
+      <description>aK_u9p7MAfExw770pjP2wtT2HI_yYe</description>
+      <valueFloat>285119.16</valueFloat>
+      <type>READSREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>RECORDS</name>
+      <description>84OT5WICHB68HZqPZGWxAcg54wtQeo</description>
+      <valueFloat>8132441.0</valueFloat>
+      <type>RECORDS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>TRANSACTIONS</name>
+      <description>FIu5LgfRKXto8f9bTDTaDl1IqaRnYO</description>
+      <valueFloat>846436.6</valueFloat>
+      <type>TRANSACTIONS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>USERS</name>
+      <description>zJYf52Eoq74c8bEvinxx9AEy7Pfnnb</description>
+      <valueFloat>1.0</valueFloat>
+      <type>USERS</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>WEBSITES</name>
+      <description>BODld3vIL7lS97puqwjNemQLwoSt1J</description>
+      <valueFloat>42.953453</valueFloat>
+      <type>WEBSITES</type>
+    </data.servicedata.QuantitativeFeature>
+    <data.servicedata.QuantitativeFeature>
+      <name>WRITESREQUESTS</name>
+      <description>owKjh_IQ5wk2TzkEYZUf_VZ0xNTtn1</description>
+      <valueFloat>538142.8</valueFloat>
+      <type>WRITESREQUESTS</type>
+    </data.servicedata.QuantitativeFeature>
+  </quantitativeFeatures>
+  <price>
+    <FEATURE__PRICE__MIN>1.5</FEATURE__PRICE__MIN>
+    <FEATURE__PRICE__MAX>2.5</FEATURE__PRICE__MAX>
+    <currency>EUR</currency>
+    <freeQualitativeFeatures>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[2]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[3]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[5]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[6]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[7]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[8]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[9]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[10]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[11]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[12]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[14]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[15]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[16]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[18]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[23]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[24]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[26]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[27]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[28]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[29]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[30]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[31]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[32]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[34]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[35]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[39]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[44]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[46]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[47]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[48]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[50]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[53]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[54]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[58]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[59]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[61]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[62]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[63]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[64]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[65]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[78]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[81]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[82]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[85]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[86]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[89]"/>
+      <data.servicedata.QualitativeFeature reference="../../../qualitativeFeatures/data.servicedata.QualitativeFeature[94]"/>
+    </freeQualitativeFeatures>
+    <freeQuantitativeFeatures>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[3]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[6]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[12]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[13]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[14]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[16]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[17]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[21]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[22]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[23]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[27]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[28]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[29]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[31]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[34]"/>
+      <data.servicedata.QuantitativeFeature reference="../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[36]"/>
+    </freeQuantitativeFeatures>
+    <prices>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[4]"/>
+        </qualitativeFeature>
+        <price>1.635238</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[13]"/>
+        </qualitativeFeature>
+        <price>1.7122197</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[17]"/>
+        </qualitativeFeature>
+        <price>1.9439237</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[19]"/>
+        </qualitativeFeature>
+        <price>1.9570057</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[20]"/>
+        </qualitativeFeature>
+        <price>1.906436</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[21]"/>
+        </qualitativeFeature>
+        <price>1.5908539</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[22]"/>
+        </qualitativeFeature>
+        <price>1.7026863</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[25]"/>
+        </qualitativeFeature>
+        <price>2.1664143</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[33]"/>
+        </qualitativeFeature>
+        <price>2.3365579</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[36]"/>
+        </qualitativeFeature>
+        <price>2.0824442</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[37]"/>
+        </qualitativeFeature>
+        <price>2.063412</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[38]"/>
+        </qualitativeFeature>
+        <price>1.5318058</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[40]"/>
+        </qualitativeFeature>
+        <price>1.5528266</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[41]"/>
+        </qualitativeFeature>
+        <price>1.6802042</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[42]"/>
+        </qualitativeFeature>
+        <price>2.1439452</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[43]"/>
+        </qualitativeFeature>
+        <price>2.422902</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[45]"/>
+        </qualitativeFeature>
+        <price>1.5873184</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[49]"/>
+        </qualitativeFeature>
+        <price>2.1955495</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[51]"/>
+        </qualitativeFeature>
+        <price>2.2740352</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[52]"/>
+        </qualitativeFeature>
+        <price>2.174174</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[55]"/>
+        </qualitativeFeature>
+        <price>1.5682987</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[56]"/>
+        </qualitativeFeature>
+        <price>1.5379356</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[57]"/>
+        </qualitativeFeature>
+        <price>2.2134662</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[60]"/>
+        </qualitativeFeature>
+        <price>1.8082238</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[66]"/>
+        </qualitativeFeature>
+        <price>1.8889276</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[67]"/>
+        </qualitativeFeature>
+        <price>2.206941</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[68]"/>
+        </qualitativeFeature>
+        <price>2.0509083</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[69]"/>
+        </qualitativeFeature>
+        <price>2.3302512</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[70]"/>
+        </qualitativeFeature>
+        <price>1.7860885</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[71]"/>
+        </qualitativeFeature>
+        <price>1.5835595</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[72]"/>
+        </qualitativeFeature>
+        <price>2.470493</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[73]"/>
+        </qualitativeFeature>
+        <price>2.3737128</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[74]"/>
+        </qualitativeFeature>
+        <price>1.6215869</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[75]"/>
+        </qualitativeFeature>
+        <price>1.6536379</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[76]"/>
+        </qualitativeFeature>
+        <price>2.1829245</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[77]"/>
+        </qualitativeFeature>
+        <price>1.7216312</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[79]"/>
+        </qualitativeFeature>
+        <price>1.8815212</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[80]"/>
+        </qualitativeFeature>
+        <price>2.223506</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[83]"/>
+        </qualitativeFeature>
+        <price>1.5698627</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[84]"/>
+        </qualitativeFeature>
+        <price>1.6689527</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[87]"/>
+        </qualitativeFeature>
+        <price>1.9941666</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[88]"/>
+        </qualitativeFeature>
+        <price>2.189629</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[90]"/>
+        </qualitativeFeature>
+        <price>2.2187452</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[91]"/>
+        </qualitativeFeature>
+        <price>1.9224823</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[92]"/>
+        </qualitativeFeature>
+        <price>1.7314391</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures/>
+        <qualitativeFeature>
+          <data.servicedata.QualitativeFeature reference="../../../../../qualitativeFeatures/data.servicedata.QualitativeFeature[93]"/>
+        </qualitativeFeature>
+        <price>2.291687</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[2]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.7722123</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[4]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.2375956</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[5]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.9354279</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[7]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.1782632</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[8]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.3329017</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[9]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.0687833</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[10]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.1030157</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[11]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.7914068</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[15]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.2194123</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[18]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.5154332</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[19]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.1078563</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[20]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.0609324</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[24]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.6789868</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[25]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.0562851</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[26]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.4343903</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[30]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.2289948</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[32]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.3967993</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[33]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.0172863</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[35]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.9544537</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[37]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>2.3622608</price>
+      </data.servicedata.GroupedPrice>
+      <data.servicedata.GroupedPrice>
+        <quantitativefeatures>
+          <data.servicedata.QuantitativeFeature reference="../../../../../quantitativeFeatures/data.servicedata.QuantitativeFeature[38]"/>
+        </quantitativefeatures>
+        <qualitativeFeature/>
+        <price>1.7231443</price>
+      </data.servicedata.GroupedPrice>
+    </prices>
+  </price>
+</data.servicedata.ServiceData>
