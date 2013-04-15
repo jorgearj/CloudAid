@@ -19,6 +19,7 @@
                 foaf:name "Jorge Araújo"
               ] ;
       dcterms:created "2013-03-27"^^xsd:date ;
+      dcterms:modified "2013-04-8"^^xsd:date ;
       dcterms:description "A simple Cloud properties taxonomy to be used in the SMS project" ;
       dcterms:title "Cloud Properties Taxonomy" ;
       owl:versionInfo "Created with TopBraid Composer"^^xsd:string .
