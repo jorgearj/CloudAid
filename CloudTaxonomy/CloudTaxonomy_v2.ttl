@@ -38,11 +38,6 @@
       rdfs:label "Anti virus"^^xsd:string ;
       rdfs:subClassOf :Security .
 
-:Apache
-      rdf:type rdfs:Class ;
-      rdfs:label "Apache"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :Applications
       rdf:type rdfs:Class ;
       rdfs:label "Applications"^^xsd:string ;
@@ -347,11 +342,6 @@
       rdfs:label "Interface"^^xsd:string ;
       rdfs:subClassOf :Property .
 
-:Java2EE
-      rdf:type rdfs:Class ;
-      rdfs:label "Java2EE"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :LISTRequest
       rdf:type rdfs:Class ;
       rdfs:label "LISTRequest"^^xsd:string ;
@@ -417,16 +407,6 @@
       rdfs:label "Monitoring"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
-:Multitenant
-      rdf:type rdfs:Class ;
-      rdfs:label "Multitenant"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
-:MySQL
-      rdf:type rdfs:Class ;
-      rdfs:label "My SQL"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :NetworkDelay
       rdf:type rdfs:Class ;
       rdfs:label "Network delay"^^xsd:string ;
@@ -462,11 +442,6 @@
       rdfs:label "Network request"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
-:NoSQL
-      rdf:type rdfs:Class ;
-      rdfs:label "No SQL"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :NonFunctionalProperty
       rdf:type rdfs:Class ;
       rdfs:label "Non functional property"^^xsd:string ;
@@ -491,11 +466,6 @@
       rdf:type rdfs:Class ;
       rdfs:label "Operating system"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
-
-:Oracle
-      rdf:type rdfs:Class ;
-      rdfs:label "Oracle"^^xsd:string ;
-      rdfs:subClassOf :Platform .
 
 :POSTRequest
       rdf:type rdfs:Class ;
@@ -527,11 +497,6 @@
       rdfs:label "Platform functional property"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
-:Postgres
-      rdf:type rdfs:Class ;
-      rdfs:label "Postgres"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :PrivateCloud
       rdf:type rdfs:Class ;
       rdfs:label "Private cloud"^^xsd:string ;
@@ -561,11 +526,6 @@
       rdf:type rdfs:Class ;
       rdfs:label "Queries"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
-
-:RDBMS
-      rdf:type rdfs:Class ;
-      rdfs:label "RDBMS"^^xsd:string ;
-      rdfs:subClassOf :Platform .
 
 :Reads
       rdf:type rdfs:Class ;
@@ -650,20 +610,10 @@
       rdfs:label "Support 24 7"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
-:SyBase
-      rdf:type rdfs:Class ;
-      rdfs:label "Sy base"^^xsd:string ;
-      rdfs:subClassOf :Platform .
-
 :TokenAuthentication
       rdf:type rdfs:Class ;
       rdfs:label "Token authentication"^^xsd:string ;
       rdfs:subClassOf :Authentication .
-
-:Tomcat
-      rdf:type rdfs:Class ;
-      rdfs:label "Tomcat"^^xsd:string ;
-      rdfs:subClassOf :Platform .
 
 :Traffic
       rdf:type rdfs:Class ;
@@ -688,7 +638,7 @@
 :Users
       rdf:type rdfs:Class ;
       rdfs:label "Users"^^xsd:string ;
-      rdfs:subClassOf :Authentication , :PlatformFunctionalProperty .
+      rdfs:subClassOf :PlatformFunctionalProperty , :Authentication .
 
 :VPN  rdf:type rdfs:Class ;
       rdfs:label "VPN"^^xsd:string ;
