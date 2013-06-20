@@ -183,6 +183,11 @@
       rdfs:label "Request"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
+:DedicatedIP
+      rdf:type rdfs:Class ;
+      rdfs:label "Dedicated IP"^^xsd:string ;
+      rdfs:subClassOf :IPAddress .
+
 :DeploymentModel
       rdf:type rdfs:Class ;
       rdfs:label "Deployment model"^^xsd:string ;
@@ -217,6 +222,11 @@
       rdf:type rdfs:Class ;
       rdfs:label "Encryption"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
+
+:FailOver
+      rdf:type rdfs:Class ;
+      rdfs:label "Fail over"^^xsd:string ;
+      rdfs:subClassOf :NonFunctionalProperty .
 
 :Feature
       rdf:type rdfs:Class ;
@@ -296,26 +306,6 @@
       rdf:type rdfs:Class ;
       rdfs:label "IOPerformance"^^xsd:string ;
       rdfs:subClassOf :Performance .
-
-:IOPerformanceHigh
-      rdf:type rdfs:Class ;
-      rdfs:label "IOPerformance high"^^xsd:string ;
-      rdfs:subClassOf :IOPerformance .
-
-:IOPerformanceLow
-      rdf:type rdfs:Class ;
-      rdfs:label "IOPerformance low"^^xsd:string ;
-      rdfs:subClassOf :IOPerformance .
-
-:IOPerformanceModerate
-      rdf:type rdfs:Class ;
-      rdfs:label "IOPerformance moderate"^^xsd:string ;
-      rdfs:subClassOf :IOPerformance .
-
-:IOPerformanceVeryHigh
-      rdf:type rdfs:Class ;
-      rdfs:label "IOPerformance very high"^^xsd:string ;
-      rdfs:subClassOf :IOPerformance .
 
 :IPAddress
       rdf:type rdfs:Class ;
@@ -397,6 +387,26 @@
       rdfs:label "Memory size"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
+:MessageNumber
+      rdf:type rdfs:Class ;
+      rdfs:label "Message number"^^xsd:string ;
+      rdfs:subClassOf :Messages .
+
+:MessageProtocol
+      rdf:type rdfs:Class ;
+      rdfs:label "Message protocol"^^xsd:string ;
+      rdfs:subClassOf :Messages .
+
+:MessageType
+      rdf:type rdfs:Class ;
+      rdfs:label "Message type"^^xsd:string ;
+      rdfs:subClassOf :Messages .
+
+:Messages
+      rdf:type rdfs:Class ;
+      rdfs:label "Messages"^^xsd:string ;
+      rdfs:subClassOf :PlatformFunctionalProperty .
+
 :Mobile
       rdf:type rdfs:Class ;
       rdfs:label "Mobile"^^xsd:string ;
@@ -446,6 +456,11 @@
       rdf:type rdfs:Class ;
       rdfs:label "Non functional property"^^xsd:string ;
       rdfs:subClassOf :Property .
+
+:NumberOfIPs
+      rdf:type rdfs:Class ;
+      rdfs:label "Number of IPs"^^xsd:string ;
+      rdfs:subClassOf :NetworkFunctionalProperty .
 
 :OATH
       rdf:type rdfs:Class ;
@@ -593,6 +608,11 @@
 :StorageCapacity
       rdf:type rdfs:Class ;
       rdfs:label "Storage capacity"^^xsd:string ;
+      rdfs:subClassOf :DataFunctionalProperty .
+
+:StorageType
+      rdf:type rdfs:Class ;
+      rdfs:label "Storage type"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :SupportProperties
