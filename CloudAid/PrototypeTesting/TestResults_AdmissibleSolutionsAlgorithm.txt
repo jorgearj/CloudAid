@@ -1,0 +1,223 @@
+0.1
+Computing alternative combinations...
+
+[[0, 0]]
+Indexes: 
+00
+A1-B1-Indexes: 
+10
+not in admissable
+Indexes: 
+01
+not in admissable
+
+[[1, 0], [0, 1]]
+Indexes: 
+10
+A2-B1-Indexes: 
+20
+not in admissable
+Indexes: 
+11
+not in admissable
+
+[[0, 1], [2, 0], [1, 1]]
+Indexes: 
+01
+A1-B2-Indexes: 
+11
+already tested
+Indexes: 
+02
+not in admissable
+
+[[2, 0], [1, 1], [0, 2]]
+Indexes: 
+20
+A3-B1- - Admissable!!!
+incomparable with some admissable
+Indexes: 
+30
+index: 0 - 0.33->0.25
+incomparable
+Indexes: 
+21
+index: 0 - index: 1 - 0.45->0.4
+incomparable
+
+[[1, 1], [0, 2], [3, 0], [2, 1]]
+Indexes: 
+11
+A2-B2- - Admissable!!!
+TOTEST
+Indexes: 
+11
+Testing with:
+Indexes: 
+20
+incomparable with some admissable
+Indexes: 
+21
+already tested
+Indexes: 
+12
+index: 0 - index: 1 - 0.4->0.33
+incomparable
+
+[[0, 2], [3, 0], [2, 1], [1, 2]]
+Indexes: 
+02
+A1-B3- - Admissable!!!
+TOTEST
+Indexes: 
+02
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+incomparable with some admissable
+Indexes: 
+12
+already tested
+Indexes: 
+03
+index: 0 - index: 1 - 0.33->0.25
+incomparable
+
+[[3, 0], [2, 1], [1, 2], [0, 3]]
+Indexes: 
+30
+A4-B1- - Admissable!!!
+TOTEST
+Indexes: 
+30
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+Indexes: 
+02
+incomparable with some admissable
+Indexes: 
+40
+index: 0 - index: 1 - dominated
+Indexes: 
+31
+index: 0 - index: 1 - 0.45->0.4
+incomparable
+
+[[2, 1], [1, 2], [0, 3], [3, 1]]
+Indexes: 
+21
+A3-B2- - Admissable!!!
+TOTEST
+Indexes: 
+21
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+Indexes: 
+02
+Indexes: 
+30
+incomparable with some admissable
+Indexes: 
+31
+already tested
+Indexes: 
+22
+index: 0 - index: 1 - 0.4->0.33
+incomparable
+
+[[1, 2], [0, 3], [3, 1], [2, 2]]
+Indexes: 
+12
+A2-B3- - Admissable!!!
+TOTEST
+Indexes: 
+12
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+Indexes: 
+02
+
+[[0, 3], [3, 1], [2, 2]]
+Indexes: 
+03
+A1-B4- - Admissable!!!
+TOTEST
+Indexes: 
+03
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+Indexes: 
+02
+Indexes: 
+30
+Indexes: 
+21
+incomparable with some admissable
+Indexes: 
+13
+index: 0 - index: 1 - dominated
+Indexes: 
+04
+Not possible
+
+[[3, 1], [2, 2]]
+Indexes: 
+31
+A4-B2- - Admissable!!!
+TOTEST
+Indexes: 
+31
+Testing with:
+Indexes: 
+20
+Indexes: 
+11
+
+[[2, 2]]
+Indexes: 
+22
+A3-B3- - Admissable!!!
+TOTEST
+Indexes: 
+22
+Testing with:
+Indexes: 
+20
+
+Tested Solutions: 12
+Admissable Solutions
+--------------
+ -  Offering: A3 = 0.33 -  Offering: B1 = 0.45
+ -  Offering: A2 = 0.4 -  Offering: B2 = 0.4
+ -  Offering: A1 = 1.0 -  Offering: B3 = 0.33
+ -  Offering: A4 = 0.25 -  Offering: B1 = 0.45
+ -  Offering: A3 = 0.33 -  Offering: B2 = 0.4
+ -  Offering: A1 = 1.0 -  Offering: B4 = 0.25
+--------------
+Number of Admissable Solutions: 6
+Admissible Solutions
+
+[A3-0.33] - [B1-0.45] - 
+[A2-0.4] - [B2-0.4] - 
+[A1-1.0] - [B3-0.33] - 
+[A4-0.25] - [B1-0.45] - 
+[A3-0.33] - [B2-0.4] - 
+[A1-1.0] - [B4-0.25] - 
+Visited: 12
+Degree: 0.9166666666666666
+Depth: 2.3333333333333335
+Time: 14

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmc:XMCDA xmlns:xmc="http://www.decision-deck.org/2012/XMCDA-2.2.0">
+  <alternatives>
+    <alternative id="Offering_Heroku_Crane_Database" name="Offering Heroku Crane Databases"/>
+    <alternative id="Offering_Heroku_Zilla_Database" name="Offering Heroku Zilla Databases"/>
+    <alternative id="Offering_Heroku_Kappa_Database" name="Offering Heroku Kappa Databases"/>
+    <alternative id="Offering_Heroku_Fugu_Database" name="Offering Heroku Fugu Databases"/>
+    <alternative id="Offering_Heroku_Baku_Database" name="Offering Heroku Baku Databases"/>
+    <alternative id="Offering_Heroku_Ronin_Database" name="Offering Heroku Ronin Databases"/>
+    <alternative id="Offering_Heroku_Ika_Database" name="Offering Heroku Ika Databases"/>
+  </alternatives>
+  <criteria>
+    <criterion id="Crit4" name="StorageCapacity">
+      <scale mcdaConcept="PreferenceDirection">
+        <quantitative>
+          <preferenceDirection>max</preferenceDirection>
+        </quantitative>
+      </scale>
+      <scale mcdaConcept="Preference">
+        <qualitative>
+          <rankedLabel>
+            <rank>1</rank>
+            <label>1024.0</label>
+          </rankedLabel>
+        </qualitative>
+      </scale>
+    </criterion>
+    <criterion id="Crit9" name="price">
+      <scale mcdaConcept="PreferenceDirection">
+        <quantitative>
+          <preferenceDirection>min</preferenceDirection>
+        </quantitative>
+      </scale>
+      <scale mcdaConcept="Preference">
+        <qualitative>
+          <rankedLabel>
+            <rank>1</rank>
+            <label>50.0</label>
+          </rankedLabel>
+        </qualitative>
+      </scale>
+    </criterion>
+  </criteria>
+  <criteriaValues>
+    <criterionValue>
+      <criterionID>Crit4</criterionID>
+      <value>
+        <real>0.42857143</real>
+      </value>
+    </criterionValue>
+    <criterionValue>
+      <criterionID>Crit9</criterionID>
+      <value>
+        <real>0.5714286</real>
+      </value>
+    </criterionValue>
+  </criteriaValues>
+  <alternativesValues>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Crane_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>1.0</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Zilla_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.5079365079365079</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Kappa_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.9841269841269842</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Fugu_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.8888888888888888</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Baku_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.0</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Ronin_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.9523809523809523</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+    <alternativeValue>
+      <alternativeID>Offering_Heroku_Ika_Database</alternativeID>
+      <values>
+        <value name="price">
+          <label>0.7619047619047619</label>
+        </value>
+        <value name="StorageCapacity">
+          <label>1.0</label>
+        </value>
+      </values>
+    </alternativeValue>
+  </alternativesValues>
+  <methodParameters>
+    <parameter name="FileTimestamp">
+      <value>
+        <label>1370911573437</label>
+      </value>
+    </parameter>
+    <parameter name="ComponentID">
+      <value>
+        <label>Comp0</label>
+      </value>
+    </parameter>
+  </methodParameters>
+</xmc:XMCDA>

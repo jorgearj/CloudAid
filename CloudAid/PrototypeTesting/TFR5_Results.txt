@@ -1,0 +1,187 @@
+CSA CRITERIA: 
+Criterion [id=Crit3, name=price, wheight=1.0, preferenceDirection=min, preference=null, type=-1]
+STATUS: Search for Service Template: database
+SYSTEM: Exclusive Requirements:
+SYSTEM: Requirement [id=Req1, priority=0, description=null, qualType=null, quantType=STORAGECAPACITY, exclusivityMax=false, min=500.0, max=0.0, needed=false, qualValue=null, criterion=true, exclusive=true]
+SYSTEM: Requirement [id=Req2, priority=0, description=null, qualType=BACKUP_RECOVERY, quantType=null, exclusivityMax=false, min=0.0, max=0.0, needed=true, qualValue=null, criterion=false, exclusive=true]
+SYSTEM: Requirement [id=Req3, priority=0, description=null, qualType=PLATFORM, quantType=null, exclusivityMax=false, min=0.0, max=0.0, needed=true, qualValue=PostgreSQL, criterion=false, exclusive=true]
+SYSTEM: Requirement [id=Req4, priority=0, description=null, qualType=PLATFORM, quantType=null, exclusivityMax=false, min=0.0, max=0.0, needed=false, qualValue=MySQL, criterion=false, exclusive=true]
+SYSTEM: Requirement [id=Req17, priority=0, description=price must be bellow 4000, qualType=null, quantType=null, exclusivityMax=true, min=0.0, max=4000.0, needed=false, qualValue=null, criterion=true, exclusive=true]
+SYSTEM:  PREFIX core: <http://www.linked-usdl.org/ns/usdl-core#>  PREFIX price: <http://www.linked-usdl.org/ns/usdl-price#>  PREFIX pf: <http://jena.hpl.hp.com/ARQ/property#>  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  PREFIX gr: <http://purl.org/goodrelations/v1#>  PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>  PREFIX CloudTaxonomy: <http://rdfs.genssiz.org/CloudTaxonomy#> SELECT REDUCED ?offering ?finalPrice  WHERE {  {  SELECT REDUCED ?offering  WHERE {  ?offering rdf:type core:ServiceOffering .  ?offering core:includes ?a .  {  ?a gr:quantitativeProductOrServiceProperty CloudTaxonomy:StorageCapacity .  ?f gr:hasValue ?value  FILTER(?value >= 500.0)  }UNION{  ?a gr:quantitativeProductOrServiceProperty ?f .  ?f rdf:type CloudTaxonomy:StorageCapacity .  ?f gr:hasValue ?value  FILTER(?value >= 500.0)  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:quantitativeProductOrServiceProperty CloudTaxonomy:StorageCapacity .  ?f gr:hasValue ?value  FILTER(?value >= 500.0)  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:quantitativeProductOrServiceProperty ?f .  ?f rdf:type CloudTaxonomy:StorageCapacity .  ?f gr:hasValue ?value  FILTER(?value >= 500.0)  }  }  } . {  SELECT REDUCED ?offering  WHERE {  ?offering rdf:type core:ServiceOffering .  ?offering core:includes ?a .  {  ?a gr:qualitativeProductOrServiceProperty CloudTaxonomy:Backup_Recovery .  }UNION{  ?a gr:qualitativeProductOrServiceProperty ?f .  ?f rdf:type CloudTaxonomy:Backup_Recovery  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:qualitativeProductOrServiceProperty CloudTaxonomy:Backup_Recovery .  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:qualitativeProductOrServiceProperty ?f.  ?f rdf:type CloudTaxonomy:Backup_Recovery  }  }  } . {  SELECT REDUCED ?offering  WHERE {  ?offering rdf:type core:ServiceOffering .  ?offering core:includes ?a .  {  ?a gr:qualitativeProductOrServiceProperty ?f .  ?f rdf:type CloudTaxonomy:Platform .  ?f gr:name ?value  FILTER regex(?value, 'PostgreSQL', 'i')  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:qualitativeProductOrServiceProperty ?f.  ?f rdf:type CloudTaxonomy:Platform .  ?f gr:name ?value  FILTER regex(?value, 'PostgreSQL', 'i')  }  }  } . {  SELECT REDUCED ?offering  WHERE {  ?offering rdf:type core:ServiceOffering .  ?offering core:includes ?a .  MINUS{  {  ?a gr:qualitativeProductOrServiceProperty ?f .  ?f rdf:type CloudTaxonomy:Platform .  ?f gr:name ?value  FILTER regex(?value, 'MySQL', 'i')  }UNION{  ?a core:hasServiceModel ?model .  ?model gr:qualitativeProductOrServiceProperty ?f.  ?f rdf:type CloudTaxonomy:Platform .  ?f gr:name ?value  FILTER regex(?value, 'MySQL', 'i')  }  }  }  } . {  SELECT ?offering ?offeringPrice ?deduction ((?offeringPrice-?deduction)as ?finalPrice)  WHERE{  {  SELECT ?offering ?offeringPrice (COALESCE(?finalDeductPrice, 0) AS ?deduction)  WHERE{  {  SELECT ?offering (SUM(?price) AS ?offeringPrice)  WHERE{  ?offering rdf:type core:ServiceOffering .  ?offering price:hasPricePlan ?plan .  ?plan price:hasPriceComponent ?comp .  ?comp rdf:type price:PriceComponent .  ?comp price:hasPrice ?priceSpec .  ?priceSpec gr:hasCurrencyValue ?price  }  GROUP BY ?offering  }OPTIONAL{  SELECT ?offering (SUM(?deductPrice) AS ?finalDeductPrice)  WHERE{  ?offering rdf:type core:ServiceOffering .  ?offering price:hasPricePlan ?plan .  ?plan price:hasPriceComponent ?comp .  ?comp rdf:type price:Deduction .  ?comp price:hasPrice ?priceSpec .  ?priceSpec gr:hasCurrencyValue ?deductPrice  }  GROUP BY ?offering  }  }  }  FILTER((?offeringPrice-?deduction) <= 4000.0)  }  }  }
+Number of alternatives found:7
+SYSTEM - Offering_Heroku_Crane_Database = 50.0
+SYSTEM - Offering_Heroku_Zilla_Database = 1600.0
+SYSTEM - Offering_Heroku_Kappa_Database = 100.0
+SYSTEM - Offering_Heroku_Fugu_Database = 400.0
+SYSTEM - Offering_Heroku_Baku_Database = 3200.0
+SYSTEM - Offering_Heroku_Ronin_Database = 200.0
+SYSTEM - Offering_Heroku_Ika_Database = 800.0
+SYSTEM: Query Execution Time: 151700000
+SYSTEM: Convertion Execution Time: 27016000
+SYSTEM: Offering Heroku Crane Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Zilla Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Kappa Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Fugu Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Baku Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Ronin Databases
+SYSTEM: StorageCapacity - 1024.0
+SYSTEM: Offering Heroku Ika Databases
+SYSTEM: StorageCapacity - 1024.0
+  - ALTERNATIVE: Offering Heroku Crane Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Crane_Cache, description=null, valueFloat=0.39, unitOfMeasurement=MB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 50.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Zilla Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Zilla_Cache, description=null, valueFloat=17.0, unitOfMeasurement=GB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 1600.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Kappa Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Kappa_Cache, description=null, valueFloat=0.781, unitOfMeasurement=MB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 100.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Fugu Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Fugu_Cache, description=null, valueFloat=3.75, unitOfMeasurement=GB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 400.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Baku Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Baku_Cache, description=null, valueFloat=34.0, unitOfMeasurement=GB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 3200.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Ronin Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Ronin_Cache, description=null, valueFloat=1.7, unitOfMeasurement=GB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 200.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
+
+  - ALTERNATIVE: Offering Heroku Ika Databases
+      - Qualitative Features
+         - QualitativeFeature [name=Direct_Psql_Access, description=null, type=OTHER_INTERFACE]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=DURABILITY]
+         - QualitativeFeature [name=Continuos_Protection, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=COMMAND_LINE]
+         - QualitativeFeature [name=Follow, description=null, type=REPLICATION]
+         - QualitativeFeature [name=Multi_Ingress, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=RELIABILITY]
+         - QualitativeFeature [name=Automatic_Health_Checks, description=null, type=BACKUP_RECOVERY]
+         - QualitativeFeature [name=Fork, description=null, type=REPLICATION]
+         - QualitativeFeature [name=PostgreSQL, description=null, type=PLATFORM]
+         - QualitativeFeature [name=Data_Clips, description=null, type=OTHER_INTERFACE]
+      - Quantitative Features
+         - QuantitativeFeature [name=resource_Heroku_Ika_Cache, description=null, valueFloat=7.5, unitOfMeasurement=GB, type=CACHESIZE]
+         - QuantitativeFeature [name=resource_Heroku_Database_Disk_Storage, description=null, valueFloat=1024.0, unitOfMeasurement=GB, type=STORAGECAPACITY]
+         - QuantitativeFeature [name=resource_Heroku_Database_Availability, description=null, valueFloat=99.95, unitOfMeasurement=null, type=AVAILABILITY]
+      - Attributes
+        - price = 800.0
+        - StorageCapacity = 1024.0
+      - Attribute Weights
