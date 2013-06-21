@@ -1,0 +1,2472 @@
+
+-----------------------------------------------------
+Test Number: 1
+Price limit: 2180.6676871906616
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 3.906959247510707
+   - Prices: [86.78988946442092, 837.0325390810501, 824.2120428039334, 671.2032311350731, 218.96877809295563, 629.928469549996, 282.59815360753595, 972.165217053126, 312.85683833623216]
+   - Performances: [1.0, 0.5235494196542012, 0.36046352989010766, 0.24187687013533812, 0.15579548620781455, 0.02044074954302989, 0.01883176282159866, 0.01847922556119303, 8.657709388400336E-4]
+ - Template 1:
+   - #Alternatives: 4
+   - Weight: 2.4478765818883765
+   - Prices: [934.2457790648983, 50.43989672627016, 794.2542673790512, 897.6798911534046]
+   - Performances: [1.0, 0.5001360777025063, 0.06924715125431112, 0.058104800062265004]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 4.2760476013294015
+   - Prices: [526.0645175793207, 720.5837533778222, 966.2085783395601, 741.001074673845, 50.718521936015236, 92.71466456841668]
+   - Performances: [1.0, 0.7861953173308642, 0.17655405384809447, 0.004175382102778643, 0.0026028634103732076, 0.0015895700613255859]
+ - Template 3:
+   - #Alternatives: 7
+   - Weight: 4.630750299449645
+   - Prices: [805.9043466809471, 642.4769741704321, 795.364324708051, 132.00351632489384, 184.5541419464159, 817.6850672259535, 554.9798770763725]
+   - Performances: [1.0, 0.8148730596027307, 0.7859783675473087, 0.4173781302702417, 0.2665809543834861, 0.18746277081238624, 0.029321829306904662]
+ - Template 4:
+   - #Alternatives: 4
+   - Weight: 1.7168400864774749
+   - Prices: [26.03354550641635, 17.86572717593542, 386.37008823061933, 482.3057044509389]
+   - Performances: [1.0, 0.314123589993893, 0.09908321298212971, 0.04769374554377132]
+Number of Combinations: 6048
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9997998799279568
+SYSTEM: Average Depth (delta=0.1): 12.47148288973384
+SYSTEM: Average Visited Nodes (delta=0.1): 4997
+SYSTEM: Average Execution Time (delta=0.1): 2189ms
+
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9997998799279568
+SYSTEM: Average Depth (delta=0.05): 12.47148288973384
+SYSTEM: Average Visited Nodes (delta=0.05): 4997
+SYSTEM: Average Execution Time (delta=0.05): 1590ms
+
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9997998799279568
+SYSTEM: Average Depth (delta=0.01): 12.47148288973384
+SYSTEM: Average Visited Nodes (delta=0.01): 4997
+SYSTEM: Average Execution Time (delta=0.01): 1593ms
+
+
+-----------------------------------------------------
+Test Number: 2
+Price limit: 1142.9004334603956
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 3.437069199073992
+   - Prices: [531.4664597503512]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 3
+   - Weight: 2.017017717860153
+   - Prices: [166.1218011011875, 638.2902485221182, 449.4623415664876]
+   - Performances: [1.0, 0.07721746996319157, 0.07370273072265353]
+ - Template 2:
+   - #Alternatives: 5
+   - Weight: 1.0465348771571032
+   - Prices: [861.0109970198231, 377.7204187261677, 913.9688970073477, 794.8695545172233, 322.3043671556285]
+   - Performances: [1.0, 0.8003928109571583, 0.23108561395530677, 0.015322831493952273, 0.015108952016017729]
+Number of Combinations: 15
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.8
+SYSTEM: Average Depth (delta=0.1): 1.2
+SYSTEM: Average Visited Nodes (delta=0.1): 5
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.8
+SYSTEM: Average Depth (delta=0.05): 1.2
+SYSTEM: Average Visited Nodes (delta=0.05): 5
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.8
+SYSTEM: Average Depth (delta=0.01): 1.2
+SYSTEM: Average Visited Nodes (delta=0.01): 5
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 3
+Price limit: 1938.7835062878992
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 3.7313047306189437
+   - Prices: [886.2620334566395, 700.4480074246912]
+   - Performances: [1.0, 0.6268704408301382]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 3.5307949074746663
+   - Prices: [301.49606395491173, 667.0976221133288, 124.2413784621822, 610.3672818022088, 393.4298126696305, 508.98114942738874, 709.9369367389311, 484.95300943306444, 347.65374186405626]
+   - Performances: [1.0, 0.7905414231610832, 0.14865969872543083, 0.08593101193133368, 0.08043630847498531, 0.018452128651698835, 0.012213309951829468, 0.009444866738602935, 0.005159197794321749]
+ - Template 2:
+   - #Alternatives: 1
+   - Weight: 2.617187622331915
+   - Prices: [676.3779057574119]
+   - Performances: [1.0]
+Number of Combinations: 18
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 4
+Price limit: 494.3738544159354
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 1.6666493600509704
+   - Prices: [484.6687868465157, 502.5812347263211]
+   - Performances: [1.0, 0.7961381314427445]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 2.9471352658482797
+   - Prices: [414.4431577673389, 74.9555687157848, 964.0069651686523, 693.3834326822588, 818.4660382369572, 246.02282758435152]
+   - Performances: [1.0, 0.19618226417251705, 0.0480948595104062, 0.022375016323983716, 8.888858637457477E-4, 7.419658184695117E-4]
+ - Template 2:
+   - #Alternatives: 1
+   - Weight: 3.766288987452667
+   - Prices: [133.23717610155376]
+   - Performances: [1.0]
+ - Template 3:
+   - #Alternatives: 8
+   - Weight: 2.3530656028615837
+   - Prices: [480.2942499757513, 712.8010817530626, 99.89903689939666, 260.9628578078161, 839.0314001274174, 437.70398089900226, 972.9572362990147, 847.3223460723855]
+   - Performances: [1.0, 0.033140303615147415, 0.014476858616542033, 0.01281229076448375, 0.0036612288294750103, 5.071523816819349E-4, 1.1264454037991448E-4, 7.356893482652778E-5]
+Number of Combinations: 96
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9895833333333334
+SYSTEM: Average Depth (delta=0.1): 6.5
+SYSTEM: Average Visited Nodes (delta=0.1): 96
+SYSTEM: Average Execution Time (delta=0.1): 7ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9895833333333334
+SYSTEM: Average Depth (delta=0.05): 6.5
+SYSTEM: Average Visited Nodes (delta=0.05): 96
+SYSTEM: Average Execution Time (delta=0.05): 2ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9895833333333334
+SYSTEM: Average Depth (delta=0.01): 6.5
+SYSTEM: Average Visited Nodes (delta=0.01): 96
+SYSTEM: Average Execution Time (delta=0.01): 2ms
+
+
+-----------------------------------------------------
+Test Number: 5
+Price limit: 792.8005879528146
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 5
+   - Weight: 2.4800915119491274
+   - Prices: [676.7108684553781, 329.550962356742, 814.8825387177836, 196.44613006903577, 318.6215364593923]
+   - Performances: [1.0, 0.009572981257129243, 0.003650401757183461, 0.0015070580990154735, 4.664741911665765E-4]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 1.111459281800862
+   - Prices: [377.44754233603084, 165.20838490281125, 198.44836821407324, 24.471799786729594, 790.113738572911, 886.7921205259124]
+   - Performances: [1.0, 0.37567845648058196, 0.0769617080899487, 0.04122619483192516, 0.0037112169281626906, 0.0030356221298397917]
+ - Template 2:
+   - #Alternatives: 5
+   - Weight: 1.332752126554416
+   - Prices: [51.20439972272, 698.5928331326705, 798.8938584015974, 663.4205530429668, 386.3250323487615]
+   - Performances: [1.0, 0.6480549948645487, 0.2120543381685631, 0.042492365595996104, 0.01621055475255362]
+Number of Combinations: 150
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9863013698630136
+SYSTEM: Average Depth (delta=0.1): 5.890410958904109
+SYSTEM: Average Visited Nodes (delta=0.1): 73
+SYSTEM: Average Execution Time (delta=0.1): 2ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9863013698630136
+SYSTEM: Average Depth (delta=0.05): 5.890410958904109
+SYSTEM: Average Visited Nodes (delta=0.05): 73
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9859154929577465
+SYSTEM: Average Depth (delta=0.01): 5.929577464788732
+SYSTEM: Average Visited Nodes (delta=0.01): 71
+SYSTEM: Average Execution Time (delta=0.01): 2ms
+
+
+-----------------------------------------------------
+Test Number: 6
+Price limit: 704.3107792124748
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 6
+   - Weight: 2.095634812542676
+   - Prices: [488.4716200243018, 255.63689908457945, 141.54063984743647, 917.6453529235715, 847.529678123511, 133.84388030560808]
+   - Performances: [1.0, 0.7183986195578849, 0.44487780099080726, 0.35529205580436174, 0.07129885185766886, 0.024892729296074747]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 4.3390165185967895
+   - Prices: [348.38397761486095, 669.6044549206763, 748.9311473755107, 965.5567983038205, 340.57699752502685, 641.6187846453649, 469.14945373196326, 85.83412946638356, 632.20669826121]
+   - Performances: [1.0, 0.035417312525397815, 0.022510017707542535, 0.013753346922168399, 0.012315988819696179, 0.0011385959442047717, 5.815089191979976E-4, 3.115704997550576E-4, 2.5996968015878485E-4]
+ - Template 2:
+   - #Alternatives: 4
+   - Weight: 4.394097312837918
+   - Prices: [120.87820468509038, 341.9412071850988, 818.8036725193093, 669.1200233942327]
+   - Performances: [1.0, 0.6041009233158412, 0.16151419112611382, 0.016957477978259108]
+ - Template 3:
+   - #Alternatives: 9
+   - Weight: 1.5857279109325049
+   - Prices: [83.69045883764176, 116.35953101115061, 312.8305232297251, 148.50703882137566, 257.14664890903856, 710.7356340258469, 496.5180307555439, 887.428782241393, 2.4736099246850065]
+   - Performances: [1.0, 0.26723706986917195, 0.09902015442150269, 0.07922403545508278, 0.029437043714554228, 0.004874572801138867, 0.0029541610927750223, 0.002835494741648165, 6.559816315372615E-4]
+ - Template 4:
+   - #Alternatives: 3
+   - Weight: 1.9360710466710946
+   - Prices: [319.7236745749045, 422.05536321339423, 369.6540311062954]
+   - Performances: [1.0, 0.05232397755135354, 0.03804515373457059]
+ - Template 5:
+   - #Alternatives: 9
+   - Weight: 1.8581218832750155
+   - Prices: [678.4108009393302, 250.7695380181229, 962.7865146372935, 957.3789948129178, 461.5077063232963, 832.3929597190831, 496.0545846513401, 238.72510901057782, 627.7186225057003]
+   - Performances: [1.0, 0.5994091081295903, 0.13682411481591789, 0.008770555857277394, 0.0041773196806465344, 0.0016643186657984586, 6.676042382994196E-4, 3.3595505143314185E-4, 5.079170990663083E-5]
+Number of Combinations: 52488
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9999809480262155
+SYSTEM: Average Depth (delta=0.1): 17.0
+SYSTEM: Average Visited Nodes (delta=0.1): 52488
+SYSTEM: Average Execution Time (delta=0.1): 247536ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9999809480262155
+SYSTEM: Average Depth (delta=0.05): 17.0
+SYSTEM: Average Visited Nodes (delta=0.05): 52488
+SYSTEM: Average Execution Time (delta=0.05): 239677ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9999809480262155
+SYSTEM: Average Depth (delta=0.01): 17.0
+SYSTEM: Average Visited Nodes (delta=0.01): 52488
+SYSTEM: Average Execution Time (delta=0.01): 231869ms
+
+
+-----------------------------------------------------
+Test Number: 7
+Price limit: 742.0082921509103
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 1.186210172173766
+   - Prices: [879.6085252475928, 613.1787133774106]
+   - Performances: [1.0, 0.25827853006852575]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 3.909354479775647
+   - Prices: [761.9379164263929, 209.18040126097006, 665.4173056744609, 778.9325240070895, 540.3227837625788, 488.69305863144143, 957.2270202261286, 878.9864677926942]
+   - Performances: [1.0, 0.8482067816837118, 0.18825546147213534, 0.04867400141367551, 0.011358545233545337, 0.0036667327485241093, 0.0036470923496239507, 1.3264106480899977E-4]
+Number of Combinations: 16
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9375
+SYSTEM: Average Depth (delta=0.1): 4.0
+SYSTEM: Average Visited Nodes (delta=0.1): 16
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9375
+SYSTEM: Average Depth (delta=0.05): 4.0
+SYSTEM: Average Visited Nodes (delta=0.05): 16
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9375
+SYSTEM: Average Depth (delta=0.01): 4.0
+SYSTEM: Average Visited Nodes (delta=0.01): 16
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 8
+Price limit: 198.6393213703536
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 4.436771106642767
+   - Prices: [303.66255917950326, 897.9637909457128, 442.1237573611156, 381.3063647146355, 779.0250749473857, 712.0610599353106, 841.5466905161055, 272.520095833509]
+   - Performances: [1.0, 0.9542705175160475, 0.14454985737358256, 0.004127674286061409, 0.0037186105877853996, 0.0011559604051669802, 8.358566849374344E-5, 1.3798464771580694E-5]
+ - Template 1:
+   - #Alternatives: 3
+   - Weight: 2.2563650172073344
+   - Prices: [914.7891981196901, 698.4253340268527, 285.3451619051959]
+   - Performances: [1.0, 0.49857069819656075, 0.10637686140617009]
+Number of Combinations: 24
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9583333333333334
+SYSTEM: Average Depth (delta=0.1): 4.5
+SYSTEM: Average Visited Nodes (delta=0.1): 24
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9583333333333334
+SYSTEM: Average Depth (delta=0.05): 4.5
+SYSTEM: Average Visited Nodes (delta=0.05): 24
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9583333333333334
+SYSTEM: Average Depth (delta=0.01): 4.5
+SYSTEM: Average Visited Nodes (delta=0.01): 24
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 9
+Price limit: 711.7887446556259
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 6
+   - Weight: 1.8366689309146558
+   - Prices: [285.0790898041806, 303.01990218151985, 345.8279952650221, 387.0199952302222, 890.7555249055905, 191.4148285277858]
+   - Performances: [1.0, 0.24245501420837834, 0.05567404779966969, 0.04599616216559002, 0.010052059526781407, 0.007868745106662023]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 3.5960288042665285
+   - Prices: [461.88578112672, 52.78598231666406, 387.7135383158725, 757.3782081916586, 212.06789883262854, 147.2023684115411, 276.1198758266943, 44.791412337904745, 98.62706736953915]
+   - Performances: [1.0, 0.3568597544299221, 0.35652033708181435, 0.18032977026572414, 0.10383633917133463, 0.006659316337061825, 0.004496308528372389, 5.027401988987547E-4, 4.588442559971071E-4]
+Number of Combinations: 54
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9473684210526315
+SYSTEM: Average Depth (delta=0.1): 5.157894736842105
+SYSTEM: Average Visited Nodes (delta=0.1): 19
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9473684210526315
+SYSTEM: Average Depth (delta=0.05): 5.157894736842105
+SYSTEM: Average Visited Nodes (delta=0.05): 19
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9473684210526315
+SYSTEM: Average Depth (delta=0.01): 5.157894736842105
+SYSTEM: Average Visited Nodes (delta=0.01): 19
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 10
+Price limit: 4796.667710159799
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 2.4560760860739186
+   - Prices: [406.62432152720953, 732.6358987340817, 52.548936954292664, 263.04167256346904, 971.9098321088205, 216.24050598185738, 759.6658484753689, 405.6448374041111, 232.3190883107225]
+   - Performances: [1.0, 0.28448544524353414, 0.05361259914415085, 0.019116574209585076, 0.002850476631539441, 0.0017468993333455488, 0.0014171309126855666, 5.201311982181762E-4, 2.4603671544769066E-4]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 3.483827642982901
+   - Prices: [820.4017788226458, 558.5856911076689, 1.0405043602764736, 302.87995184163833, 898.8130908918776, 134.1487375712854, 134.9170332921204]
+   - Performances: [1.0, 0.6199810950672633, 0.21633091045969394, 0.05634642335427143, 0.01579907657811579, 0.01359540470958634, 0.010229840844981115]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 4.057330973700836
+   - Prices: [895.3356594432668, 361.3614672462674, 419.5915959170867, 448.01305679866147, 555.3248328248662, 478.40310540772794, 670.1008423107047]
+   - Performances: [1.0, 0.5591717176342352, 0.5200933031352757, 0.08177794454967535, 0.03208078691448069, 0.019467144935672552, 8.188532837693569E-4]
+ - Template 3:
+   - #Alternatives: 1
+   - Weight: 4.87184222078433
+   - Prices: [630.4666914921423]
+   - Performances: [1.0]
+ - Template 4:
+   - #Alternatives: 3
+   - Weight: 4.413728675790884
+   - Prices: [331.99884983979484, 652.369756809063, 706.701061487965]
+   - Performances: [1.0, 0.7261409473088596, 0.16391269156630175]
+ - Template 5:
+   - #Alternatives: 4
+   - Weight: 4.380491941684735
+   - Prices: [568.0503683094901, 646.743516215645, 936.2573156896223, 692.319332475465]
+   - Performances: [1.0, 0.00990639661280679, 0.004653189887469442, 0.002881279494917792]
+Number of Combinations: 5292
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 11
+Price limit: 2584.139544584638
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 3.1225127581835257
+   - Prices: [471.749458215086, 47.84668035103358, 295.3950246360997, 834.6932186367056, 486.89870550985546, 208.2969547419544, 617.0973266286444, 543.2782424478073]
+   - Performances: [1.0, 0.3619855407745134, 0.13231453869921456, 0.1291252179453143, 0.0027518675866861214, 0.0021367138019168777, 0.001709742931305024, 0.001014504108689813]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 3.3911650856816173
+   - Prices: [639.4352561170115, 606.4879994752349, 751.8486422645047, 150.307925536087, 842.2044218421233, 923.2902760994677]
+   - Performances: [1.0, 0.6251270053586602, 0.48843713014830425, 0.04843811203957874, 0.01865549811944797, 0.013743489132467415]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 3.19249086048855
+   - Prices: [154.75817918642366, 628.2746317887485, 311.3435985641581, 138.65698994238247, 461.9652253416931, 401.4500228728885]
+   - Performances: [1.0, 0.35822004968394694, 0.0842640191685631, 0.026186182088158084, 0.017259014130614463, 0.015938707003014686]
+ - Template 3:
+   - #Alternatives: 7
+   - Weight: 4.8016994007156635
+   - Prices: [118.53336788252629, 865.9100404747595, 111.38495424592504, 385.32489591091183, 723.0394817470562, 568.443666728339, 835.9901902722931]
+   - Performances: [1.0, 0.11477313681872015, 0.08376435864369357, 0.04033705655232706, 0.027994837625641554, 0.026436501671905387, 0.012738392133815812]
+ - Template 4:
+   - #Alternatives: 2
+   - Weight: 2.860436885540129
+   - Prices: [975.3521505727289, 116.00503993787403]
+   - Performances: [1.0, 0.9839597560398274]
+Number of Combinations: 4032
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.5
+SYSTEM: Average Depth (delta=0.1): 0.5
+SYSTEM: Average Visited Nodes (delta=0.1): 2
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.5
+SYSTEM: Average Depth (delta=0.05): 0.5
+SYSTEM: Average Visited Nodes (delta=0.05): 2
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 12
+Price limit: 1937.3934739083638
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 3.7535548876911586
+   - Prices: [329.752649539065]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 1.741101891149731
+   - Prices: [723.2536899642955, 712.744575329734, 768.6091749933735, 742.0444629819403, 245.20276651422128, 909.786742086004, 762.1517591705858, 799.3639067072028]
+   - Performances: [1.0, 0.2399388498531545, 0.10217872697097197, 0.05203962288511102, 0.04207251762698699, 0.010069786184857703, 0.002166740238286475, 0.001259628237744105]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 3.911976834205345
+   - Prices: [699.3504101619957, 178.86788658688812, 460.6362983684884, 914.6284180680542, 195.71014242862645, 937.9003871832507, 828.2824710276531, 547.148355534646]
+   - Performances: [1.0, 0.8902762590791578, 0.30996796541828114, 0.12784011114319285, 0.12041317789116165, 0.093508307544441, 0.06402051836142222, 0.06380504339387176]
+Number of Combinations: 64
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 13
+Price limit: 115.91056742610994
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 2.139810034104242
+   - Prices: [206.3887861483178]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 1
+   - Weight: 1.5369277604533085
+   - Prices: [860.7988191313]
+   - Performances: [1.0]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 2.8145028708202737
+   - Prices: [862.1241391460956, 22.13799905179641, 832.3211247454446, 684.0076924149662, 947.1215130793329, 389.2962457538899]
+   - Performances: [1.0, 0.9425528247511143, 0.07989157385736864, 0.06526089467092386, 0.020114194715321318, 0.005389129433617644]
+Number of Combinations: 6
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.8333333333333334
+SYSTEM: Average Depth (delta=0.1): 2.5
+SYSTEM: Average Visited Nodes (delta=0.1): 6
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.8333333333333334
+SYSTEM: Average Depth (delta=0.05): 2.5
+SYSTEM: Average Visited Nodes (delta=0.05): 6
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.8333333333333334
+SYSTEM: Average Depth (delta=0.01): 2.5
+SYSTEM: Average Visited Nodes (delta=0.01): 6
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 14
+Price limit: 1766.5377248568095
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 4.748613845000539
+   - Prices: [719.0931077494031, 672.04126771404, 219.972651892654]
+   - Performances: [1.0, 0.10628712597115131, 0.019470240462526118]
+ - Template 1:
+   - #Alternatives: 5
+   - Weight: 2.6287859908061852
+   - Prices: [773.3890813288557, 822.9371041582144, 201.36755807845518, 431.36451474282126, 62.681573696165074]
+   - Performances: [1.0, 0.3767043103755461, 0.3479856523467374, 0.336808257495535, 0.19256934593585265]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 1.9818779620354157
+   - Prices: [988.995317161417, 12.121724968873806]
+   - Performances: [1.0, 0.7709721830887124]
+Number of Combinations: 30
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.95
+SYSTEM: Average Depth (delta=0.1): 3.0
+SYSTEM: Average Visited Nodes (delta=0.1): 20
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9473684210526315
+SYSTEM: Average Depth (delta=0.05): 2.8421052631578947
+SYSTEM: Average Visited Nodes (delta=0.05): 19
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9473684210526315
+SYSTEM: Average Depth (delta=0.01): 2.8421052631578947
+SYSTEM: Average Visited Nodes (delta=0.01): 19
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 15
+Price limit: 738.4474992626592
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 4.670635975557812
+   - Prices: [428.05870639220615, 722.8671961324497, 561.2966715581465, 196.97967955183574, 248.8977670453046, 453.5787064920799, 754.3610327302135, 502.437537093373, 141.29079888496943]
+   - Performances: [1.0, 0.3470726116234213, 0.15742151125248213, 0.07834820343724389, 0.058265153203363416, 0.050456457505193404, 0.012074506198553114, 3.4315202086766214E-4, 7.847942139551238E-5]
+ - Template 1:
+   - #Alternatives: 5
+   - Weight: 4.6999303766130724
+   - Prices: [958.5965183803264, 293.852166886558, 715.7763663750114, 976.3399337460594, 48.28105726688626]
+   - Performances: [1.0, 0.23253046524627474, 0.18573876960108104, 0.08239230840931144, 0.058166496611240806]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 2.1698815972271253
+   - Prices: [281.7995950056572, 737.9669596089267, 753.4981661843528, 534.2435928991421, 27.288136958255375, 9.006383543038051]
+   - Performances: [1.0, 0.2219771669849291, 0.16462661361162115, 0.09059518726835782, 0.01447286147065875, 0.00790674694241789]
+Number of Combinations: 270
+Number of Admissible Solutions: 7
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9962825278810409
+SYSTEM: Average Depth (delta=0.1): 8.468401486988848
+SYSTEM: Average Visited Nodes (delta=0.1): 269
+SYSTEM: Average Execution Time (delta=0.1): 6ms
+
+Number of Admissible Solutions: 7
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9962825278810409
+SYSTEM: Average Depth (delta=0.05): 8.468401486988848
+SYSTEM: Average Visited Nodes (delta=0.05): 269
+SYSTEM: Average Execution Time (delta=0.05): 6ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9962825278810409
+SYSTEM: Average Depth (delta=0.01): 8.468401486988848
+SYSTEM: Average Visited Nodes (delta=0.01): 269
+SYSTEM: Average Execution Time (delta=0.01): 5ms
+
+
+-----------------------------------------------------
+Test Number: 16
+Price limit: 397.9179730384671
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 3.731323588624916
+   - Prices: [592.942028671293, 474.1570773694638]
+   - Performances: [1.0, 0.7324972894259902]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 4.083896403958348
+   - Prices: [536.6232177166168, 28.121862856971408, 510.15227851622944, 482.7977740742316, 685.5329598368179, 986.9115687112135]
+   - Performances: [1.0, 0.5150046368770409, 0.1327672851325837, 0.007265811266755041, 0.005125959614482738, 6.202560560961785E-4]
+Number of Combinations: 12
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.1): 3.0
+SYSTEM: Average Visited Nodes (delta=0.1): 12
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.05): 3.0
+SYSTEM: Average Visited Nodes (delta=0.05): 12
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.01): 3.0
+SYSTEM: Average Visited Nodes (delta=0.01): 12
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 17
+Price limit: 220.50359307926877
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 5
+   - Weight: 2.296433496833172
+   - Prices: [184.50720925988097, 947.3316455004754, 5.683972316685063, 530.295607915221, 599.8335886585681]
+   - Performances: [1.0, 0.1674013474061824, 0.11990917113404723, 0.10703894207963179, 0.06679140133742806]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 4.679555234076378
+   - Prices: [717.8252215493377, 324.79532283816303, 442.26420481448946, 67.13031601297574, 856.5751320469831, 836.2514160378746, 335.59504258477943]
+   - Performances: [1.0, 0.6105780747106773, 0.4947845342080903, 0.3453438431030483, 0.34054893650319223, 0.1664049112024748, 0.0724689070612171]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 3.9828538171930945
+   - Prices: [217.58188225331565, 301.5245884996702, 424.54331798071655, 316.56898340710467, 124.19009212745233, 468.4081986242008, 889.4657332833625, 805.0804528170547]
+   - Performances: [1.0, 0.46436019315600574, 0.010791337572239467, 9.630880767887294E-4, 8.294644465652433E-4, 1.4728152525897572E-4, 7.349276885763878E-5, 3.4910633692309824E-5]
+ - Template 3:
+   - #Alternatives: 2
+   - Weight: 2.104064433587164
+   - Prices: [701.2853006665805, 775.4623724261203]
+   - Performances: [1.0, 0.7081088922677758]
+Number of Combinations: 560
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9982142857142857
+SYSTEM: Average Depth (delta=0.1): 9.0
+SYSTEM: Average Visited Nodes (delta=0.1): 560
+SYSTEM: Average Execution Time (delta=0.1): 32ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9982142857142857
+SYSTEM: Average Depth (delta=0.05): 9.0
+SYSTEM: Average Visited Nodes (delta=0.05): 560
+SYSTEM: Average Execution Time (delta=0.05): 43ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9982142857142857
+SYSTEM: Average Depth (delta=0.01): 9.0
+SYSTEM: Average Visited Nodes (delta=0.01): 560
+SYSTEM: Average Execution Time (delta=0.01): 28ms
+
+
+-----------------------------------------------------
+Test Number: 18
+Price limit: 244.42248052789483
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 3.3957684891773416
+   - Prices: [753.0183511552054, 991.555182036518, 170.00493248280665]
+   - Performances: [1.0, 0.28198052982351096, 0.12777056830914404]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 3.9017697018976794
+   - Prices: [637.8685492115397, 695.7141352596677, 621.3519284633155, 728.5066594286379, 307.68793632062386, 160.10819979618185, 457.73942751346885]
+   - Performances: [1.0, 0.17739626830488642, 0.07518596217978271, 0.025098073180945486, 0.005992013347781106, 0.003540868459528776, 4.06810648168713E-5]
+Number of Combinations: 21
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.1): 4.0
+SYSTEM: Average Visited Nodes (delta=0.1): 21
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.05): 4.0
+SYSTEM: Average Visited Nodes (delta=0.05): 21
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.01): 4.0
+SYSTEM: Average Visited Nodes (delta=0.01): 21
+SYSTEM: Average Execution Time (delta=0.01): 1ms
+
+
+-----------------------------------------------------
+Test Number: 19
+Price limit: 427.9976800334898
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 4.194917148394303
+   - Prices: [245.18640168886725, 877.8062711266691, 293.52154688516765]
+   - Performances: [1.0, 0.20831347325456107, 0.10264004481572542]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 4.671708784049386
+   - Prices: [393.5168507197885, 576.1434290581461, 185.72017803502314, 555.8640603382656, 506.50141305702, 474.72250989840444, 927.5782515134416]
+   - Performances: [1.0, 0.9095258837233533, 0.5094975719805973, 0.12620594757022882, 0.10758079863716949, 0.0865100184311604, 0.05357793156079421]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 3.7202700895410645
+   - Prices: [684.6087724066808, 144.1960098363875]
+   - Performances: [1.0, 0.14883495909248623]
+ - Template 3:
+   - #Alternatives: 5
+   - Weight: 2.8352245324012726
+   - Prices: [683.5932628359791, 441.68738480171135, 186.27057151349265, 130.10087031179486, 715.1925109574239]
+   - Performances: [1.0, 0.17914683778057583, 0.09377934180598188, 0.05546286139982413, 0.02759036919645174]
+Number of Combinations: 210
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9952380952380953
+SYSTEM: Average Depth (delta=0.1): 6.5
+SYSTEM: Average Visited Nodes (delta=0.1): 210
+SYSTEM: Average Execution Time (delta=0.1): 9ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9952380952380953
+SYSTEM: Average Depth (delta=0.05): 6.5
+SYSTEM: Average Visited Nodes (delta=0.05): 210
+SYSTEM: Average Execution Time (delta=0.05): 9ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9952380952380953
+SYSTEM: Average Depth (delta=0.01): 6.5
+SYSTEM: Average Visited Nodes (delta=0.01): 210
+SYSTEM: Average Execution Time (delta=0.01): 6ms
+
+
+-----------------------------------------------------
+Test Number: 20
+Price limit: 1937.466223694595
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 3.0591630088938233
+   - Prices: [742.4844722037346, 458.61617291543894, 7.108543258759664, 424.6503940682432, 612.4396590644272, 901.2410792595173, 693.0357503257674, 106.15013744317895, 605.0795560248134]
+   - Performances: [1.0, 0.6804392739380425, 0.5524574996240924, 0.05920990528486067, 0.030069949772222708, 0.026378226855297074, 0.018386409882476366, 0.01241618014593743, 0.0011933176521014587]
+ - Template 1:
+   - #Alternatives: 4
+   - Weight: 1.7392590595448545
+   - Prices: [956.9167924185188, 85.94946065264413, 664.8919884617922, 2.5404310127474488]
+   - Performances: [1.0, 0.8360399658779856, 0.7589415272620708, 0.35175619808353753]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 1.304610429809851
+   - Prices: [607.8453443291219, 701.122271206328]
+   - Performances: [1.0, 0.4701124875937197]
+Number of Combinations: 72
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.1): 2.2666666666666666
+SYSTEM: Average Visited Nodes (delta=0.1): 15
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.8888888888888888
+SYSTEM: Average Depth (delta=0.05): 1.6666666666666667
+SYSTEM: Average Visited Nodes (delta=0.05): 9
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.8888888888888888
+SYSTEM: Average Depth (delta=0.01): 1.6666666666666667
+SYSTEM: Average Visited Nodes (delta=0.01): 9
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 21
+Price limit: 1446.362998558497
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 3.596754343470783
+   - Prices: [14.473054331530905, 689.2140101895664, 242.75983795590193, 872.7493896649523, 579.2734868540579, 961.9186652674254, 844.7526131390906, 250.84743075150772]
+   - Performances: [1.0, 0.5515202214880295, 0.25343629164655007, 0.20690913129305435, 0.014232375997462271, 7.744916005437373E-4, 5.181341056709815E-4, 3.5965147664049324E-4]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 3.8838344048309987
+   - Prices: [187.22040151729288, 881.4216602081555, 594.8092759953583, 610.7639153830627, 838.7442689942361, 305.4764409211357]
+   - Performances: [1.0, 0.19770253862371368, 0.023409806197289922, 0.011972442137145019, 0.01099066100833453, 0.0033984300138366146]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 1.3432730391126837
+   - Prices: [657.9017816395626, 588.9649356523244, 640.2519616038454, 174.7609583646746, 846.390604264314, 419.80922182728665, 282.4198651524738]
+   - Performances: [1.0, 0.5813063452408631, 0.5040309161090792, 0.2720227972240699, 0.05918254330843246, 0.016413015686985805, 0.0015745443162366345]
+Number of Combinations: 336
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 22
+Price limit: 794.1081344542134
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 7
+   - Weight: 2.547239526931519
+   - Prices: [932.0187818044806, 29.68347754487548, 524.6151782798657, 542.5392326325546, 439.7363033603474, 606.0670995897559, 188.12235600305425]
+   - Performances: [1.0, 0.7619858771857859, 0.4537778888637741, 0.23715950182011536, 0.20229092911401567, 0.131882169466743, 0.02914140114499532]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 4.63502106526269
+   - Prices: [768.9306442762248, 436.4941967511467, 787.086146429717, 280.97846271590316, 933.2236891365413, 881.9686929765545, 103.93090635870479]
+   - Performances: [1.0, 0.3443692292126359, 0.010863639754268451, 0.007386121590679904, 0.0035399631466942016, 0.0014350009008525983, 5.111927844496444E-4]
+Number of Combinations: 49
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.1): 3.1333333333333333
+SYSTEM: Average Visited Nodes (delta=0.1): 15
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.05): 3.1333333333333333
+SYSTEM: Average Visited Nodes (delta=0.05): 15
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.01): 3.1333333333333333
+SYSTEM: Average Visited Nodes (delta=0.01): 15
+SYSTEM: Average Execution Time (delta=0.01): 1ms
+
+
+-----------------------------------------------------
+Test Number: 23
+Price limit: 1337.8207876181814
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 4
+   - Weight: 2.393398909182226
+   - Prices: [755.3287702724211, 543.4937526049873, 723.7413777902728, 169.39663126811232]
+   - Performances: [1.0, 0.22879401014431355, 0.20219861189953803, 0.16202470585167278]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 1.404011375177184
+   - Prices: [568.774683497957, 983.6040282811999, 218.68162687901435, 686.4383048208266, 879.7220329470709, 243.19886108461844, 63.33286431640594]
+   - Performances: [1.0, 0.7842669155705437, 0.6450721869057295, 0.2992140763800229, 0.043839814307349234, 0.030340165463011343, 0.003017936648233903]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 1.6849387739317447
+   - Prices: [394.6587086431622, 959.6620697222902, 263.4146478410613, 974.8136585568678, 501.50943729104796, 964.8129967081115, 465.3058182868392]
+   - Performances: [1.0, 0.5792366764919281, 0.17231159994315404, 0.13973670269143043, 0.12576832042043365, 0.08257395045330883, 0.05345462581875382]
+ - Template 3:
+   - #Alternatives: 5
+   - Weight: 1.8854162213301504
+   - Prices: [284.3639369801626, 873.6925394792532, 48.69691674502879, 399.2087101293159, 863.3600793346151]
+   - Performances: [1.0, 0.4662584707040158, 0.07731984651347348, 0.03622662824893931, 1.0033440395880432E-4]
+Number of Combinations: 980
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9989637305699481
+SYSTEM: Average Depth (delta=0.1): 9.398963730569948
+SYSTEM: Average Visited Nodes (delta=0.1): 965
+SYSTEM: Average Execution Time (delta=0.1): 65ms
+
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9989637305699481
+SYSTEM: Average Depth (delta=0.05): 9.398963730569948
+SYSTEM: Average Visited Nodes (delta=0.05): 965
+SYSTEM: Average Execution Time (delta=0.05): 61ms
+
+Number of Admissible Solutions: 8
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9989637305699481
+SYSTEM: Average Depth (delta=0.01): 9.398963730569948
+SYSTEM: Average Visited Nodes (delta=0.01): 965
+SYSTEM: Average Execution Time (delta=0.01): 62ms
+
+
+-----------------------------------------------------
+Test Number: 24
+Price limit: 255.30132031450378
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 2.8536893753519905
+   - Prices: [318.04424609495226, 192.22491866505774, 348.458380542783, 539.7942920920372, 842.4234889949015, 850.2138543233892, 384.7992060311849, 397.54103931864336]
+   - Performances: [1.0, 0.4878619977431635, 0.42538181186318297, 0.37384950651706483, 0.21009210615947946, 0.16976323888714004, 0.14971257134292132, 0.08022102655298115]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 2.295475187649065
+   - Prices: [428.4713480645715, 911.6101807659327, 344.70057490591864, 968.7382184183919, 665.2929232457454, 683.4060450267731, 20.5631225920635, 283.4942034694074]
+   - Performances: [1.0, 0.4488879523879179, 0.14810991589699202, 0.10724985939221028, 0.07548423209913575, 0.048736477713660346, 0.040316546071666175, 0.020233082187406513]
+Number of Combinations: 64
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9811320754716981
+SYSTEM: Average Depth (delta=0.1): 6.113207547169812
+SYSTEM: Average Visited Nodes (delta=0.1): 53
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9811320754716981
+SYSTEM: Average Depth (delta=0.05): 6.113207547169812
+SYSTEM: Average Visited Nodes (delta=0.05): 53
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9807692307692307
+SYSTEM: Average Depth (delta=0.01): 6.076923076923077
+SYSTEM: Average Visited Nodes (delta=0.01): 52
+SYSTEM: Average Execution Time (delta=0.01): 1ms
+
+
+-----------------------------------------------------
+Test Number: 25
+Price limit: 996.0276451015088
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 2.8372013685739
+   - Prices: [201.83318769517876, 337.28100238822594, 885.2490918446424]
+   - Performances: [1.0, 0.7257717731168165, 0.5828412527420365]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 4.448836178942667
+   - Prices: [424.72856644601836, 486.64087448303513, 877.9802243667948, 780.7276329660824, 373.6212944003531, 112.12137375043596, 490.74106396837533, 178.56461485985977]
+   - Performances: [1.0, 0.32425363037691635, 0.1078766370678777, 0.08248836873460332, 0.012195442574328658, 0.002922993384372124, 4.1152627354181464E-4, 3.7779288241926543E-4]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 1.8519248303122429
+   - Prices: [660.7869992546599, 505.78899840156134, 768.7758336453913, 635.0356477513538, 552.594302176513, 135.11686403301002, 659.1227474550029]
+   - Performances: [1.0, 0.5561904693356934, 0.15849097103796406, 0.10102065678557227, 0.05967331901111859, 0.011954502523048305, 0.0035117107353639853]
+Number of Combinations: 168
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9937106918238994
+SYSTEM: Average Depth (delta=0.1): 7.238993710691824
+SYSTEM: Average Visited Nodes (delta=0.1): 159
+SYSTEM: Average Execution Time (delta=0.1): 4ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9937106918238994
+SYSTEM: Average Depth (delta=0.05): 7.238993710691824
+SYSTEM: Average Visited Nodes (delta=0.05): 159
+SYSTEM: Average Execution Time (delta=0.05): 3ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9937106918238994
+SYSTEM: Average Depth (delta=0.01): 7.238993710691824
+SYSTEM: Average Visited Nodes (delta=0.01): 159
+SYSTEM: Average Execution Time (delta=0.01): 3ms
+
+
+-----------------------------------------------------
+Test Number: 26
+Price limit: 1918.9680238913422
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 2.206524041142973
+   - Prices: [260.3462903002508, 478.34619140936576]
+   - Performances: [1.0, 0.08992734126236668]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 1.2311333493199663
+   - Prices: [683.4867413590632, 127.66790091583235, 132.64585927606478, 196.84449761573558, 185.71579579840386, 47.91860401477421, 238.40264531427465, 979.9484660583324]
+   - Performances: [1.0, 0.8643030699533789, 0.43070722414994256, 0.22379476500912823, 0.037060183932096265, 0.018354129890257625, 0.010256357060899902, 0.007944753136938553]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 4.995970918948031
+   - Prices: [324.61672939071195, 785.8361682485155, 960.2252005765813, 277.56991793079686, 972.3701794540367, 564.7042819561977, 748.6366116505385, 291.0518778819496]
+   - Performances: [1.0, 0.6889245835183091, 0.33981949241983894, 0.0353413498248608, 0.0065069893354479606, 1.6694272378446715E-4, 1.451179919605738E-4, 1.4380940682304146E-4]
+ - Template 3:
+   - #Alternatives: 4
+   - Weight: 1.9519262208025263
+   - Prices: [944.4432412651471, 682.7115851687274, 386.9119166433855, 843.7330931939043]
+   - Performances: [1.0, 0.08367704854785596, 0.07432851827760964, 0.05766099806319427]
+Number of Combinations: 512
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9970414201183432
+SYSTEM: Average Depth (delta=0.1): 9.218934911242604
+SYSTEM: Average Visited Nodes (delta=0.1): 338
+SYSTEM: Average Execution Time (delta=0.1): 10ms
+
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9970414201183432
+SYSTEM: Average Depth (delta=0.05): 9.218934911242604
+SYSTEM: Average Visited Nodes (delta=0.05): 338
+SYSTEM: Average Execution Time (delta=0.05): 12ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9962825278810409
+SYSTEM: Average Depth (delta=0.01): 8.449814126394052
+SYSTEM: Average Visited Nodes (delta=0.01): 269
+SYSTEM: Average Execution Time (delta=0.01): 9ms
+
+
+-----------------------------------------------------
+Test Number: 27
+Price limit: 1770.4274231211027
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 7
+   - Weight: 2.144500236617727
+   - Prices: [204.58052524883584, 995.9118485297555, 336.49386206148677, 881.2324245408963, 445.21947801431133, 648.2013774656646, 749.750674185849]
+   - Performances: [1.0, 0.3998645663976874, 0.25538476760814355, 0.19127454854996068, 0.0016251093859591876, 6.650994224123981E-4, 1.1646172772287219E-4]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 4.438513078503121
+   - Prices: [988.5425499768457, 434.2061441771021, 114.14184999939619, 485.2963309787353, 535.8068839387792, 402.8737540276363, 219.00926955326267, 972.3786850176666]
+   - Performances: [1.0, 0.1828496400403079, 0.04074752548778507, 0.013115155636505173, 0.012406125253671652, 0.007299635669313689, 0.0032293328691815294, 6.818941097977846E-4]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 3.093538764465846
+   - Prices: [827.534631620449, 876.5333262610208, 816.5486367675511, 678.2383544501167, 279.5080027607677, 513.7171399224638, 250.22556439872525]
+   - Performances: [1.0, 0.22497142478368537, 0.027754870300212328, 0.0018545075323396435, 9.559758572353032E-4, 4.103272118799543E-4, 3.2762641257796784E-5]
+ - Template 3:
+   - #Alternatives: 6
+   - Weight: 4.209373300437474
+   - Prices: [33.9602852799655, 956.7159292176526, 486.17104468310964, 904.912877119269, 705.4881863911395, 430.09711113913363]
+   - Performances: [1.0, 0.8609208488250588, 0.5613028933243732, 0.05235190044254282, 0.0420542451175353, 0.037003469257147426]
+ - Template 4:
+   - #Alternatives: 9
+   - Weight: 2.4948391866909527
+   - Prices: [312.99295478309165, 704.0303724029408, 559.4304298380889, 515.61350441376, 966.2260103677074, 947.1048073271118, 834.8528530257984, 390.7574852396633, 905.5675151420601]
+   - Performances: [1.0, 0.9461501527731349, 0.7293478261087016, 0.41121684825602617, 0.09543229157750792, 0.04123788036389671, 0.028487633054404795, 0.0060339489028968735, 0.005844314044494889]
+Number of Combinations: 21168
+Number of Admissible Solutions: 11
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9999516978215718
+SYSTEM: Average Depth (delta=0.1): 16.022943534753416
+SYSTEM: Average Visited Nodes (delta=0.1): 20703
+SYSTEM: Average Execution Time (delta=0.1): 26887ms
+
+Number of Admissible Solutions: 6
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.999951312137884
+SYSTEM: Average Depth (delta=0.05): 16.048590486391742
+SYSTEM: Average Visited Nodes (delta=0.05): 20539
+SYSTEM: Average Execution Time (delta=0.05): 22370ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9999464008147076
+SYSTEM: Average Depth (delta=0.01): 15.617730610494721
+SYSTEM: Average Visited Nodes (delta=0.01): 18657
+SYSTEM: Average Execution Time (delta=0.01): 23552ms
+
+
+-----------------------------------------------------
+Test Number: 28
+Price limit: 481.24347377494183
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 3.981041840340924
+   - Prices: [363.30006093932974]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 2
+   - Weight: 4.426872055259501
+   - Prices: [671.5780525757708, 645.3721909536615]
+   - Performances: [1.0, 0.27834509836501664]
+ - Template 2:
+   - #Alternatives: 3
+   - Weight: 4.039446073035133
+   - Prices: [43.55753329313609, 965.3243665802165, 783.2085893876769]
+   - Performances: [1.0, 0.6377095886410944, 0.21822829820942]
+ - Template 3:
+   - #Alternatives: 2
+   - Weight: 3.297214683140278
+   - Prices: [100.80652338457737, 965.3251721739979]
+   - Performances: [1.0, 0.11856285587052495]
+Number of Combinations: 12
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.1): 2.0
+SYSTEM: Average Visited Nodes (delta=0.1): 12
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.05): 2.0
+SYSTEM: Average Visited Nodes (delta=0.05): 12
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9166666666666666
+SYSTEM: Average Depth (delta=0.01): 2.0
+SYSTEM: Average Visited Nodes (delta=0.01): 12
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 29
+Price limit: 1865.2697166301061
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 4.649997079749393
+   - Prices: [373.78561814149657, 483.4851318949023, 840.6661136020482, 975.0400820508202, 128.8738783726137, 439.0155422390531, 664.5536210803174, 325.226082634486]
+   - Performances: [1.0, 0.4599699734175935, 0.3504070232941229, 0.285148544407881, 0.022470766051469748, 0.0021279265990230838, 0.0013938865856438097, 5.917854135319787E-4]
+ - Template 1:
+   - #Alternatives: 1
+   - Weight: 3.0784884123106444
+   - Prices: [375.64836688392086]
+   - Performances: [1.0]
+ - Template 2:
+   - #Alternatives: 3
+   - Weight: 2.2890155060605935
+   - Prices: [112.28257201641888, 118.7656218797545, 136.0905517732001]
+   - Performances: [1.0, 0.39524041269201904, 0.24188981449659058]
+Number of Combinations: 24
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 30
+Price limit: 894.4609972266169
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 2.8732827882366907
+   - Prices: [597.0838421829001]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 1.6793357983914157
+   - Prices: [892.2140308811996, 563.7680809784129, 573.6013262461853, 77.59133968712625, 10.19478366617422, 973.546489627, 154.20943527896944, 960.4119624153637, 805.422225907801]
+   - Performances: [1.0, 0.011961527431211039, 0.006907416836124839, 0.0021655129921339207, 9.592114692294298E-4, 2.2734118322428792E-4, 5.949518274192802E-5, 3.728491216072931E-5, 1.7242154390608573E-5]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 1.6654876209635885
+   - Prices: [506.89229077668904, 307.99135628701316, 558.4936143433647, 478.3116766987819, 531.4747777045038, 489.6044593072612, 538.3322056540462, 325.32506428800116]
+   - Performances: [1.0, 0.22700580932125347, 0.12842409468346794, 0.06110135621029341, 0.014318480106272303, 0.013118737455836738, 0.010608545861930328, 0.00575104162498157]
+Number of Combinations: 72
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9861111111111112
+SYSTEM: Average Depth (delta=0.1): 7.5
+SYSTEM: Average Visited Nodes (delta=0.1): 72
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9861111111111112
+SYSTEM: Average Depth (delta=0.05): 7.5
+SYSTEM: Average Visited Nodes (delta=0.05): 72
+SYSTEM: Average Execution Time (delta=0.05): 2ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9861111111111112
+SYSTEM: Average Depth (delta=0.01): 7.5
+SYSTEM: Average Visited Nodes (delta=0.01): 72
+SYSTEM: Average Execution Time (delta=0.01): 2ms
+
+
+-----------------------------------------------------
+Test Number: 31
+Price limit: 38.012824688031884
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 5
+   - Weight: 3.1776098693703085
+   - Prices: [240.8768157179723, 360.62176075723477, 255.3250763093238, 31.761435541444687, 357.0433465332555]
+   - Performances: [1.0, 0.17845004797402186, 0.05518977331374925, 0.03419460661284978, 0.0051294539256883835]
+ - Template 1:
+   - #Alternatives: 1
+   - Weight: 3.5484643466478922
+   - Prices: [906.9379453295091]
+   - Performances: [1.0]
+ - Template 2:
+   - #Alternatives: 4
+   - Weight: 2.5536242415927584
+   - Prices: [95.776403193387, 397.1658309697566, 325.66536709705565, 468.69558505198063]
+   - Performances: [1.0, 0.33322733143820304, 0.029119263215246, 0.02445610697518288]
+ - Template 3:
+   - #Alternatives: 9
+   - Weight: 4.09151269788296
+   - Prices: [644.6648025720707, 624.3774000538334, 609.0316865875461, 249.68904534006856, 66.48468972967666, 164.13138917718655, 116.41204462443416, 794.8075602136222, 370.71976097558735]
+   - Performances: [1.0, 0.2947450969178731, 0.190397308753656, 0.14056676699703413, 0.07942690554145518, 0.06929802595028972, 0.06485659024720437, 0.056334014079144956, 0.04563827307947757]
+ - Template 4:
+   - #Alternatives: 6
+   - Weight: 4.075540298584301
+   - Prices: [869.6526491377784, 132.89841614040188, 71.86921155261365, 78.21226109737674, 477.84394723886334, 448.80770702695503]
+   - Performances: [1.0, 0.8173203345615629, 0.787101580187693, 0.19438499178447777, 0.10948571884183715, 0.07481477315843221]
+Number of Combinations: 1080
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9990740740740741
+SYSTEM: Average Depth (delta=0.1): 10.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1080
+SYSTEM: Average Execution Time (delta=0.1): 110ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9990740740740741
+SYSTEM: Average Depth (delta=0.05): 10.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1080
+SYSTEM: Average Execution Time (delta=0.05): 88ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9990740740740741
+SYSTEM: Average Depth (delta=0.01): 10.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1080
+SYSTEM: Average Execution Time (delta=0.01): 107ms
+
+
+-----------------------------------------------------
+Test Number: 32
+Price limit: 2960.441282675058
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 1.8449784070481776
+   - Prices: [670.4912954435599, 308.4050712804013, 246.0091902693618]
+   - Performances: [1.0, 0.23760067145967012, 0.0158725339959839]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 1.5352399217124755
+   - Prices: [401.0111291880766, 930.9539798596547, 423.9657928754495, 837.140695237039, 877.0145450906938, 690.2244182430833, 590.7821920227309, 911.175600271422, 367.35102078520816]
+   - Performances: [1.0, 0.5632864258937453, 0.27333822724848394, 0.2633427721834711, 0.01167287112834576, 0.009467400483140835, 5.87847258808309E-4, 5.244654898893326E-4, 3.944068531750393E-4]
+ - Template 2:
+   - #Alternatives: 4
+   - Weight: 1.7798006915467026
+   - Prices: [441.6605781432875, 214.58651077814972, 46.71819807961401, 147.5205010388782]
+   - Performances: [1.0, 0.9173745521145402, 0.04053734268844165, 0.021647368787993358]
+ - Template 3:
+   - #Alternatives: 2
+   - Weight: 3.9406547910674745
+   - Prices: [620.4735643912026, 466.1769832002874]
+   - Performances: [1.0, 0.5792207325217957]
+ - Template 4:
+   - #Alternatives: 6
+   - Weight: 2.8034613362333447
+   - Prices: [853.5898406693478, 807.6835022482745, 718.3073234280328, 543.1557730252931, 338.8134919002706, 418.8439808262379]
+   - Performances: [1.0, 0.4143193846223412, 0.11562113668752494, 0.031039085557451, 0.011419132461252167, 0.005101446074066954]
+Number of Combinations: 1296
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9971988795518207
+SYSTEM: Average Depth (delta=0.1): 7.375350140056023
+SYSTEM: Average Visited Nodes (delta=0.1): 357
+SYSTEM: Average Execution Time (delta=0.1): 16ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9971751412429378
+SYSTEM: Average Depth (delta=0.05): 7.4209039548022595
+SYSTEM: Average Visited Nodes (delta=0.05): 354
+SYSTEM: Average Execution Time (delta=0.05): 12ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9971751412429378
+SYSTEM: Average Depth (delta=0.01): 7.4209039548022595
+SYSTEM: Average Visited Nodes (delta=0.01): 354
+SYSTEM: Average Execution Time (delta=0.01): 13ms
+
+
+-----------------------------------------------------
+Test Number: 33
+Price limit: 596.1365788166295
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 8
+   - Weight: 4.010218318195765
+   - Prices: [531.1688919428044, 222.2612297538092, 335.84299186675247, 505.90474566150664, 621.328068716529, 854.926865849993, 770.412795904604, 43.22539164310713]
+   - Performances: [1.0, 0.7354736566807216, 0.10300816103655112, 0.029467013684510605, 0.02555894345997654, 2.676427457595613E-4, 6.54058665815659E-5, 2.4023756574740293E-5]
+ - Template 1:
+   - #Alternatives: 3
+   - Weight: 4.2181847863977815
+   - Prices: [349.23056347768096, 438.0957201297278, 940.8465082182951]
+   - Performances: [1.0, 0.8599213082440753, 0.42225533709331325]
+ - Template 2:
+   - #Alternatives: 5
+   - Weight: 3.4523132059484714
+   - Prices: [501.1871265466048, 633.2683132272109, 155.8921543114664, 821.0674154478265, 289.5088689531009]
+   - Performances: [1.0, 0.0436493164188867, 0.007425389194204698, 0.0017665404128576578, 0.0012016967560150268]
+ - Template 3:
+   - #Alternatives: 6
+   - Weight: 3.370969333095399
+   - Prices: [7.2811515266573394, 195.20004499339808, 603.4049655628556, 798.1001680690667, 937.519116957272, 310.01365267973335]
+   - Performances: [1.0, 0.4151141212476188, 0.2936833019727912, 0.17312430951725527, 0.12717770140713905, 0.1204929534483645]
+Number of Combinations: 720
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9985052316890882
+SYSTEM: Average Depth (delta=0.1): 8.639760837070254
+SYSTEM: Average Visited Nodes (delta=0.1): 669
+SYSTEM: Average Execution Time (delta=0.1): 30ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9985052316890882
+SYSTEM: Average Depth (delta=0.05): 8.639760837070254
+SYSTEM: Average Visited Nodes (delta=0.05): 669
+SYSTEM: Average Execution Time (delta=0.05): 43ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9985052316890882
+SYSTEM: Average Depth (delta=0.01): 8.639760837070254
+SYSTEM: Average Visited Nodes (delta=0.01): 669
+SYSTEM: Average Execution Time (delta=0.01): 47ms
+
+
+-----------------------------------------------------
+Test Number: 34
+Price limit: 92.5228200278976
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 3
+   - Weight: 1.2635224076925102
+   - Prices: [845.6436088834813, 161.66042664437953, 188.66109239706876]
+   - Performances: [1.0, 0.8912360792750886, 0.5601417229626504]
+ - Template 1:
+   - #Alternatives: 5
+   - Weight: 1.3438069270327575
+   - Prices: [230.8326009355132, 525.1846605720149, 27.637598435903335, 255.9686729130933, 991.8075214868322]
+   - Performances: [1.0, 0.9596362359584767, 0.30942884245790353, 0.2750640382035973, 0.11541320493294217]
+Number of Combinations: 15
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.1): 3.0
+SYSTEM: Average Visited Nodes (delta=0.1): 15
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.05): 3.0
+SYSTEM: Average Visited Nodes (delta=0.05): 15
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9333333333333333
+SYSTEM: Average Depth (delta=0.01): 3.0
+SYSTEM: Average Visited Nodes (delta=0.01): 15
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 35
+Price limit: 1473.432235344226
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 3.061779216762749
+   - Prices: [158.15524682498992, 972.1552580852214]
+   - Performances: [1.0, 0.4574974390480955]
+ - Template 1:
+   - #Alternatives: 7
+   - Weight: 4.09676617969618
+   - Prices: [834.2415322281728, 704.340957155703, 404.0037238486662, 355.31187688138385, 753.7497872555886, 633.5948025568239, 420.0869846610237]
+   - Performances: [1.0, 0.2533060313244555, 0.19900680051099345, 0.12713444714177996, 0.0722420000204708, 0.04216416712820653, 0.024419161866259344]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 2.167281458903689
+   - Prices: [513.1699924328136, 39.7344969017987]
+   - Performances: [1.0, 0.6624156876928677]
+Number of Combinations: 28
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9230769230769231
+SYSTEM: Average Depth (delta=0.1): 2.8461538461538463
+SYSTEM: Average Visited Nodes (delta=0.1): 13
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9090909090909091
+SYSTEM: Average Depth (delta=0.05): 2.909090909090909
+SYSTEM: Average Visited Nodes (delta=0.05): 11
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9090909090909091
+SYSTEM: Average Depth (delta=0.01): 2.909090909090909
+SYSTEM: Average Visited Nodes (delta=0.01): 11
+SYSTEM: Average Execution Time (delta=0.01): 1ms
+
+
+-----------------------------------------------------
+Test Number: 36
+Price limit: 1047.8607486570331
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 5
+   - Weight: 1.3579015508294177
+   - Prices: [236.8028065324754, 301.3745665763525, 183.85437422164622, 148.23325617678302, 30.182215547952218]
+   - Performances: [1.0, 0.4164707210922258, 0.021703451608093286, 0.01967814991751514, 0.008304259135227525]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 1.1099486645588073
+   - Prices: [643.7582208136696, 732.7603307005382, 80.54921519468611, 657.7853040332869, 481.7293041009057, 681.3377585801692, 917.7742708828127, 757.4199715925527]
+   - Performances: [1.0, 0.9708685949588254, 0.4773777437820138, 0.06530777216697624, 0.06018029452213019, 0.025403982019293624, 0.021016259047879824, 0.004729480800522138]
+ - Template 2:
+   - #Alternatives: 3
+   - Weight: 3.9081734066055653
+   - Prices: [849.3371392943841, 453.3075142539089, 705.625325918344]
+   - Performances: [1.0, 0.9299803747366313, 0.6865296842006898]
+Number of Combinations: 120
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.989247311827957
+SYSTEM: Average Depth (delta=0.1): 6.182795698924731
+SYSTEM: Average Visited Nodes (delta=0.1): 93
+SYSTEM: Average Execution Time (delta=0.1): 3ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9891304347826086
+SYSTEM: Average Depth (delta=0.05): 6.173913043478261
+SYSTEM: Average Visited Nodes (delta=0.05): 92
+SYSTEM: Average Execution Time (delta=0.05): 3ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9891304347826086
+SYSTEM: Average Depth (delta=0.01): 6.173913043478261
+SYSTEM: Average Visited Nodes (delta=0.01): 92
+SYSTEM: Average Execution Time (delta=0.01): 3ms
+
+
+-----------------------------------------------------
+Test Number: 37
+Price limit: 2307.222838612152
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 4
+   - Weight: 4.167133126735759
+   - Prices: [769.7244641824942, 630.3808289795934, 54.40501670498306, 627.3524788066082]
+   - Performances: [1.0, 0.731154740969137, 0.03004829534573328, 0.013493444629822202]
+ - Template 1:
+   - #Alternatives: 4
+   - Weight: 2.7392772336588664
+   - Prices: [562.4017768474066, 532.2822013931752, 398.2232862026739, 363.9432431482471]
+   - Performances: [1.0, 0.049635930233869585, 0.04551914672077388, 0.03703086083175931]
+ - Template 2:
+   - #Alternatives: 4
+   - Weight: 2.515477213726369
+   - Prices: [320.29811023715513, 165.48990187471298, 517.069141912077, 688.8663969771127]
+   - Performances: [1.0, 0.9278627968327295, 0.4457648406478524, 0.034208539094018546]
+ - Template 3:
+   - #Alternatives: 8
+   - Weight: 4.644625930635588
+   - Prices: [757.5558219980778, 857.6777022608902, 184.41715975648808, 184.59346144401337, 872.8924836407421, 980.504716483748, 485.08552582179055, 346.3081941273102]
+   - Performances: [1.0, 0.7474658140551269, 0.7003915141195718, 0.34913445232900786, 0.07700856263489, 0.01854006194855544, 0.00225649395303326, 0.001072690216795621]
+ - Template 4:
+   - #Alternatives: 8
+   - Weight: 1.6060507765584755
+   - Prices: [717.2245874097928, 260.2331699531067, 309.732206869536, 438.5259786819267, 378.0987912479199, 22.797096227089988, 619.3017728823226, 51.39630070849964]
+   - Performances: [1.0, 0.5552925739188732, 0.33093584315038316, 0.22441372188913808, 0.13222030942844715, 0.11933005210138212, 0.10808812991459124, 0.021387482648062613]
+ - Template 5:
+   - #Alternatives: 9
+   - Weight: 2.1287878614020896
+   - Prices: [101.33641350209793, 960.2074010985897, 358.183542959406, 151.66960019166652, 871.0656268890274, 53.30139355977932, 341.09952037259893, 501.03729066889593, 373.6353735847865]
+   - Performances: [1.0, 0.03790294573046227, 0.002939812423633705, 0.001173173854783137, 0.001071585093723685, 6.966747393711761E-4, 4.986466922413414E-4, 2.6762185223613426E-4, 1.5944148677948238E-4]
+Number of Combinations: 36864
+Number of Admissible Solutions: 31
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9999715957507244
+SYSTEM: Average Depth (delta=0.1): 15.439442140544225
+SYSTEM: Average Visited Nodes (delta=0.1): 35206
+SYSTEM: Average Execution Time (delta=0.1): 69842ms
+
+Number of Admissible Solutions: 23
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9999713934262093
+SYSTEM: Average Depth (delta=0.05): 15.376662757101583
+SYSTEM: Average Visited Nodes (delta=0.05): 34957
+SYSTEM: Average Execution Time (delta=0.05): 71334ms
+
+Number of Admissible Solutions: 23
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9999713934262093
+SYSTEM: Average Depth (delta=0.01): 15.376662757101583
+SYSTEM: Average Visited Nodes (delta=0.01): 34957
+SYSTEM: Average Execution Time (delta=0.01): 70185ms
+
+
+-----------------------------------------------------
+Test Number: 38
+Price limit: 2427.7539365028542
+#Templates = 5
+Templates: 
+ - Template 0:
+   - #Alternatives: 7
+   - Weight: 2.090678129726706
+   - Prices: [709.3752453152027, 811.1214210216301, 187.9593972589035, 557.2047488221885, 740.928715194148, 130.43522046718266, 844.0594279692716]
+   - Performances: [1.0, 0.8730777491786315, 0.1845178370985674, 0.015369063684813566, 0.004613794742141655, 0.00410757352247102, 0.001038155887727608]
+ - Template 1:
+   - #Alternatives: 3
+   - Weight: 2.7363156504485704
+   - Prices: [956.1467680764164, 132.28867095502744, 186.23529912141547]
+   - Performances: [1.0, 0.19259034948620424, 0.16062613967764458]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 4.040355562424344
+   - Prices: [655.15385711887, 332.24161918526124, 943.6841247972742, 109.89009736286962, 902.2054930027277, 863.2022411663711, 975.3599550899729, 696.8350346696025]
+   - Performances: [1.0, 0.03435605933874286, 0.019188396160141268, 0.012921065983611674, 0.008273884376192963, 0.004363852458050477, 0.0019951752895299713, 0.0011375123297260247]
+ - Template 3:
+   - #Alternatives: 9
+   - Weight: 1.714142530997749
+   - Prices: [63.58006268560947, 138.89673046087523, 232.03888027578535, 215.4663417366379, 485.4740592684232, 341.10904342410396, 81.17095898548787, 10.77791887393231, 894.0239530299872]
+   - Performances: [1.0, 0.4392248982661844, 0.18153068403355915, 0.06939364792253172, 0.010982773373469638, 0.009743862542233167, 0.0018664721043668423, 0.0011776958059284699, 6.287089508181981E-4]
+ - Template 4:
+   - #Alternatives: 3
+   - Weight: 4.8095834202993135
+   - Prices: [641.4204624736565, 132.4503283805596, 747.4918273261334]
+   - Performances: [1.0, 0.07325258306935267, 0.03282682735905221]
+Number of Combinations: 4536
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9997367728349565
+SYSTEM: Average Depth (delta=0.1): 12.598052118978678
+SYSTEM: Average Visited Nodes (delta=0.1): 3799
+SYSTEM: Average Execution Time (delta=0.1): 755ms
+
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9997367728349565
+SYSTEM: Average Depth (delta=0.05): 12.598052118978678
+SYSTEM: Average Visited Nodes (delta=0.05): 3799
+SYSTEM: Average Execution Time (delta=0.05): 670ms
+
+Number of Admissible Solutions: 6
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.99972647702407
+SYSTEM: Average Depth (delta=0.01): 12.606400437636761
+SYSTEM: Average Visited Nodes (delta=0.01): 3656
+SYSTEM: Average Execution Time (delta=0.01): 553ms
+
+
+-----------------------------------------------------
+Test Number: 39
+Price limit: 2473.31467328363
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 1.9522296625689801
+   - Prices: [604.1059379812837, 615.474112295899, 169.919187217504, 770.5023814780267, 825.4721738364507, 413.66502765841034, 229.11991607905662, 705.4810571383273, 644.1628527068677]
+   - Performances: [1.0, 0.9728526121206389, 0.9286623724271159, 0.7644116289061508, 0.1128122185174069, 0.01852102220451323, 0.009766326371217035, 0.004228155293107822, 0.002876025115068044]
+ - Template 1:
+   - #Alternatives: 4
+   - Weight: 3.4863255313083754
+   - Prices: [561.948259838193, 575.8708765052085, 274.4169358572198, 730.1399891748487]
+   - Performances: [1.0, 0.9050991944256186, 0.510650244430377, 0.07599670337170156]
+ - Template 2:
+   - #Alternatives: 3
+   - Weight: 3.412646981063877
+   - Prices: [155.5150165433586, 787.8410064568744, 217.05231832334263]
+   - Performances: [1.0, 0.9988609069063594, 0.032068980789508976]
+ - Template 3:
+   - #Alternatives: 6
+   - Weight: 3.197636794283736
+   - Prices: [667.8445904806333, 840.9219481301861, 121.10807094099644, 46.561036071350756, 22.704669644016008, 686.9037751002036]
+   - Performances: [1.0, 0.638751783868521, 0.3970290628961964, 0.3648053202379834, 0.09813766684694486, 0.005543906055724055]
+ - Template 4:
+   - #Alternatives: 1
+   - Weight: 1.526547860585831
+   - Prices: [762.2835466840019]
+   - Performances: [1.0]
+ - Template 5:
+   - #Alternatives: 4
+   - Weight: 2.563193274951937
+   - Prices: [971.306399926806, 641.4631569796934, 581.858908046329, 95.63616197767857]
+   - Performances: [1.0, 0.019180978849663743, 0.015732760086248607, 0.012085843438117997]
+Number of Combinations: 2592
+Number of Admissible Solutions: 27
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9996001599360256
+SYSTEM: Average Depth (delta=0.1): 10.338664534186325
+SYSTEM: Average Visited Nodes (delta=0.1): 2501
+SYSTEM: Average Execution Time (delta=0.1): 419ms
+
+Number of Admissible Solutions: 17
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9996
+SYSTEM: Average Depth (delta=0.05): 10.3392
+SYSTEM: Average Visited Nodes (delta=0.05): 2500
+SYSTEM: Average Execution Time (delta=0.05): 422ms
+
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9995993589743589
+SYSTEM: Average Depth (delta=0.01): 10.341746794871796
+SYSTEM: Average Visited Nodes (delta=0.01): 2496
+SYSTEM: Average Execution Time (delta=0.01): 389ms
+
+
+-----------------------------------------------------
+Test Number: 40
+Price limit: 3541.6308343664227
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 1.0064876762824173
+   - Prices: [229.14298812258323, 741.7974363920156]
+   - Performances: [1.0, 0.11948267777792876]
+ - Template 1:
+   - #Alternatives: 2
+   - Weight: 3.7285228181710104
+   - Prices: [514.278824798187, 537.7769863391678]
+   - Performances: [1.0, 0.2514550755268279]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 3.413553691179036
+   - Prices: [105.27095607164867, 802.6603849735368]
+   - Performances: [1.0, 0.41662617210937003]
+ - Template 3:
+   - #Alternatives: 1
+   - Weight: 2.7241027517537333
+   - Prices: [341.5540434013939]
+   - Performances: [1.0]
+ - Template 4:
+   - #Alternatives: 9
+   - Weight: 4.741980167313007
+   - Prices: [65.19106665492217, 774.1345580864954, 568.768041137617, 125.90296795572526, 866.6264332432393, 691.0092614019196, 886.0582833563248, 158.05782010416567, 940.9765733259405]
+   - Performances: [1.0, 0.09256728252644253, 0.004393173949900171, 5.762562654089479E-4, 5.073177160039962E-4, 4.292417791917736E-4, 1.4246036580116872E-4, 1.0500942038909707E-4, 5.454075320494987E-5]
+ - Template 5:
+   - #Alternatives: 9
+   - Weight: 3.864729331975067
+   - Prices: [452.92719748444824, 819.5139132742283, 369.3361238156045, 35.31756644808468, 3.876600338059883, 946.7242112257795, 99.66726966608036, 157.35131064986226, 487.88299936424676]
+   - Performances: [1.0, 0.16244007002695793, 0.011313504245157997, 0.009671768280288122, 0.006143265914491865, 0.001094606678672094, 3.6599611722299226E-5, 3.620476756579507E-5, 1.3603662030842105E-5]
+Number of Combinations: 648
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 41
+Price limit: 1120.2884700369884
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 6
+   - Weight: 1.1329632311587043
+   - Prices: [894.7446080501599, 718.8109353328158, 867.8250358977938, 393.25941349522157, 745.2348230084685, 660.4427810210198]
+   - Performances: [1.0, 0.2250372532522651, 0.135017584225255, 0.09956176764127696, 0.0848512948128421, 0.07727238015553403]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 3.0009047964321565
+   - Prices: [284.47890175930775, 816.0958605101081, 243.83003392443874, 762.1684597204983, 10.575956847131375, 584.78045077985, 777.9427479102199, 340.93033485224913]
+   - Performances: [1.0, 0.08948096531217065, 0.014540198562328457, 0.01351004060727542, 0.01302949293298091, 0.003417988464309248, 0.0013738648407279823, 3.158471073496054E-4]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 1.9079422140878641
+   - Prices: [302.13501101798175, 862.9058321945947, 773.7667465303717, 502.56560828481105, 546.4849994378918, 590.9432245823822]
+   - Performances: [1.0, 0.27039102750946986, 0.14841089125650722, 0.12103157381069118, 0.021747083213093998, 0.009820181809771894]
+ - Template 3:
+   - #Alternatives: 4
+   - Weight: 2.823636731956535
+   - Prices: [833.6586934880728, 532.7917190099735, 707.5871491592022, 852.0232023364854]
+   - Performances: [1.0, 0.728401011087267, 0.29537761153578956, 0.10962550157668274]
+Number of Combinations: 1152
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9991319444444444
+SYSTEM: Average Depth (delta=0.1): 10.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1152
+SYSTEM: Average Execution Time (delta=0.1): 108ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9991319444444444
+SYSTEM: Average Depth (delta=0.05): 10.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1152
+SYSTEM: Average Execution Time (delta=0.05): 93ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9991319444444444
+SYSTEM: Average Depth (delta=0.01): 10.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1152
+SYSTEM: Average Execution Time (delta=0.01): 98ms
+
+
+-----------------------------------------------------
+Test Number: 42
+Price limit: 2503.245022982745
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 1.515887539657559
+   - Prices: [116.04106319042651]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 2.8596112989493134
+   - Prices: [468.62593516980854, 947.1954404806585, 805.8143755651398, 704.309611645139, 925.0841257069907, 556.8196272165809, 661.1957195546775, 825.4654674374873]
+   - Performances: [1.0, 0.4415679382050455, 0.25104069456906936, 0.006656667573756451, 0.0022976191394351443, 4.7700062799167027E-4, 3.785177620678021E-4, 1.0168277307501769E-4]
+ - Template 2:
+   - #Alternatives: 2
+   - Weight: 2.81382272695748
+   - Prices: [562.8204710419592, 298.70207094979764]
+   - Performances: [1.0, 0.8237859577129323]
+ - Template 3:
+   - #Alternatives: 2
+   - Weight: 3.5656944450670953
+   - Prices: [278.0174387322009, 91.05252583384949]
+   - Performances: [1.0, 0.2314781687357994]
+Number of Combinations: 32
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 43
+Price limit: 164.37762129819367
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 9
+   - Weight: 2.963572075039432
+   - Prices: [346.2966241809686, 420.5228484640903, 197.39528259752237, 426.3289860875357, 713.5316192312887, 844.1245863423395, 336.36736097192005, 244.66516219395686, 425.16065720720866]
+   - Performances: [1.0, 0.6666433675064645, 0.6496389470665876, 0.3101858421030045, 0.06128097823610981, 0.05930544716207696, 0.019632210097796306, 0.016944671105498504, 0.0041675884757043586]
+ - Template 1:
+   - #Alternatives: 3
+   - Weight: 1.3125935095304682
+   - Prices: [526.7687968212371, 775.2463110356426, 976.044539711007]
+   - Performances: [1.0, 0.5138021157355899, 0.14885124941318426]
+Number of Combinations: 27
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9629629629629629
+SYSTEM: Average Depth (delta=0.1): 5.0
+SYSTEM: Average Visited Nodes (delta=0.1): 27
+SYSTEM: Average Execution Time (delta=0.1): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9629629629629629
+SYSTEM: Average Depth (delta=0.05): 5.0
+SYSTEM: Average Visited Nodes (delta=0.05): 27
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 0
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9629629629629629
+SYSTEM: Average Depth (delta=0.01): 5.0
+SYSTEM: Average Visited Nodes (delta=0.01): 27
+SYSTEM: Average Execution Time (delta=0.01): 1ms
+
+
+-----------------------------------------------------
+Test Number: 44
+Price limit: 3567.309698514348
+#Templates = 6
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 4.710466307337361
+   - Prices: [929.5555762779933, 155.30474460306263]
+   - Performances: [1.0, 0.2887338825285406]
+ - Template 1:
+   - #Alternatives: 6
+   - Weight: 4.513070345345681
+   - Prices: [222.49750117260103, 634.3039675586863, 858.6788633286462, 753.9285030719325, 575.0312937254421, 87.24099305040433]
+   - Performances: [1.0, 0.8202006436601033, 0.5837721284196504, 0.0465776754847687, 0.008050414493264534, 0.001275769252781002]
+ - Template 2:
+   - #Alternatives: 8
+   - Weight: 3.7566245523309
+   - Prices: [629.3549460509781, 516.8705079834335, 543.5571422590733, 671.4191026434376, 795.7028890457063, 92.5892049062864, 242.25006559727993, 409.43803350272765]
+   - Performances: [1.0, 0.5653814957420367, 0.33138883306291755, 0.08856908980035492, 0.08796776928582936, 0.05793152665342554, 0.04087712192828234, 0.03280799086172058]
+ - Template 3:
+   - #Alternatives: 7
+   - Weight: 1.2286509641949397
+   - Prices: [533.5993955274777, 950.9950388193881, 265.5740930560148, 579.8097597905852, 10.635008909776525, 991.4512975037812, 285.9580754679997]
+   - Performances: [1.0, 0.9254542939827619, 0.39999201227814557, 0.20659131943158293, 0.016852484177032296, 0.005821560471361089, 0.0031629252811169414]
+ - Template 4:
+   - #Alternatives: 2
+   - Weight: 2.256160739338436
+   - Prices: [947.3690372612274, 189.17398950706985]
+   - Performances: [1.0, 0.6698468641544966]
+ - Template 5:
+   - #Alternatives: 1
+   - Weight: 2.8489133811108265
+   - Prices: [343.8026691994469]
+   - Performances: [1.0]
+Number of Combinations: 1344
+Number of Admissible Solutions: 9
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9985528219971056
+SYSTEM: Average Depth (delta=0.1): 9.3589001447178
+SYSTEM: Average Visited Nodes (delta=0.1): 691
+SYSTEM: Average Execution Time (delta=0.1): 41ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9985358711566618
+SYSTEM: Average Depth (delta=0.05): 9.371888726207906
+SYSTEM: Average Visited Nodes (delta=0.05): 683
+SYSTEM: Average Execution Time (delta=0.05): 41ms
+
+Number of Admissible Solutions: 5
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9985358711566618
+SYSTEM: Average Depth (delta=0.01): 9.371888726207906
+SYSTEM: Average Visited Nodes (delta=0.01): 683
+SYSTEM: Average Execution Time (delta=0.01): 36ms
+
+
+-----------------------------------------------------
+Test Number: 45
+Price limit: 814.5861312010654
+#Templates = 2
+Templates: 
+ - Template 0:
+   - #Alternatives: 6
+   - Weight: 3.1464311594987757
+   - Prices: [197.79097751845882, 661.8460104935776, 779.5285975658624, 338.5652243227546, 380.13236312306395, 51.8683225299171]
+   - Performances: [1.0, 0.340250011023693, 0.3354134145506807, 0.09973114220111641, 0.02823667581584784, 0.0241348992497493]
+ - Template 1:
+   - #Alternatives: 4
+   - Weight: 2.4107759302196685
+   - Prices: [761.9142788807349, 730.8626842757527, 707.842715668427, 831.4456410092253]
+   - Performances: [1.0, 0.11638311245282296, 0.10743928594118349, 0.06374356093228783]
+Number of Combinations: 24
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.1): 3.5714285714285716
+SYSTEM: Average Visited Nodes (delta=0.1): 21
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.05): 3.5714285714285716
+SYSTEM: Average Visited Nodes (delta=0.05): 21
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9523809523809523
+SYSTEM: Average Depth (delta=0.01): 3.5714285714285716
+SYSTEM: Average Visited Nodes (delta=0.01): 21
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 46
+Price limit: 2886.0811978674487
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 7
+   - Weight: 1.712176476409636
+   - Prices: [603.138626341143, 828.2157132794798, 978.707568910127, 696.5589645923521, 169.91500273963956, 860.0515645624554, 947.2214266793791]
+   - Performances: [1.0, 0.10696949278265744, 0.10539418470416265, 0.04657141163318775, 0.04401394262546456, 0.02629077122501832, 0.024125533447059533]
+ - Template 1:
+   - #Alternatives: 5
+   - Weight: 2.4275526384629877
+   - Prices: [439.1086566541032, 376.9726150289143, 604.951590364247, 657.486791723341, 929.2165389529924]
+   - Performances: [1.0, 0.8020868409914244, 0.49138488590079116, 0.09886614092471215, 0.01634880823341438]
+ - Template 2:
+   - #Alternatives: 5
+   - Weight: 3.7562654366058448
+   - Prices: [934.5458150666421, 734.1775041946797, 982.7406681170803, 758.9611975608569, 615.1172840832331]
+   - Performances: [1.0, 0.6254710292587022, 0.4347303528549628, 0.08054536527365232, 0.06775004285922437]
+ - Template 3:
+   - #Alternatives: 1
+   - Weight: 1.4963379770796283
+   - Prices: [508.7244648226402]
+   - Performances: [1.0]
+Number of Combinations: 175
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 47
+Price limit: 1201.1180429882731
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 2
+   - Weight: 2.580561791441675
+   - Prices: [525.3110300494415, 712.0944498526253]
+   - Performances: [1.0, 0.02625022213596595]
+ - Template 1:
+   - #Alternatives: 1
+   - Weight: 2.732647172724784
+   - Prices: [627.2510974191408]
+   - Performances: [1.0]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 2.98785449859151
+   - Prices: [25.051167969040847, 9.288864065787697, 809.8580919960361, 731.6150898635143, 302.43680994050266, 987.2811741314184, 453.8563570073154]
+   - Performances: [1.0, 0.20491020297907991, 0.031249175814694486, 0.0030654713439153053, 0.00247347568715994, 0.0011134918290977664, 6.47681705414862E-4]
+Number of Combinations: 14
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.0
+SYSTEM: Average Depth (delta=0.1): 0.0
+SYSTEM: Average Visited Nodes (delta=0.1): 1
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.0
+SYSTEM: Average Depth (delta=0.05): 0.0
+SYSTEM: Average Visited Nodes (delta=0.05): 1
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 48
+Price limit: 1079.1587638563983
+#Templates = 3
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 4.883199595563569
+   - Prices: [596.5002942287721]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 8
+   - Weight: 2.121120391053604
+   - Prices: [593.4736000691128, 888.2379124018785, 384.31353754966887, 646.7143926376423, 184.3142763157379, 632.0557835375809, 381.0559346605644, 349.2045725096531]
+   - Performances: [1.0, 0.6419305224379419, 0.07999103540993602, 0.012559312299283087, 0.004822962329610272, 0.0015693124184219566, 5.718718125157689E-4, 4.12039834705574E-4]
+ - Template 2:
+   - #Alternatives: 5
+   - Weight: 3.947659983816999
+   - Prices: [917.1645670890817, 692.1280245377003, 969.079522227794, 87.18338755240397, 97.20753150913274]
+   - Performances: [1.0, 0.9668556654166878, 0.8095197146828818, 0.25913454067201913, 0.13096849475177816]
+Number of Combinations: 40
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9666666666666667
+SYSTEM: Average Depth (delta=0.1): 4.5
+SYSTEM: Average Visited Nodes (delta=0.1): 30
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9666666666666667
+SYSTEM: Average Depth (delta=0.05): 4.5
+SYSTEM: Average Visited Nodes (delta=0.05): 30
+SYSTEM: Average Execution Time (delta=0.05): 1ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9666666666666667
+SYSTEM: Average Depth (delta=0.01): 4.5
+SYSTEM: Average Visited Nodes (delta=0.01): 30
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+
+-----------------------------------------------------
+Test Number: 49
+Price limit: 1065.3639591981573
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 1
+   - Weight: 1.9062968349053708
+   - Prices: [407.19326511096466]
+   - Performances: [1.0]
+ - Template 1:
+   - #Alternatives: 9
+   - Weight: 1.0057643085621324
+   - Prices: [519.2170941297755, 565.7637392243896, 25.142651419635193, 437.43759907835346, 797.6155965447412, 326.3941278384245, 176.57013961672985, 118.59543069843083, 992.7159684017353]
+   - Performances: [1.0, 0.6580163215908865, 0.36049056853319544, 0.10183178912618716, 0.0930258800296442, 0.0631345789005442, 0.014990244987881495, 0.005981810864734158, 0.0023235453117088603]
+ - Template 2:
+   - #Alternatives: 7
+   - Weight: 3.2077451232747465
+   - Prices: [117.08474793188932, 47.730731232864066, 331.5406187356294, 99.17870421019042, 201.90311670768588, 769.8405997319256, 465.34322720467327]
+   - Performances: [1.0, 0.07972072820817222, 0.0234552374512763, 0.015263930364123664, 0.001316999906624609, 0.0012467162310357603, 8.276355675693813E-4]
+ - Template 3:
+   - #Alternatives: 5
+   - Weight: 4.884738786687036
+   - Prices: [150.39812420677077, 362.78883701827647, 26.494040823848497, 539.3582837355261, 78.77240528133656]
+   - Performances: [1.0, 0.9509403291169152, 0.7124303979664846, 0.6099834387171716, 0.06818290717501613]
+Number of Combinations: 315
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.9941520467836257
+SYSTEM: Average Depth (delta=0.1): 7.906432748538012
+SYSTEM: Average Visited Nodes (delta=0.1): 171
+SYSTEM: Average Execution Time (delta=0.1): 5ms
+
+Number of Admissible Solutions: 3
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.9927536231884058
+SYSTEM: Average Depth (delta=0.05): 7.398550724637682
+SYSTEM: Average Visited Nodes (delta=0.05): 138
+SYSTEM: Average Execution Time (delta=0.05): 4ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.9926470588235294
+SYSTEM: Average Depth (delta=0.01): 7.455882352941177
+SYSTEM: Average Visited Nodes (delta=0.01): 136
+SYSTEM: Average Execution Time (delta=0.01): 3ms
+
+
+-----------------------------------------------------
+Test Number: 50
+Price limit: 2927.835155026452
+#Templates = 4
+Templates: 
+ - Template 0:
+   - #Alternatives: 7
+   - Weight: 4.0330664278530355
+   - Prices: [669.9020592780129, 990.629480924447, 440.6689695715871, 361.772669930459, 896.6855055042895, 398.6693721017211, 655.2787706504195]
+   - Performances: [1.0, 0.9766455325019727, 0.7837878173169741, 0.09643629573594323, 0.0115853215736866, 0.0013877614164392285, 0.0011544725700313157]
+ - Template 1:
+   - #Alternatives: 2
+   - Weight: 1.9779827019019482
+   - Prices: [82.70139468078098, 405.0215575789562]
+   - Performances: [1.0, 0.023948466845869154]
+ - Template 2:
+   - #Alternatives: 6
+   - Weight: 1.405146512826216
+   - Prices: [945.4817951361067, 551.594766605135, 545.6508707681679, 689.1761094425151, 514.1083927217234, 917.0836181180186]
+   - Performances: [1.0, 0.900393104484301, 0.5492232630889748, 0.05467947220719073, 0.013641445920569328, 0.008636254101879818]
+ - Template 3:
+   - #Alternatives: 6
+   - Weight: 4.8450316295830556
+   - Prices: [603.6843072284281, 978.3711095620314, 706.7667975481238, 396.36469193853094, 488.8694061122057, 542.8218193878829]
+   - Performances: [1.0, 0.4733773247213511, 0.19397032206409562, 0.005889751837823325, 0.0010036922234227088, 7.532346016484343E-4]
+Number of Combinations: 504
+Number of Admissible Solutions: 4
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.1): 0.75
+SYSTEM: Average Depth (delta=0.1): 1.0
+SYSTEM: Average Visited Nodes (delta=0.1): 4
+SYSTEM: Average Execution Time (delta=0.1): 0ms
+
+Number of Admissible Solutions: 2
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.05): 0.5
+SYSTEM: Average Depth (delta=0.05): 0.5
+SYSTEM: Average Visited Nodes (delta=0.05): 2
+SYSTEM: Average Execution Time (delta=0.05): 0ms
+
+Number of Admissible Solutions: 1
+SYSTEM: TESTING RESULTS
+SYSTEM: Number of iterations: 1
+SYSTEM: Average Degree (delta=0.01): 0.0
+SYSTEM: Average Depth (delta=0.01): 0.0
+SYSTEM: Average Visited Nodes (delta=0.01): 1
+SYSTEM: Average Execution Time (delta=0.01): 0ms
+
+---------------//-------------------------------
+SYSTEM: OVERALL TEST RESULTS
+SYSTEM: Executed 50 test with a total time of: 1013148ms
+SYSTEM: Average Execution Time (delta=0.1): 6961
+SYSTEM: Minimum Execution Time (delta=0.1): 0ms in test: 2
+SYSTEM: Maximum Execution Time (delta=0.1): 247536ms in test: 6
+SYSTEM: Average Execution Time (delta=0.05): 6729
+SYSTEM: Minimum Execution Time (delta=0.05): 0ms in test: 2
+SYSTEM: Maximum Execution Time (delta=0.05): 239677ms in test: 6
+SYSTEM: Average Execution Time (delta=0.01): 6571
+SYSTEM: Minimum Execution Time (delta=0.01): 0ms in test: 2
+SYSTEM: Maximum Execution Time (delta=0.01): 231869ms in test: 6

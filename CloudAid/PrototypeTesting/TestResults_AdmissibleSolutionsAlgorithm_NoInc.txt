@@ -1,0 +1,75 @@
+Computing alternative combinations...
+SYSTEM: Using default algorithm.
+
+[[0, 0]]
+Indexes: 
+00
+A1-B1- - Not admissable!!!
+Indexes: 
+10
+not in admissable
+Indexes: 
+01
+not in admissable
+
+[[1, 0], [0, 1]]
+Indexes: 
+10
+A2-B1- - Not admissable!!!
+Indexes: 
+20
+not in admissable
+Indexes: 
+11
+not in admissable
+
+[[0, 1], [2, 0], [1, 1]]
+Indexes: 
+01
+A1-B2- - Not admissable!!!
+Indexes: 
+11
+already tested
+Indexes: 
+02
+not in admissable
+
+[[2, 0], [1, 1], [0, 2]]
+Indexes: 
+20
+A3-B1- - Admissable!!!
+not in admissable
+Added
+
+[[1, 1], [0, 2]]
+Indexes: 
+11
+A2-B2- - Admissable!!!
+Indexes: 
+11
+Indexes: 
+20
+not in admissable
+Added
+
+[[0, 2]]
+Indexes: 
+02
+A1-B3- - Admissable!!!
+Indexes: 
+02
+Indexes: 
+20
+Indexes: 
+11
+not in admissable
+Added
+Admissible Solutions
+
+[A3-0.33] - [B1-0.45] - 
+[A2-0.4] - [B2-0.4] - 
+[A1-1.0] - [B3-0.33] - 
+Visited: 6
+Degree: 0.8333333333333334
+Depth: 1.3333333333333333
+Time: 6
