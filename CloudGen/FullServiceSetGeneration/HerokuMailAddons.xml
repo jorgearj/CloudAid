@@ -37,7 +37,7 @@
 		</attribute>
 		<attribute>
 			<attrtype>Platform</attrtype>
-			<optional>yes</optional>
+			<optional>no</optional>
 			<options>
 				<option>
 					<attrtype>Platform</attrtype>
@@ -74,7 +74,7 @@
 			<options>
 				<option>
 					<attrtype>Web</attrtype>
-					<optionvalue>web</optionvalue>
+					<optionvalue>wev</optionvalue>
 					<avgprice>4</avgprice>
 				</option>
 			</options>
