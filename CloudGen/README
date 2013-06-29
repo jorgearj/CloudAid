@@ -12,7 +12,7 @@ INSTRUCTIONS:
 	4 - The resulting turtle files with the service description can be found in the "Service" folder in the folder where the application is running.
 
 
-Notes: You can run the application without the input folder created, it will be created for you. However, if there is no input file there is nothing the application can do. 
+Notes: You can run the application without the input folder created, it will be created for you. However, if there is not at least one input file there is nothing the application can do. 
 
 CONTACT:
 
