@@ -70,11 +70,11 @@
 		</attribute>
 		<attribute>
 			<attrtype>Interface</attrtype>
-			<optional>yes</optional>
+			<optional>no</optional>
 			<options>
 				<option>
 					<attrtype>Web</attrtype>
-					<optionvalue>wev</optionvalue>
+					<optionvalue>web</optionvalue>
 					<avgprice>4</avgprice>
 				</option>
 			</options>
