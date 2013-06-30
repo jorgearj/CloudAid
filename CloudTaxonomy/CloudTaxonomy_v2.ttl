@@ -25,11 +25,13 @@
       owl:versionInfo "Created with TopBraid Composer"^^xsd:string .
 
 :API  rdf:type rdfs:Class ;
+      rdfs:comment "for API like interfaces."^^xsd:string ;
       rdfs:label "API"^^xsd:string ;
       rdfs:subClassOf :Interface .
 
 :APICalls
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of API calls or accesses to the service."^^xsd:string ;
       rdfs:label "APICalls"^^xsd:string ;
       rdfs:subClassOf :PlatformFunctionalProperty .
 
@@ -40,6 +42,7 @@
 
 :Applications
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing any constraints or features about the amount of application allowed."^^xsd:string ;
       rdfs:label "Applications"^^xsd:string ;
       rdfs:subClassOf :PlatformFunctionalProperty .
 
@@ -60,6 +63,7 @@
 
 :Availability
       rdf:type rdfs:Class ;
+      rdfs:comment "for availability related features or characteristics."^^xsd:string ;
       rdfs:label "Availability"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
@@ -70,6 +74,7 @@
 
 :Backup_Recovery
       rdf:type rdfs:Class ;
+      rdfs:comment "for backup policies and recovery features."^^xsd:string ;
       rdfs:label "Recovery"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
@@ -80,66 +85,79 @@
 
 :CPUArchitecture
       rdf:type rdfs:Class ;
+      rdfs:comment "CPU architecture type. Eg: 32 or 64 bits."^^xsd:string ;
       rdfs:label "CPUArchitecture"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :CPUCores
       rdf:type rdfs:Class ;
+      rdfs:comment "for number of CPU cores related features."^^xsd:string ;
       rdfs:label "CPUCores"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :CPUFlops
       rdf:type rdfs:Class ;
+      rdfs:comment "for CPU FLOPS related features"^^xsd:string ;
       rdfs:label "CPUFlops"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :CPUSpeed
       rdf:type rdfs:Class ;
+      rdfs:comment "for CPU speed related features. Eg: 1.2Ghz."^^xsd:string ;
       rdfs:label "CPUSpeed"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :CPUType
       rdf:type rdfs:Class ;
+      rdfs:comment "for specific types of processor. Eg: Xeon, AMD, or other type of information."^^xsd:string ;
       rdfs:label "CPUType"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :CacheSize
       rdf:type rdfs:Class ;
+      rdfs:comment "for the cache size provided by the service."^^xsd:string ;
       rdfs:label "Cache size"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :CombinedCloud
       rdf:type rdfs:Class ;
+      rdfs:comment "It combines several aspect of the other Deployment Models"^^xsd:string ;
       rdfs:label "Combined cloud"^^xsd:string ;
       rdfs:subClassOf :DeploymentModel .
 
 :CommandLine
       rdf:type rdfs:Class ;
+      rdfs:comment "for interfaces that use a command line to issue operations."^^xsd:string ;
       rdfs:label "Command line"^^xsd:string ;
       rdfs:subClassOf :Interface .
 
 :CommunityCloud
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Community cloud"^^xsd:string ;
       rdfs:subClassOf :DeploymentModel .
 
 :ComputingFunctionalProperty
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the computational (IaaS) resources related characteristics."^^xsd:string ;
       rdfs:label "Computing functional property"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :ComputingInstance
       rdf:type rdfs:Class ;
+      rdfs:comment "for features that perform as computing instances but are described by the service provider as a single unit. Eg: Worker Daemons that process data."^^xsd:string ;
       rdfs:label "Computing instance"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :Consistency
       rdf:type rdfs:Class ;
+      rdfs:comment "for consistency policies or other related features. Can describe degrees of data or results consistency."^^xsd:string ;
       rdfs:label "Consistency"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
 :Console
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide a special console for user interaction or management."^^xsd:string ;
       rdfs:label "Console"^^xsd:string ;
       rdfs:subClassOf :Interface .
 
@@ -155,31 +173,37 @@
 
 :DataINExternal
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of data transferred from external sources to the service in question."^^xsd:string ;
       rdfs:label "Data INExternal"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :DataINInternal
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of data transferred from other service in the same cloud to the service in question."^^xsd:string ;
       rdfs:label "Data IN Internal"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :DataOUTExternal
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of data transferred from the service to outside locations."^^xsd:string ;
       rdfs:label "Data out external"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :DataOUTInternal
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of data transferred from the service to other service in the same cloud."^^xsd:string ;
       rdfs:label "Data OUT Internal"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :DataProcessed
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount of data processed by the service."^^xsd:string ;
       rdfs:label "Data processed"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :DataRequest
       rdf:type rdfs:Class ;
+      rdfs:comment "groups all the database related requests"^^xsd:string ;
       rdfs:label "Request"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
@@ -195,16 +219,19 @@
 
 :DeveloperCenter
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide some development knowledge base."^^xsd:string ;
       rdfs:label "Developer center"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
 :DiskSize
       rdf:type rdfs:Class ;
+      rdfs:comment "for hard disk storage size related characteristics."^^xsd:string ;
       rdfs:label "Disk size"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :Durability
       rdf:type rdfs:Class ;
+      rdfs:comment "for features that deal with persistence of data."^^xsd:string ;
       rdfs:label "Durability"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
@@ -220,21 +247,25 @@
 
 :Encryption
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes cloud service encryption characteristics."^^xsd:string ;
       rdfs:label "Encryption"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :FailOver
       rdf:type rdfs:Class ;
+      rdfs:comment "for fail mechanisms or policies implemented or used in case of any failure."^^xsd:string ;
       rdfs:label "Fail over"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
 :Feature
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes all the service features that do not belong in any of the other categories but are still features or service properties. Mainly used for SaaS since they have the highest degree of differentiation which makes hard to clearly state which type of service property the SaaS feature is related to."^^xsd:string ;
       rdfs:label "Feature"^^xsd:string ;
       rdfs:subClassOf :Property .
 
 :FileSize
       rdf:type rdfs:Class ;
+      rdfs:comment "for characteristics related to the file size allowed either for transferring or to storage or any other purpose."^^xsd:string ;
       rdfs:label "File size"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
@@ -245,6 +276,7 @@
 
 :Forum
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that have a specific forum dedicated to topics related to the cloud service in question."^^xsd:string ;
       rdfs:label "Forum"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
@@ -255,6 +287,7 @@
 
 :FunctionalProperty
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the cloud service functional properties."^^xsd:string ;
       rdfs:label "Functional property"^^xsd:string ;
       rdfs:subClassOf :Property .
 
@@ -264,11 +297,13 @@
       rdfs:subClassOf :DataRequest .
 
 :GUI  rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide a graphical user interface."^^xsd:string ;
       rdfs:label "GUI"^^xsd:string ;
       rdfs:subClassOf :Interface .
 
 :GraphicalCard
       rdf:type rdfs:Class ;
+      rdfs:comment "for graphical processing resources or features."^^xsd:string ;
       rdfs:label "Graphical card"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
@@ -294,11 +329,13 @@
 
 :HybridCloud
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Hybrid cloud"^^xsd:string ;
       rdfs:subClassOf :DeploymentModel .
 
 :IOOperations
       rdf:type rdfs:Class ;
+      rdfs:comment "for Input/Output operations related characteristics. Could be the number of operations per second or any other kind of feature related to I/O operations."^^xsd:string ;
       rdfs:label "IOOperations"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
@@ -309,6 +346,7 @@
 
 :IPAddress
       rdf:type rdfs:Class ;
+      rdfs:comment "for any characteristics related to IP addresses. Eg: IPv4 or IPv6."^^xsd:string ;
       rdfs:label "IPAddress"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
@@ -324,11 +362,13 @@
 
 :IaaS
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Infraestructure as a Service"^^xsd:string ;
       rdfs:subClassOf :ServiceModel .
 
 :Interface
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the types of interfaces or points of interaction between actors and the Cloud Service."^^xsd:string ;
       rdfs:label "Interface"^^xsd:string ;
       rdfs:subClassOf :Property .
 
@@ -339,11 +379,13 @@
 
 :Language
       rdf:type rdfs:Class ;
+      rdfs:comment "for specifying programming languages supported by the service."^^xsd:string ;
       rdfs:label "Language"^^xsd:string ;
       rdfs:subClassOf :PlatformFunctionalProperty .
 
 :License
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes cloud service license types. Typically can be open source or proprietary."^^xsd:string ;
       rdfs:label "License"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
@@ -354,6 +396,7 @@
 
 :LoadBalancing
       rdf:type rdfs:Class ;
+      rdfs:comment "for load balancing features allowed by the service. Could be capacity or number of load balancers or any other features provided by the cloud service."^^xsd:string ;
       rdfs:label "Load balancing"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
@@ -364,6 +407,7 @@
 
 :Location
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes location characteristics, for example region of access or hosting location."^^xsd:string ;
       rdfs:label "Location"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
@@ -374,16 +418,19 @@
 
 :Manual
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide any kind of manual for its usage."^^xsd:string ;
       rdfs:label "Manual"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
 :MemoryAllocation
       rdf:type rdfs:Class ;
+      rdfs:comment "for memory allocation policies, algorithms or strategies."^^xsd:string ;
       rdfs:label "Memory allocation"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
 :MemorySize
       rdf:type rdfs:Class ;
+      rdfs:comment "for main memory or RAM related characteristics."^^xsd:string ;
       rdfs:label "Memory size"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
@@ -404,6 +451,7 @@
 
 :Messages
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the message related characteristics. These messages can be of a certain type (Eg: E-mail, SMS, etc) and use a certain protocol (HTTP, SOAP, SMTP, etc)."^^xsd:string ;
       rdfs:label "Messages"^^xsd:string ;
       rdfs:subClassOf :PlatformFunctionalProperty .
 
@@ -414,46 +462,55 @@
 
 :Monitoring
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes the available service monitoring related characteristics."^^xsd:string ;
       rdfs:label "Monitoring"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :NetworkDelay
       rdf:type rdfs:Class ;
+      rdfs:comment "for network delay characteristics. Eg: 200ms."^^xsd:string ;
       rdfs:label "Network delay"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NetworkFunctionalProperty
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the network related characteristics."^^xsd:string ;
       rdfs:label "Network functional property"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :NetworkInternalBandwidth
       rdf:type rdfs:Class ;
+      rdfs:comment "for characteristics related to network bandwidth inside the provider cloud."^^xsd:string ;
       rdfs:label "Network internal bandwidth"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NetworkLatency
       rdf:type rdfs:Class ;
+      rdfs:comment "for network latency characteristics. Eg: Low latency, 200ms..."^^xsd:string ;
       rdfs:label "Network latency"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NetworkProtocol
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing the network protocols used or allowed by the service."^^xsd:string ;
       rdfs:label "Network protocol"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NetworkPublicBandwidth
       rdf:type rdfs:Class ;
+      rdfs:comment "for characteristics related to network bandwidth for public domains."^^xsd:string ;
       rdfs:label "Network public bandwidth"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NetworkRequest
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all types of requests and any characteristics related to them."^^xsd:string ;
       rdfs:label "Network request"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
 :NonFunctionalProperty
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the cloud service non-functional properties (Eg: availability, scalability,...)."^^xsd:string ;
       rdfs:label "Non functional property"^^xsd:string ;
       rdfs:subClassOf :Property .
 
@@ -474,11 +531,13 @@
 
 :OpenSource
       rdf:type rdfs:Class ;
+      rdfs:comment "For open source services"^^xsd:string ;
       rdfs:label "Open source"^^xsd:string ;
       rdfs:subClassOf :License .
 
 :OperatingSystem
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the Operating system related characteristics. It describes which are provided or supported by the cloud service. They can be of the types: Embedded, Mobile, Real Time, Unix or Windows."^^xsd:string ;
       rdfs:label "Operating system"^^xsd:string ;
       rdfs:subClassOf :ComputingFunctionalProperty .
 
@@ -494,41 +553,49 @@
 
 :PaaS
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Platform as a Service"^^xsd:string ;
       rdfs:subClassOf :ServiceModel .
 
 :Performance
       rdf:type rdfs:Class ;
+      rdfs:comment "for any metric or characteristic of the service that describes its performance. Eg: High Network Bandwidth,"^^xsd:string ;
       rdfs:label "Performance"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
 :Platform
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes any kind of platforms used or allowed by the service. Eg: Oracle, MySQL, or Apache."^^xsd:string ;
       rdfs:label "Platform"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :PlatformFunctionalProperty
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the Platform as a Service and Software as a Service related characteristics."^^xsd:string ;
       rdfs:label "Platform functional property"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
 :PrivateCloud
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Private cloud"^^xsd:string ;
       rdfs:subClassOf :DeploymentModel .
 
 :Property
       rdf:type rdfs:Class ;
+      rdfs:comment "A service property, wraps all the cloud service properties."^^xsd:string ;
       rdfs:label "Property"^^xsd:string ;
       rdfs:subClassOf rdfs:Class .
 
 :Proprietary
       rdf:type rdfs:Class ;
+      rdfs:comment "For proprietary licences or closed specifications."^^xsd:string ;
       rdfs:label "Proprietary"^^xsd:string ;
       rdfs:subClassOf :License .
 
 :PublicCloud
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Public cloud"^^xsd:string ;
       rdfs:subClassOf :DeploymentModel .
 
@@ -539,6 +606,7 @@
 
 :Queries
       rdf:type rdfs:Class ;
+      rdfs:comment "for any characteristics related to database queries. Can be either query amounts or specific query types allowed."^^xsd:string ;
       rdfs:label "Queries"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
@@ -554,16 +622,19 @@
 
 :Records
       rdf:type rdfs:Class ;
+      rdfs:comment "for any characteristics related to number of records, rows, or specific constraints or features to data elements."^^xsd:string ;
       rdfs:label "Records"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :Redundancy
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing redundancy policies or strategies."^^xsd:string ;
       rdfs:label "Redundancy"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :Reliability
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing features provided by the service to ensure the process or data reliability."^^xsd:string ;
       rdfs:label "Reliability"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
@@ -574,6 +645,7 @@
 
 :Replication
       rdf:type rdfs:Class ;
+      rdfs:comment "Describes the service or its data replication characteristics."^^xsd:string ;
       rdfs:label "Replication"^^xsd:string ;
       rdfs:subClassOf :FunctionalProperty .
 
@@ -587,16 +659,19 @@
 
 :SaaS
       rdf:type rdfs:Class ;
+      rdfs:comment "See description by NIST in http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf"^^xsd:string ;
       rdfs:label "Software as a Service"^^xsd:string ;
       rdfs:subClassOf :ServiceModel .
 
 :Scalability
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing any policies or scalability strategies."^^xsd:string ;
       rdfs:label "Scalability"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
 :Security
       rdf:type rdfs:Class ;
+      rdfs:comment "for security policies or protocols used or allowed."^^xsd:string ;
       rdfs:label "Security"^^xsd:string ;
       rdfs:subClassOf :NonFunctionalProperty .
 
@@ -607,26 +682,31 @@
 
 :StorageCapacity
       rdf:type rdfs:Class ;
+      rdfs:comment "for storage resources amount capacity. The amount of storage space."^^xsd:string ;
       rdfs:label "Storage capacity"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :StorageType
       rdf:type rdfs:Class ;
+      rdfs:comment "for describing the type of storage used. Eg: SSD, HardDisk,..."^^xsd:string ;
       rdfs:label "Storage type"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :SupportProperties
       rdf:type rdfs:Class ;
+      rdfs:comment "Groups all the cloud service support properties or types of support available in the service."^^xsd:string ;
       rdfs:label "Support properties"^^xsd:string ;
       rdfs:subClassOf :Property .
 
 :SupportTeam
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide a specialized support team to its users."^^xsd:string ;
       rdfs:label "Support team"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
 :Support_24_7
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide 24 hours a day 7 days a week support of any kind."^^xsd:string ;
       rdfs:label "Support 24 7"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
@@ -642,11 +722,13 @@
 
 :Transations
       rdf:type rdfs:Class ;
+      rdfs:comment "for transactional databases or transaction policies related features."^^xsd:string ;
       rdfs:label "Transations"^^xsd:string ;
       rdfs:subClassOf :DataFunctionalProperty .
 
 :TransferRate
       rdf:type rdfs:Class ;
+      rdfs:comment "for any features about transfer rates or transfer speeds. Could also describe limit amounts of transfer rates."^^xsd:string ;
       rdfs:label "Transfer rate"^^xsd:string ;
       rdfs:subClassOf :NetworkFunctionalProperty .
 
@@ -657,8 +739,9 @@
 
 :Users
       rdf:type rdfs:Class ;
+      rdfs:comment "for the amount o users or any restrictions to the user with granted access to the service."^^xsd:string ;
       rdfs:label "Users"^^xsd:string ;
-      rdfs:subClassOf :PlatformFunctionalProperty , :Authentication .
+      rdfs:subClassOf :PlatformFunctionalProperty .
 
 :VPN  rdf:type rdfs:Class ;
       rdfs:label "VPN"^^xsd:string ;
@@ -666,15 +749,18 @@
 
 :Videos
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that provide videos either of tutorials or other kind of support to their users."^^xsd:string ;
       rdfs:label "Videos"^^xsd:string ;
       rdfs:subClassOf :SupportProperties .
 
 :Web  rdf:type rdfs:Class ;
+      rdfs:comment "for services that use a web interface or website for user interaction or management."^^xsd:string ;
       rdfs:label "Web"^^xsd:string ;
       rdfs:subClassOf :Interface .
 
 :Websites
       rdf:type rdfs:Class ;
+      rdfs:comment "for services that deal with web hosting or any website activity. Eg: Number of hosted websites allowed."^^xsd:string ;
       rdfs:label "Websites"^^xsd:string ;
       rdfs:subClassOf :PlatformFunctionalProperty .
 
