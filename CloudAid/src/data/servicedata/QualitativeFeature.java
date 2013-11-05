@@ -4,7 +4,7 @@
 * the terms of the Common Public License v1.0 which accompanies this distribution,
 * and is available at http://www.eclipse.org/legal/cpl-v10.html
 * 
-* Id: test.java, Project: CloudAid, 13 Apr 2013 Author: Jorge Araújo
+* Id: QualitativeFeature.java, Project: CloudGen, 13 Apr 2013 Author: Jorge Araújo
 */
 package data.servicedata;
 
@@ -33,6 +33,13 @@ public class QualitativeFeature {
 	public void setType(Enumerator.QUAL_FEATURE type) {
 		this.type = type;
 	}
+	
+	public String getNoSpaceName(){
+		String noSpaceName = this.name;
+
+		return noSpaceName.replace(" ", "_");
+	}
+	
 	@Override
 	public String toString() {
 		return "QualitativeFeature [name=" + name + ", description="

@@ -4,12 +4,9 @@
 * the terms of the Common Public License v1.0 which accompanies this distribution,
 * and is available at http://www.eclipse.org/legal/cpl-v10.html
 * 
-* Id: test.java, Project: CloudAid, 13 Apr 2013 Author: Jorge Araújo
+* Id: QuantitativeFeature.java, Project: CloudGen, 13 Apr 2013 Author: Jorge Araújo
 */
 package data.servicedata;
-
-import data.servicedata.Enumerator.QUANT_FEATURE;
-import data.servicedata.Enumerator.UNIT_OF_MEASUREMENT;
 
 public class QuantitativeFeature {
 	private String name;

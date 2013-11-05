@@ -4,125 +4,78 @@
 * the terms of the Common Public License v1.0 which accompanies this distribution,
 * and is available at http://www.eclipse.org/legal/cpl-v10.html
 * 
-* Id: test.java, Project: CloudAid, 13 Apr 2013 Author: Jorge Araújo
+* Id: GroupedPrice.java, Project: CloudGen, 13 Apr 2013 Author: Jorge Araújo
 */
+
 package data.servicedata;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Offering {
-	private String id;
-	private String name;
-	private String description;
-	private String URL;
-	private HashMap<String, String> attributes;
-	private HashMap<String, Double> weightedAttributes;
-	private ArrayList<QuantitativeFeature> quantitativeFeatures;
-	private ArrayList<QualitativeFeature> qualitativeFeatures;
+	private static int offeringCount = 0;
 	
-	public Offering(String name, String description){
-		this.name = name;
-		this.description = description;
-		this.attributes = new HashMap();
-		this.weightedAttributes = new HashMap();
-		this.qualitativeFeatures = new ArrayList<QualitativeFeature>();
-		this.quantitativeFeatures = new ArrayList<QuantitativeFeature>();
-	}
+	private final String id;
+	private ArrayList<QuantitativeFeature> quantitativefeatures;
+	private ArrayList<QualitativeFeature> qualitativeFeature;
+	private ArrayList<Price> price;
 	
-	public Offering(){
-		this.attributes = new HashMap();
-		this.weightedAttributes = new HashMap();
-		this.qualitativeFeatures = new ArrayList<QualitativeFeature>();
-		this.quantitativeFeatures = new ArrayList<QuantitativeFeature>();
-	}
-
-	public void addQualitativeFeature(QualitativeFeature f){
-		this.qualitativeFeatures.add(f);
-	}
 	
-	public void addQuantitativeFeature(QuantitativeFeature f){
-		this.quantitativeFeatures.add(f);
-	}
-	
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
+	public Offering(String serviceName){
+		this.id = serviceName +"_"+ offeringCount++;
+		this.qualitativeFeature = new ArrayList<QualitativeFeature>();
+		this.quantitativefeatures = new ArrayList<QuantitativeFeature>();
+		this.price = new ArrayList<Price>();
 	}
 
-	public String getDescription() {
-		return description;
+
+	public ArrayList<QuantitativeFeature> getQuantitativefeatures() {
+		return quantitativefeatures;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+
+
+	public void setQuantitativefeatures(
+			ArrayList<QuantitativeFeature> quantitativefeatures) {
+		this.quantitativefeatures = quantitativefeatures;
 	}
 
-	public String getURL() {
-		return URL;
+
+
+	public ArrayList<QualitativeFeature> getQualitativeFeature() {
+		return qualitativeFeature;
 	}
 
-	public void setURL(String uRL) {
-		URL = uRL;
+
+
+	public void setQualitativeFeature(
+			ArrayList<QualitativeFeature> qualitativeFeature) {
+		this.qualitativeFeature = qualitativeFeature;
 	}
 
-	
-	public HashMap getAttributes() {
-		return attributes;
+	public ArrayList<Price> getPrice() {
+		return price;
 	}
 
-	public void setAttributes(HashMap attributes) {
-		this.attributes = attributes;
+
+
+	public void setPrice(ArrayList<Price> price) {
+		this.price = price;
 	}
+
+
 
 	public String getId() {
 		return id;
 	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
 
-	
-	public ArrayList<QuantitativeFeature> getQuantitativeFeatures() {
-		return quantitativeFeatures;
-	}
-
-	public void setQuantitativeFeatures(
-			ArrayList<QuantitativeFeature> quantitativeFeatures) {
-		this.quantitativeFeatures = quantitativeFeatures;
-	}
-
-	public ArrayList<QualitativeFeature> getQualitativeFeatures() {
-		return qualitativeFeatures;
-	}
-
-	public void setQualitativeFeatures(
-			ArrayList<QualitativeFeature> qualitativeFeatures) {
-		this.qualitativeFeatures = qualitativeFeatures;
+	public void print() {
+		 System.out.println("   - ID = "+ this.id);
+		 System.out.println("   - QuantitativeFeatures " + this.quantitativefeatures);
+		 System.out.println("   - QualitativeFeatures " + this.qualitativeFeature);
+		 System.out.println("   - Price = "+ this.price);
 	}
 	
-	
-
-	public HashMap<String, Double> getWeightedAttributes() {
-		return weightedAttributes;
-	}
-
-	public void setWeightedAttributes(HashMap<String, Double> weightedAttributes) {
-		this.weightedAttributes = weightedAttributes;
-	}
-
-	@Override
-	public String toString() {
-		return "Service [id=" + id + ", name=" + name + ", description="
-				+ description + ", URL=" + URL + ", attributes=" + attributes
-				+ ", quantitativeFeatures=" + quantitativeFeatures
-				+ ", qualitativeFeatures=" + qualitativeFeatures + "]";
-	}
-
 	
 
 }
